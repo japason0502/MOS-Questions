@@ -163,18 +163,27 @@ function updateUIState() {
 }
 
 function updateQuestionButtons() {
-    // 問題ボタンの状態を更新
     const questionButtons = document.querySelectorAll('.question-btn');
-    questionButtons.forEach((button, index) => {
+    const appData = questionData[selectedApp];
+    if (!appData) return;
+
+    const projectKey = `project${currentProject}`;
+    const projectData = appData[projectKey];
+    if (!projectData) return;
+
+    projectData.forEach((question, index) => {
+        const button = questionButtons[index];
+        if (!button) return;
+
         // 現在の問題のボタンをアクティブに
-        button.classList.toggle('active', index + 1 === currentQuestion);
+        button.classList.toggle('active', question.questionId === currentQuestion);
         
         // 完了済みの問題にはクラスを追加
-        const isCompleted = localStorage.getItem(`completed_p${currentProject}_q${index + 1}`) === 'true';
+        const isCompleted = localStorage.getItem(`completed_p${currentProject}_q${question.questionId}`) === 'true';
         button.classList.toggle('completed', isCompleted);
         
         // レビュー対象の問題にはクラスを追加
-        const needsReview = localStorage.getItem(`review_p${currentProject}_q${index + 1}`) === 'true';
+        const needsReview = localStorage.getItem(`review_p${currentProject}_q${question.questionId}`) === 'true';
         button.classList.toggle('needs-review', needsReview);
     });
 }
@@ -256,7 +265,7 @@ function initializeQuestionNav() {
         
         if (isCompleted) button.classList.add('completed');
         if (needsReview) button.classList.add('needs-review');
-        if (question.questionId === currentQuestion) button.classList.add('active');
+        if (currentQuestion === question.questionId) button.classList.add('active');
         
         button.onclick = () => {
             currentQuestion = question.questionId;
