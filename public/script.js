@@ -9,6 +9,10 @@ let questionData; // 問題データを格納する配列（初期化はloadQues
 let timeLeft;
 let timerInterval;
 
+// パスワード認証のための変数
+let isProject6Unlocked = false;
+const PROJECT6_PASSWORD = "mos365";
+
 // ページ読み込み時の処理
 document.addEventListener('DOMContentLoaded', () => {
     // 問題データを読み込む
@@ -167,15 +171,15 @@ function updateUIState() {
         updateProjectTabs();
     }
 
-    // // 問題文を更新
-    // const questionTextElement = document.getElementById('questionText');
-    // if (questionTextElement) {
-    //     const appData = questionData[selectedApp];
-    //     const projectKey = `project${currentProject}`;
-    //     const projectData = appData[projectKey];
-    //     const currentQuestionData = projectData.find(q => q.questionId === currentQuestion);
-    //     questionTextElement.textContent = currentQuestionData ? currentQuestionData.questionText : '';
-    // }
+    // 応用問題（project6）の場合、パスワード認証を確認
+    if (currentProject === 6 && !isProject6Unlocked) {
+        if (!authenticateProject6()) {
+            // パスワード認証失敗時は前のプロジェクトに戻る
+            localStorage.setItem('currentProject', '5');
+            updateUIState();
+            return;
+        }
+    }
 
     // 動画ボタンのイベントを設定
     const videoButton = document.querySelector('.video-btn');
@@ -582,4 +586,24 @@ function openVideoExplanationNoCm() {
     if (!currentQuestionData || !currentQuestionData.videoUrlNoCm) return;
     
     window.open(currentQuestionData.videoUrlNoCm, '_blank');
+}
+
+// パスワード認証を行う関数
+function authenticateProject6() {
+    const password = prompt("応用問題を表示するにはパスワードを入力してください：");
+    if (password === null) {
+        // キャンセルボタンが押された場合
+        currentProject = 5;
+        updateUIState();
+        return false;
+    } else if (password === PROJECT6_PASSWORD) {
+        isProject6Unlocked = true;
+        updateUIState();
+        return true;
+    } else {
+        alert("パスワードが正しくありません。");
+        currentProject = 5;
+        updateUIState();
+        return false;
+    }
 } 
