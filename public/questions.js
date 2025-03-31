@@ -15,39 +15,138 @@ const initialQuestionData = {
             {
                 questionId: 1,
                 questionText: "タブ区切りのテキストファイル「1-X(演習用)MOS365試験範囲」を、セル｢E1｣を基点とする位置に、インポートします。",
-                videoUrl: "https://example.com/video1",
-                videoUrlNoCm: "https://example.com/video1-nocm"
+                videoUrl: "https://www.youtube.com/watch?v=TBtVFtIvAbU&t=1s",
+                videoUrlNoCm: "https://www.youtube.com/watch?v=yRXS_EvCBrg&t=418s"
             },
             {
                 questionId: 2,
                 questionText: "ワークシート｢検索｣から｢★｣を含むセルを検索し､フォントの色を標準の色｢オレンジ｣に設定してください｡",
-                videoUrl: "https://example.com/video2",
-                videoUrlNoCm: "https://example.com/video2-nocm"
+                videoUrl: "https://www.youtube.com/watch?v=TBtVFtIvAbU&t=40s",
+                videoUrlNoCm: "https://www.youtube.com/watch?v=yRXS_EvCBrg&t=460s"
             },
-            {questionId: 3, questionText: "名前｢装飾して欲しい箇所｣を選択し､標準の色｢赤｣の塗りつぶしの色を適用します｡"},
-            {questionId: 4, questionText: "｢問題1を選択する｣のセルに名前｢問題1｣へのハイパーリンクを設定します｡"},
-            {questionId: 5, questionText: "｢MOSの学校のホームページへ｣のセルに「https://mos.japason.co.jp/」へのハイパーリンクを設定します｡"},
-            {questionId: 6, questionText: "｢リンク｣のセルのハイパーリンクを削除します｡"},
-            {questionId: 7, questionText: "印刷の向きを横向きにし､サイズをA3にします｡"},
-            {questionId: 8, questionText: "余白を｢広い｣に変更します｡"},
-            {questionId: 9, questionText: "C列の幅を自動調整します｡"},
-            {questionId: 10, questionText: "12行目の行の高さを正確に｢20｣に設定します｡"},
-            {questionId: 11, questionText: "ヘッダーの中央にシート名を表示します｡"},
-            {questionId: 12, questionText: "クイックアクセスツールバーに｢自動保存｣を追加します｡"},
-            {questionId: 13, questionText: "シート｢検索｣を改ページプレビューで表示してください｡"},
-            {questionId: 14, questionText: "(シート｢【1-X演習問題】｣について)スクロールしても1~5行目までが常に表示されるようにします｡"},
-            {questionId: 15, questionText: "｢社員別売上一覧｣シートのウィンドウを上下に2分割してください｡上側のウィンドウは4行分表示します｡"},
-            {questionId: 16, questionText: "ブックのプロパティのサブタイトルを｢1章演習問題｣にします｡"},
-            {questionId: 17, questionText: "(シート｢【1-X演習問題】｣について)用紙1ページにおさまるように印刷の設定をします｡"},
-            {questionId: 18, questionText: "(シート｢【1-X演習問題】｣について)セル範囲A2:B10だけが印刷されるよう､印刷範囲の設定をします｡"},
-            {questionId: 19, questionText: "(シート｢【1-X演習問題】｣について)名前を｢1章演習問題のPDF版｣にして､PDF形式でデスクトップに保存します｡"},
-            {questionId: 20, questionText: "ドキュメント検査を行い､プロパティと個人情報を削除してください。"},
-            {questionId: 21, questionText: "ブックのアクセシビリティをチェックし、グラフ1のエラーを修正してください。代替テキストは「右肩上がりのグラフ」と設定します｡"},
-            {questionId: 22, questionText: "ブックの互換性をチェックし､結果を新しいワークシートに表示してください｡"},
-            {questionId: 23, questionText: "このセルのコメントに｢確認します｣と返信します｡"},
-            {questionId: 24, questionText: "このセルにメモを追加し｢常に表示するにはメモが便利｣と記入します｡"},
-            {questionId: 25, questionText: "このセルのコメントを削除します｡"},
-            {questionId: 26, questionText: "このセルのコメントを解決します｡"}
+            {
+                questionId: 3,
+                questionText: "名前｢装飾して欲しい箇所｣を選択し､標準の色｢赤｣の塗りつぶしの色を適用します｡",
+                videoUrl: "https://www.youtube.com/watch?v=TBtVFtIvAbU&t=83s",
+                videoUrlNoCm: "https://www.youtube.com/watch?v=yRXS_EvCBrg&t=503s"
+            },
+            {
+                questionId: 4,
+                questionText: "｢問題1を選択する｣のセルに名前｢問題1｣へのハイパーリンクを設定します｡",
+                videoUrl: "https://www.youtube.com/watch?v=TBtVFtIvAbU&t=111s",
+                videoUrlNoCm: "https://www.youtube.com/watch?v=yRXS_EvCBrg&t=531s"
+            },
+            {
+                questionId: 5,
+                questionText: "｢MOSの学校のホームページへ｣のセルに「https://mos.japason.co.jp/」へのハイパーリンクを設定します｡",
+                videoUrl: "https://www.youtube.com/watch?v=TBtVFtIvAbU&t=137s",
+                videoUrlNoCm: "https://www.youtube.com/watch?v=yRXS_EvCBrg&t=560s"
+            },
+            {
+                questionId: 6,
+                questionText: "｢リンク｣のセルのハイパーリンクを削除します｡",
+                videoUrl: "https://www.youtube.com/watch?v=TBtVFtIvAbU&t=169s"
+            },
+            {
+                questionId: 7,
+                questionText: "印刷の向きを横向きにし､サイズをA3にします｡",
+                videoUrl: "https://www.youtube.com/watch?v=TBtVFtIvAbU&t=182s"
+            },
+            {
+                questionId: 8,
+                questionText: "余白を｢広い｣に変更します｡",
+                videoUrl: "https://www.youtube.com/watch?v=TBtVFtIvAbU&t=198s"
+            },
+            {
+                questionId: 9,
+                questionText: "C列の幅を自動調整します｡",
+                videoUrl: "https://www.youtube.com/watch?v=TBtVFtIvAbU&t=210s"
+            },
+            {
+                questionId: 10,
+                questionText: "12行目の行の高さを正確に｢20｣に設定します｡",
+                videoUrl: "https://www.youtube.com/watch?v=TBtVFtIvAbU&t=217s"
+            },
+            {
+                questionId: 11,
+                questionText: "ヘッダーの中央にシート名を表示します｡",
+                videoUrl: "https://www.youtube.com/watch?v=TBtVFtIvAbU&t=241s"
+            },
+            {
+                questionId: 12,
+                questionText: "クイックアクセスツールバーに｢自動保存｣を追加します｡",
+                videoUrl: "https://www.youtube.com/watch?v=TBtVFtIvAbU&t=279s"
+            },
+            {
+                questionId: 13,
+                questionText: "シート｢検索｣を改ページプレビューで表示してください｡",
+                videoUrl: "https://www.youtube.com/watch?v=TBtVFtIvAbU&t=323s"
+            },
+            {
+                questionId: 14,
+                questionText: "(シート｢【1-X演習問題】｣について)スクロールしても1~5行目までが常に表示されるようにします｡",
+                videoUrl: "https://www.youtube.com/watch?v=TBtVFtIvAbU&t=342s"
+            },
+            {
+                questionId: 15,
+                questionText: "｢社員別売上一覧｣シートのウィンドウを上下に2分割してください｡上側のウィンドウは4行分表示します｡",
+                videoUrl: "https://www.youtube.com/watch?v=TBtVFtIvAbU&t=381s"
+            },
+            {
+                questionId: 16,
+                questionText: "ブックのプロパティのサブタイトルを｢1章演習問題｣にします｡",
+                videoUrl: "https://www.youtube.com/watch?v=TBtVFtIvAbU&t=417s"
+            },
+            {
+                questionId: 17,
+                questionText: "(シート｢【1-X演習問題】｣について)用紙1ページにおさまるように印刷の設定をします｡",
+                videoUrl: "https://www.youtube.com/watch?v=TBtVFtIvAbU&t=463s"
+            },
+            {
+                questionId: 18,
+                questionText: "(シート｢【1-X演習問題】｣について)セル範囲A2:B10だけが印刷されるよう､印刷範囲の設定をします｡",
+                videoUrl: "https://www.youtube.com/watch?v=TBtVFtIvAbU&t=499s"
+            },
+            {
+                questionId: 19,
+                questionText: "(シート｢【1-X演習問題】｣について)名前を｢1章演習問題のPDF版｣にして､PDF形式でデスクトップに保存します｡",
+                videoUrl: "https://www.youtube.com/watch?v=TBtVFtIvAbU&t=538s"
+            },
+            {
+                questionId: 20,
+                questionText: "ドキュメント検査を行い､プロパティと個人情報を削除してください。",
+                videoUrl: "https://www.youtube.com/watch?v=TBtVFtIvAbU&t=604s"
+            },
+            {
+                questionId: 21,
+                questionText: "ブックのアクセシビリティをチェックし、グラフ1のエラーを修正してください。代替テキストは「右肩上がりのグラフ」と設定します｡",
+                videoUrl: "https://www.youtube.com/watch?v=TBtVFtIvAbU&t=671s"
+            },
+            {
+                questionId: 22,
+                questionText: "ブックの互換性をチェックし､結果を新しいワークシートに表示してください｡",
+                videoUrl: "https://www.youtube.com/watch?v=TBtVFtIvAbU&t=725s"
+            },
+            {
+                questionId: 23,
+                questionText: "このセルのコメントに｢確認します｣と返信します｡",
+                videoUrl: "https://www.youtube.com/watch?v=TBtVFtIvAbU&t=750s"
+            },
+            {
+                questionId: 24,
+                questionText: "このセルにメモを追加し｢常に表示するにはメモが便利｣と記入します｡",
+                videoUrl: "https://www.youtube.com/watch?v=TBtVFtIvAbU&t=808s"
+            },
+            {
+                questionId: 25,
+                questionText: "このセルのコメントを削除します｡",
+                videoUrl: "https://www.youtube.com/watch?v=TBtVFtIvAbU&t=870s"
+            },
+            {
+                questionId: 26,
+                questionText: "このセルのコメントを解決します｡",
+                videoUrl: "https://www.youtube.com/watch?v=TBtVFtIvAbU&t=882s"
+            }
         ],
         
         // 2章-セル
@@ -55,29 +154,113 @@ const initialQuestionData = {
             {
                 questionId: 27,
                 questionText: "C2セルをコピーし､D2セルに値だけを貼り付けます｡",
-                videoUrl: "https://example.com/video27"
+                videoUrl: "https://www.youtube.com/watch?v=elpcAtkj_SI"
             },
-            {questionId: 28, questionText: "オートフィル機能を使用して、「スイム記録-2月」の表の日付列を入力します。"},
-            {questionId: 29, questionText: "「ラン記録」の表の1行目が1月，2月，3月，･･･8月とになるように入力してください。"},
-            {questionId: 30, questionText: "F列の2行目から23行目が1，2，3，…と連番になるように入力してください。"},
-            {questionId: 31, questionText: "｢スイム記録-2月｣と｢スイム記録-3月｣の行の上に､行を追加します｡"},
-            {questionId: 32, questionText: "「スイム記録-3月」の表の空白セルを削除して、表を整えてください。"},
-            {questionId: 33, questionText: "セル範囲C8:D8を結合します｡その際､文字の配置は変更しません｡"},
-            {questionId: 34, questionText: "C9の文字列を｢右揃え｣｢縦書き｣で表示してください｡"},
-            {questionId: 35, questionText: "セルC10の文字列の左インデントを2文字に設定してください｡"},
-            {questionId: 36, questionText: "C2セルの書式を､セルA1に適用します｡"},
-            {questionId: 37, questionText: "C12セルの文字列を折り返して表示します｡"},
-            {questionId: 38, questionText: "C13セルを小数点以下第3位まで表示してください｡"},
-            {questionId: 39, questionText: "C14セルに､通貨の表示形式を設定してください｡"},
-            {questionId: 40, questionText: "表｢スイム記録-2月｣の日付を｢3月14日｣の形式で表示します｡"},
-            {questionId: 41, questionText: "セルC16に｢見出し1｣のスタイルを適用してください｡"},
-            {questionId: 42, questionText: "C13の書式設定をクリアしてください"},
-            {questionId: 43, questionText: "シート｢田中さんの成績｣とシート｢佐藤さんの成績｣をグループにしてください｡次に､セル範囲A1:B1に､スタイル｢集計｣を適用してください｡"},
-            {questionId: 44, questionText: "セルA2:B8に､名前｢演習前半｣を定義してください｡"},
-            {questionId: 45, questionText: "表｢ラン記録｣の数値を元に､｢推移｣の列に縦棒スパークラインを挿入し､頂点(山)を表示してください。"},
-            {questionId: 46, questionText: "表｢ラン記録｣の8月の列について､50より小さいセルに｢濃い赤の文字､明るい赤の背景｣の書式を設定してください｡"},
-            {questionId: 47, questionText: "表｢ラン記録｣の1月の列に緑のグラデーションのデータバーを表示してください｡"},
-            {questionId: 48, questionText: "表｢ラン記録｣の3月の列に設定されている条件付き書式を解除してください｡"}
+            {
+                questionId: 28,
+                questionText: "オートフィル機能を使用して、「スイム記録-2月」の表の日付列を入力します。",
+                videoUrl: "https://www.youtube.com/watch?v=elpcAtkj_SI&t=32s"
+            },
+            {
+                questionId: 29,
+                questionText: "「ラン記録」の表の1行目が1月，2月，3月，･･･8月とになるように入力してください。",
+                videoUrl: "https://www.youtube.com/watch?v=elpcAtkj_SI&t=53s"
+            },
+            {
+                questionId: 30,
+                questionText: "F列の2行目から23行目が1，2，3，…と連番になるように入力してください。",
+                videoUrl: "https://www.youtube.com/watch?v=elpcAtkj_SI&t=94s"
+            },
+            {
+                questionId: 31,
+                questionText: "｢スイム記録-2月｣と｢スイム記録-3月｣の行の上に､行を追加します｡",
+                videoUrl: "https://www.youtube.com/watch?v=elpcAtkj_SI&t=120s"
+            },
+            {
+                questionId: 32,
+                questionText: "「スイム記録-3月」の表の空白セルを削除して、表を整えてください。",
+                videoUrl: "https://www.youtube.com/watch?v=elpcAtkj_SI&t=140s"
+            },
+            {
+                questionId: 33,
+                questionText: "セル範囲C8:D8を結合します｡その際､文字の配置は変更しません｡",
+                videoUrl: "https://www.youtube.com/watch?v=elpcAtkj_SI&t=173s"
+            },
+            {
+                questionId: 34,
+                questionText: "C9の文字列を｢右揃え｣｢縦書き｣で表示してください｡",
+                videoUrl: "https://www.youtube.com/watch?v=elpcAtkj_SI&t=223s"
+            },
+            {
+                questionId: 35,
+                questionText: "セルC10の文字列の左インデントを2文字に設定してください｡",
+                videoUrl: "https://www.youtube.com/watch?v=elpcAtkj_SI&t=257s"
+            },
+            {
+                questionId: 36,
+                questionText: "C2セルの書式を､セルA1に適用します｡",
+                videoUrl: "https://www.youtube.com/watch?v=elpcAtkj_SI&t=304s"
+            },
+            {
+                questionId: 37,
+                questionText: "C12セルの文字列を折り返して表示します｡",
+                videoUrl: "https://www.youtube.com/watch?v=elpcAtkj_SI&t=340s"
+            },
+            {
+                questionId: 38,
+                questionText: "C13セルを小数点以下第3位まで表示してください｡",
+                videoUrl: "https://www.youtube.com/watch?v=elpcAtkj_SI&t=358s"
+            },
+            {
+                questionId: 39,
+                questionText: "C14セルに､通貨の表示形式を設定してください｡",
+                videoUrl: "https://www.youtube.com/watch?v=elpcAtkj_SI&t=382s"
+            },
+            {
+                questionId: 40,
+                questionText: "表｢スイム記録-2月｣の日付を｢3月14日｣の形式で表示します｡",
+                videoUrl: "https://www.youtube.com/watch?v=elpcAtkj_SI&t=398s"
+            },
+            {
+                questionId: 41,
+                questionText: "セルC16に｢見出し1｣のスタイルを適用してください｡",
+                videoUrl: "https://www.youtube.com/watch?v=elpcAtkj_SI&t=442s"
+            },
+            {
+                questionId: 42,
+                questionText: "C13の書式設定をクリアしてください",
+                videoUrl: "https://www.youtube.com/watch?v=elpcAtkj_SI&t=467s"
+            },
+            {
+                questionId: 43,
+                questionText: "シート｢田中さんの成績｣とシート｢佐藤さんの成績｣をグループにしてください｡次に､セル範囲A1:B1に､スタイル｢集計｣を適用してください｡",
+                videoUrl: "https://www.youtube.com/watch?v=elpcAtkj_SI&t=498s"
+            },
+            {
+                questionId: 44,
+                questionText: "セルA2:B8に､名前｢演習前半｣を定義してください｡",
+                videoUrl: "https://www.youtube.com/watch?v=elpcAtkj_SI&t=615s"
+            },
+            {
+                questionId: 45,
+                questionText: "表｢ラン記録｣の数値を元に､｢推移｣の列に縦棒スパークラインを挿入し､頂点(山)を表示してください。",
+                videoUrl: "https://www.youtube.com/watch?v=elpcAtkj_SI&t=696s"
+            },
+            {
+                questionId: 46,
+                questionText: "表｢ラン記録｣の8月の列について､50より小さいセルに｢濃い赤の文字､明るい赤の背景｣の書式を設定してください｡",
+                videoUrl: "https://www.youtube.com/watch?v=elpcAtkj_SI&t=788s"
+            },
+            {
+                questionId: 47,
+                questionText: "表｢ラン記録｣の1月の列に緑のグラデーションのデータバーを表示してください｡",
+                videoUrl: "https://www.youtube.com/watch?v=elpcAtkj_SI&t=848s"
+            },
+            {
+                questionId: 48,
+                questionText: "表｢ラン記録｣の3月の列に設定されている条件付き書式を解除してください｡",
+                videoUrl: "https://www.youtube.com/watch?v=elpcAtkj_SI&t=944s"
+            }
         ],
         // 3章-テーブル
         project3: [
