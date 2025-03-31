@@ -142,11 +142,12 @@ function updateUIState() {
         const maxProjects = getAvailableProjects();
         const appData = questionData[selectedApp];
         const projectKey = `project${currentProject}`;
-        const projectName = appData.projectNames[projectKey] || `${currentProject}章`;
-        projectNumberElement.textContent = `${projectName} / ${maxProjects}章`;
+        const projectName = appData.projectNames[projectKey];
+        projectNumberElement.textContent = projectName;
         updateQuestionDisplay();
         updateQuestionStatus();
         updateQuestionButtons();
+        updateProjectTabs();
     }
 }
 
@@ -412,7 +413,7 @@ function finishExam() {
 // 利用可能なプロジェクト数を取得する関数
 function getAvailableProjects() {
     const appData = questionData[selectedApp] || {};
-    return Object.keys(appData).filter(key => key.startsWith('project')).length;
+    return Object.keys(appData).filter(key => key.startsWith('project') && Array.isArray(appData[key])).length;
 }
 
 function updateProjectTabs() {
@@ -425,10 +426,10 @@ function updateProjectTabs() {
 
     for (let i = 1; i <= maxProjects; i++) {
         const projectKey = `project${i}`;
-        const projectName = appData.projectNames[projectKey] || `${i}章`;
+        const projectName = appData.projectNames[projectKey];
         const tab = document.createElement('button');
         tab.className = `project-tab ${i === currentProject ? 'active' : ''}`;
-        tab.textContent = projectName;
+        tab.textContent = `${i}章-${projectName}`;
         tab.onclick = () => {
             currentProject = i;
             currentQuestion = 1;
