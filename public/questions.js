@@ -12,8 +12,16 @@ const initialQuestionData = {
         },
         // 1章-シート・ブック
         project1: [
-            {questionId: 1, questionText: "タブ区切りのテキストファイル「1-X(演習用)MOS365試験範囲」を、セル｢E1｣を基点とする位置に、インポートします。"},
-            {questionId: 2, questionText: "ワークシート｢検索｣から｢★｣を含むセルを検索し､フォントの色を標準の色｢オレンジ｣に設定してください｡"},
+            {
+                questionId: 1,
+                questionText: "タブ区切りのテキストファイル「1-X(演習用)MOS365試験範囲」を、セル｢E1｣を基点とする位置に、インポートします。",
+                videoUrl: "https://example.com/video1"
+            },
+            {
+                questionId: 2,
+                questionText: "ワークシート｢検索｣から｢★｣を含むセルを検索し､フォントの色を標準の色｢オレンジ｣に設定してください｡",
+                videoUrl: "https://example.com/video2"
+            },
             {questionId: 3, questionText: "名前｢装飾して欲しい箇所｣を選択し､標準の色｢赤｣の塗りつぶしの色を適用します｡"},
             {questionId: 4, questionText: "｢問題1を選択する｣のセルに名前｢問題1｣へのハイパーリンクを設定します｡"},
             {questionId: 5, questionText: "｢MOSの学校のホームページへ｣のセルに「https://mos.japason.co.jp/」へのハイパーリンクを設定します｡"},
@@ -42,7 +50,11 @@ const initialQuestionData = {
         
         // 2章-セル
         project2: [
-            {questionId: 27, questionText: "C2セルをコピーし､D2セルに値だけを貼り付けます｡"},
+            {
+                questionId: 27,
+                questionText: "C2セルをコピーし､D2セルに値だけを貼り付けます｡",
+                videoUrl: "https://example.com/video27"
+            },
             {questionId: 28, questionText: "オートフィル機能を使用して、「スイム記録-2月」の表の日付列を入力します。"},
             {questionId: 29, questionText: "「ラン記録」の表の1行目が1月，2月，3月，･･･8月とになるように入力してください。"},
             {questionId: 30, questionText: "F列の2行目から23行目が1，2，3，…と連番になるように入力してください。"},

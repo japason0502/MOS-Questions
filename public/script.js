@@ -99,6 +99,9 @@ function updateQuestionStatus() {
                     onclick="toggleAnsweredStatus(${currentProject}, ${currentQuestion})">
                 回答済み <span class="check-mark">${isCompleted ? '✓' : ' '}</span>
             </button>
+            <button class="status-btn video-btn" onclick="openVideoExplanation()">
+                解説動画へ
+            </button>
         </div>
     `;
     
@@ -159,6 +162,22 @@ function updateUIState() {
         updateQuestionStatus();
         updateQuestionButtons();
         updateProjectTabs();
+    }
+
+    // // 問題文を更新
+    // const questionTextElement = document.getElementById('questionText');
+    // if (questionTextElement) {
+    //     const appData = questionData[selectedApp];
+    //     const projectKey = `project${currentProject}`;
+    //     const projectData = appData[projectKey];
+    //     const currentQuestionData = projectData.find(q => q.questionId === currentQuestion);
+    //     questionTextElement.textContent = currentQuestionData ? currentQuestionData.questionText : '';
+    // }
+
+    // 動画ボタンのイベントを設定
+    const videoButton = document.querySelector('.video-btn');
+    if (videoButton) {
+        videoButton.onclick = openVideoExplanation;
     }
 }
 
@@ -526,4 +545,21 @@ function displayReviewPage() {
         `;
         reviewList.appendChild(listItem);
     });
+}
+
+/**
+ * 現在の問題の解説動画を開く
+ */
+function openVideoExplanation() {
+    const appData = questionData[selectedApp];
+    if (!appData) return;
+    
+    const projectKey = `project${currentProject}`;
+    const projectData = appData[projectKey];
+    if (!projectData) return;
+    
+    const currentQuestionData = projectData.find(q => q.questionId === currentQuestion);
+    if (!currentQuestionData || !currentQuestionData.videoUrl) return;
+    
+    window.open(currentQuestionData.videoUrl, '_blank');
 } 
