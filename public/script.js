@@ -268,6 +268,25 @@ function initializeQuestionNav() {
     });
 }
 
+/**
+ * 指定された章の全問題が回答済みかどうかをチェック
+ * @param {number} projectNumber - プロジェクト番号
+ * @returns {boolean} 全問題が回答済みの場合true
+ */
+function isProjectCompleted(projectNumber) {
+    const appData = questionData[selectedApp];
+    if (!appData) return false;
+    
+    const projectKey = `project${projectNumber}`;
+    const projectData = appData[projectKey];
+    if (!projectData) return false;
+    
+    // その章の全問題をチェック
+    return projectData.every(question => {
+        return localStorage.getItem(`completed_p${projectNumber}_q${question.questionId}`) === 'true';
+    });
+}
+
 function initializeReviewPage() {
     const tableBody = document.getElementById('reviewTableBody');
     if (!tableBody) return;
@@ -281,13 +300,14 @@ function initializeReviewPage() {
     for (let p = 1; p <= maxProjects; p++) {
         const projectKey = `project${p}`;
         const projectData = appData[projectKey];
-        if (!projectData || !projectData[0]) continue;
+        if (!projectData) continue;
 
         // プロジェクトヘッダー
         const projectRow = document.createElement('tr');
+        const isCompleted = isProjectCompleted(p);
         projectRow.innerHTML = `
             <td colspan="3" class="project-header">
-                ${appData.projectNames[projectKey]}
+                ${isCompleted ? '✅ ' : ''}${appData.projectNames[projectKey]}
             </td>
         `;
         tableBody.appendChild(projectRow);
