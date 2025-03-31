@@ -40,10 +40,15 @@ function saveState() {
         questions: {}
     };
     
-    // 各問題の状態を保存
-    for (let p = 1; p <= 6; p++) {
+    // 利用可能なプロジェクト数を取得
+    const maxProjects = getAvailableProjects();
+    
+    // 各プロジェクトの状態を保存
+    for (let p = 1; p <= maxProjects; p++) {
         state.questions[`project${p}`] = [];
-        for (let q = 1; q <= 7; q++) {
+        const questionCount = getQuestionsPerProject(p);
+        
+        for (let q = 1; q <= questionCount; q++) {
             state.questions[`project${p}`].push({
                 id: q,
                 needsReview: localStorage.getItem(`review_p${p}_q${q}`) === 'true',
@@ -58,12 +63,25 @@ function saveState() {
 function restoreState() {
     const savedState = localStorage.getItem('mosExamState');
     if (savedState) {
-        const state = JSON.parse(savedState);
-        currentProject = state.currentProject;
-        currentQuestion = state.currentQuestion;
-        
-        // UI更新
-        updateUIState();
+        try {
+            const state = JSON.parse(savedState);
+            const maxProjects = getAvailableProjects();
+            
+            // 保存されたプロジェクト番号が有効な範囲内かチェック
+            if (state.currentProject > maxProjects) {
+                state.currentProject = 1;
+            }
+            
+            currentProject = state.currentProject;
+            currentQuestion = state.currentQuestion;
+            
+            // UI更新
+            updateUIState();
+        } catch (e) {
+            console.error('状態の復元に失敗しました:', e);
+            currentProject = 1;
+            currentQuestion = 1;
+        }
     }
 }
 
@@ -302,11 +320,23 @@ function updateQuestionDisplay() {
     const questionText = document.getElementById('questionText');
     if (!questionText) return;
 
-    const appData = questionData[selectedApp] || {};
-    const projectKey = `project${currentProject}`;
-    const projectQuestions = appData[projectKey] || [];
-    const currentQuestionData = projectQuestions.find(q => q.questionId === currentQuestion);
+    // 選択されたアプリケーションのデータを取得
+    const appData = questionData[selectedApp];
+    if (!appData) {
+        questionText.textContent = 'アプリケーションのデータが見つかりません';
+        return;
+    }
 
+    // プロジェクトのデータを取得
+    const projectKey = `project${currentProject}`;
+    const projectData = appData[projectKey];
+    if (!projectData) {
+        questionText.textContent = 'プロジェクトのデータが見つかりません';
+        return;
+    }
+
+    // 現在の問題を取得
+    const currentQuestionData = projectData.find(q => q.questionId === currentQuestion);
     if (currentQuestionData) {
         questionText.textContent = currentQuestionData.questionText;
     } else {
