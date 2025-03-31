@@ -139,7 +139,7 @@ function updateUIState() {
     const projectNumberElement = document.getElementById('projectNumber');
     if (projectNumberElement) {
         const maxProjects = getAvailableProjects();
-        projectNumberElement.textContent = `プロジェクト ${currentProject}/${maxProjects}`;
+        projectNumberElement.textContent = `${currentProject}章 / ${maxProjects}章`;
         updateQuestionDisplay();
         updateQuestionStatus();
         updateQuestionButtons();
@@ -409,4 +409,25 @@ function finishExam() {
 function getAvailableProjects() {
     const appData = questionData[selectedApp] || {};
     return Object.keys(appData).filter(key => key.startsWith('project')).length;
+}
+
+function updateProjectTabs() {
+    const projectTabs = document.getElementById('projectTabs');
+    if (!projectTabs) return;
+
+    projectTabs.innerHTML = '';
+    const maxProjects = getAvailableProjects();
+
+    for (let i = 1; i <= maxProjects; i++) {
+        const tab = document.createElement('button');
+        tab.className = `project-tab ${i === currentProject ? 'active' : ''}`;
+        tab.textContent = `${i}章`;
+        tab.onclick = () => {
+            currentProject = i;
+            currentQuestion = 1;
+            updateUIState();
+            saveState();
+        };
+        projectTabs.appendChild(tab);
+    }
 } 
