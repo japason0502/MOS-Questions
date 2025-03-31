@@ -264,32 +264,34 @@ function initializeReviewPage() {
     tableBody.innerHTML = '';
     
     const maxProjects = getAvailableProjects();
+    const appData = questionData[selectedApp];
+    if (!appData) return;
     
     for (let p = 1; p <= maxProjects; p++) {
+        const projectKey = `project${p}`;
+        const projectData = appData[projectKey];
+        if (!projectData || !projectData[0]) continue;
+
         // プロジェクトヘッダー
         const projectRow = document.createElement('tr');
         projectRow.innerHTML = `
             <td colspan="3" class="project-header">
-                プロジェクト ${p}
+                ${appData.projectNames[projectKey]}
             </td>
         `;
         tableBody.appendChild(projectRow);
         
-        // プロジェクトごとの問題数を取得
-        const questionCount = getQuestionsPerProject(p);
-        
         // 問題を表示
-        for (let q = 1; q <= questionCount; q++) {
-            const needsReview = localStorage.getItem(`review_p${p}_q${q}`) === 'true';
-            const isCompleted = localStorage.getItem(`completed_p${p}_q${q}`) === 'true';
+        projectData.forEach(question => {
+            const needsReview = localStorage.getItem(`review_p${p}_q${question.questionId}`) === 'true';
+            const isCompleted = localStorage.getItem(`completed_p${p}_q${question.questionId}`) === 'true';
             
             const row = document.createElement('tr');
-            row.className = q === questionCount ? 'project-separator' : '';
             
             row.innerHTML = `
                 <td class="question-cell">
-                    <a href="#" class="question-link" onclick="goToQuestion(${p}, ${q})">
-                        問題 ${q}
+                    <a href="#" class="question-link" onclick="goToQuestion(${p}, ${question.questionId})">
+                        問題 ${question.questionId}
                     </a>
                 </td>
                 <td class="status-cell">
@@ -301,7 +303,7 @@ function initializeReviewPage() {
             `;
             
             tableBody.appendChild(row);
-        }
+        });
     }
 
     // タイマー表示を更新
@@ -438,4 +440,50 @@ function updateProjectTabs() {
         };
         projectTabs.appendChild(tab);
     }
+}
+
+function displayReviewPage() {
+    const appData = questionData[selectedApp];
+    if (!appData) return;
+
+    const reviewQuestions = [];
+    for (let projectId = 1; projectId <= getAvailableProjects(); projectId++) {
+        const projectKey = `project${projectId}`;
+        const projectData = appData[projectKey];
+        const projectName = projectData.name;
+        const questions = projectData.questions;
+
+        questions.forEach(question => {
+            const questionId = question.questionId;
+            if (needsReviewSet.has(questionId)) {
+                reviewQuestions.push({
+                    projectId: projectId,
+                    projectName: projectName,
+                    questionId: questionId,
+                    questionText: question.questionText
+                });
+            }
+        });
+    }
+
+    const reviewList = document.getElementById('reviewList');
+    reviewList.innerHTML = '';
+
+    if (reviewQuestions.length === 0) {
+        reviewList.innerHTML = '<p>復習が必要な問題はありません。</p>';
+        return;
+    }
+
+    reviewQuestions.forEach(question => {
+        const listItem = document.createElement('div');
+        listItem.className = 'review-item';
+        listItem.innerHTML = `
+            <div class="review-header">${question.projectName}</div>
+            <div class="review-content">
+                <div class="question-number">問題 ${question.questionId}</div>
+                <div class="question-text">${question.questionText}</div>
+            </div>
+        `;
+        reviewList.appendChild(listItem);
+    });
 } 
