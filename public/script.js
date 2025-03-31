@@ -117,6 +117,7 @@ function moveToPreviousProject() {
     }
     currentQuestion = 1;
     updateUIState();
+    initializeQuestionNav(); // 問題番号のタブを更新
     saveState();
 }
 
