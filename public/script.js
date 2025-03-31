@@ -3,16 +3,17 @@ let currentProject = 1;
 let currentQuestion = 1;
 let selectedApp;
 let selectedExam;
+let questionData; // 問題データを格納する配列（初期化はloadQuestions関数内で行う）
 
 // タイマー関連の変数
 let timeLeft;
 let timerInterval;
 
-// 問題データはquestions.jsから読み込む
-loadQuestionData();
-
 // ページ読み込み時の処理
 document.addEventListener('DOMContentLoaded', () => {
+    // 問題データを読み込む
+    loadQuestions();
+    
     // 選択された値を取得
     selectedApp = parseInt(localStorage.getItem('selectedApp')) || 1;
     selectedExam = parseInt(localStorage.getItem('selectedExam')) || 1;
@@ -298,14 +299,14 @@ function updateCompletedStatus(project, question, status) {
 }
 
 function updateQuestionDisplay() {
-    const currentQuestionData = questionData.find(q => 
-        q.appId === selectedApp &&
-        q.examId === selectedExam &&
-        q.projectId === currentProject &&
-        q.questionId === currentQuestion
-    );
-
     const questionText = document.getElementById('questionText');
+    if (!questionText) return;
+
+    const appData = questionData[selectedApp] || {};
+    const projectKey = `project${currentProject}`;
+    const projectQuestions = appData[projectKey] || [];
+    const currentQuestionData = projectQuestions.find(q => q.questionId === currentQuestion);
+
     if (currentQuestionData) {
         questionText.textContent = currentQuestionData.questionText;
     } else {
@@ -316,9 +317,7 @@ function updateQuestionDisplay() {
 // 問題データを読み込む関数
 function loadQuestions() {
     // questions.jsで定義した関数を使用
-    const questions = loadQuestionData();
-    // 以降の処理は既存のコードを使用
-    // ...
+    questionData = loadQuestionData();
 }
 
 // ステータス切り替え関数を修正
