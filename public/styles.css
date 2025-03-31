@@ -52,4 +52,18 @@
 
 .video-btn:hover {
     background-color: #7b1fa2;
+}
+
+.video-btn-nocm {
+    background-color: #673ab7;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.video-btn-nocm:hover {
+    background-color: #512da8;
 } 

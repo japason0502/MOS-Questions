@@ -15,12 +15,14 @@ const initialQuestionData = {
             {
                 questionId: 1,
                 questionText: "タブ区切りのテキストファイル「1-X(演習用)MOS365試験範囲」を、セル｢E1｣を基点とする位置に、インポートします。",
-                videoUrl: "https://example.com/video1"
+                videoUrl: "https://example.com/video1",
+                videoUrlNoCm: "https://example.com/video1-nocm"
             },
             {
                 questionId: 2,
                 questionText: "ワークシート｢検索｣から｢★｣を含むセルを検索し､フォントの色を標準の色｢オレンジ｣に設定してください｡",
-                videoUrl: "https://example.com/video2"
+                videoUrl: "https://example.com/video2",
+                videoUrlNoCm: "https://example.com/video2-nocm"
             },
             {questionId: 3, questionText: "名前｢装飾して欲しい箇所｣を選択し､標準の色｢赤｣の塗りつぶしの色を適用します｡"},
             {questionId: 4, questionText: "｢問題1を選択する｣のセルに名前｢問題1｣へのハイパーリンクを設定します｡"},

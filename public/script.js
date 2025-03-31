@@ -102,6 +102,9 @@ function updateQuestionStatus() {
             <button class="status-btn video-btn" onclick="openVideoExplanation()">
                 解説動画へ
             </button>
+            <button class="status-btn video-btn-nocm" onclick="openVideoExplanationNoCm()">
+                解説動画へ(CMなし)
+            </button>
         </div>
     `;
     
@@ -562,4 +565,21 @@ function openVideoExplanation() {
     if (!currentQuestionData || !currentQuestionData.videoUrl) return;
     
     window.open(currentQuestionData.videoUrl, '_blank');
+}
+
+/**
+ * 現在の問題の解説動画を開く（CMなしバージョン）
+ */
+function openVideoExplanationNoCm() {
+    const appData = questionData[selectedApp];
+    if (!appData) return;
+    
+    const projectKey = `project${currentProject}`;
+    const projectData = appData[projectKey];
+    if (!projectData) return;
+    
+    const currentQuestionData = projectData.find(q => q.questionId === currentQuestion);
+    if (!currentQuestionData || !currentQuestionData.videoUrlNoCm) return;
+    
+    window.open(currentQuestionData.videoUrlNoCm, '_blank');
 } 
