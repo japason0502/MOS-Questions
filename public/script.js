@@ -139,7 +139,10 @@ function updateUIState() {
     const projectNumberElement = document.getElementById('projectNumber');
     if (projectNumberElement) {
         const maxProjects = getAvailableProjects();
-        projectNumberElement.textContent = `${currentProject}章 / ${maxProjects}章`;
+        const appData = questionData[selectedApp];
+        const projectKey = `project${currentProject}`;
+        const projectName = appData.projectNames[projectKey] || `${currentProject}章`;
+        projectNumberElement.textContent = `${projectName} / ${maxProjects}章`;
         updateQuestionDisplay();
         updateQuestionStatus();
         updateQuestionButtons();
@@ -417,11 +420,14 @@ function updateProjectTabs() {
 
     projectTabs.innerHTML = '';
     const maxProjects = getAvailableProjects();
+    const appData = questionData[selectedApp];
 
     for (let i = 1; i <= maxProjects; i++) {
+        const projectKey = `project${i}`;
+        const projectName = appData.projectNames[projectKey] || `${i}章`;
         const tab = document.createElement('button');
         tab.className = `project-tab ${i === currentProject ? 'active' : ''}`;
-        tab.textContent = `${i}章`;
+        tab.textContent = projectName;
         tab.onclick = () => {
             currentProject = i;
             currentQuestion = 1;
