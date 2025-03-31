@@ -115,19 +115,29 @@ function moveToPreviousProject() {
     } else {
         currentProject = maxProjects; // 最後のプロジェクトに戻る
     }
-    currentQuestion = 1;
+    currentQuestion = getFirstQuestionId(currentProject);
     updateUIState();
     initializeQuestionNav(); // 問題番号のタブを更新
     saveState();
 }
-
+// 指定されたプロジェクトの先頭の問題番号を取得する関数
+function getFirstQuestionId(projectNumber) {
+    const appData = questionData[selectedApp];
+    if (!appData) return 1;
+    
+    const projectKey = `project${projectNumber}`;
+    const projectData = appData[projectKey];
+    if (!projectData || !projectData[0]) return 1;
+    
+    return projectData[0].questionId;
+}
 function moveToNextProject() {
     const maxProjects = getAvailableProjects();
     
     if (currentProject < maxProjects) {
         // 通常の次のプロジェクトへの移動
         currentProject++;
-        currentQuestion = 1;
+        currentQuestion = getFirstQuestionId(currentProject);
         updateUIState();
         initializeQuestionNav(); // 問題番号のタブを更新
         saveState();
