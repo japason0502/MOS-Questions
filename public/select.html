@@ -9,49 +9,49 @@
 </head>
 <body>
     <div class="container">
-        <!-- ヘッダー -->
-        <header>
-            <div class="header-left">
-                <span id="projectNumber">プロジェクト 1/6</span>
-            </div>
-            <div class="header-center">
-                <span id="timer">残り時間: 50:00</span>
-            </div>
-            <div class="header-right">
-                <button id="reviewButton" onclick="window.location.href='review.html'">レビューページ</button>
-            </div>
-        </header>
-
-        <!-- 問題ナビゲーション -->
-        <div class="question-nav">
-            <!-- 問題ボタンはJavaScriptで動的に生成 -->
+        <div class="header">
+            <h1>MOS試験対策</h1>
+            <div id="timer" class="timer"></div>
         </div>
-
-        <!-- 問題文エリア -->
-        <div class="question-area">
-            <p id="questionText">あなたは工場の測定値で生産台数を記録しています。</p>
+        
+        <div class="project-tabs" id="projectTabs">
+            <!-- プロジェクトタブが動的に追加されます -->
         </div>
+        
+        <div class="question-container">
+            <!-- ヘッダー -->
+            <header>
+                <div class="header-left">
+                    <span id="projectNumber">プロジェクト 1/6</span>
+                </div>
+                <div class="header-right">
+                    <button id="reviewButton" onclick="window.location.href='review.html'">レビューページ</button>
+                </div>
+            </header>
 
-        <!-- コントロールエリア -->
-        <div class="control-area">
-            <div id="questionStatus" class="question-status">
-                <button class="status-btn review-btn" onclick="toggleReviewStatus(currentProject, currentQuestion)">
-                    あとで見直す
-                </button>
-                <button class="status-btn answered-btn" onclick="toggleAnsweredStatus(currentProject, currentQuestion)">
-                    回答済み
-                </button>
+            <!-- 問題文エリア -->
+            <div class="question-area">
+                <p id="questionText">あなたは工場の測定値で生産台数を記録しています。</p>
             </div>
-            <div class="buttons">
-                <button onclick="moveToNextProject()">次のプロジェクト</button>
-            </div>
-        </div>
 
-        <!-- プロジェクト選択 -->
-        <div class="select-section">
-            <h2>章を選択してください</h2>
-            <div class="project-tabs" id="projectTabs">
-                <!-- タブはJavaScriptで動的に生成 -->
+            <!-- 問題ナビゲーション -->
+            <div class="question-nav">
+                <!-- 問題ボタンはJavaScriptで動的に生成 -->
+            </div>
+
+            <!-- コントロールエリア -->
+            <div class="control-area">
+                <div id="questionStatus" class="question-status">
+                    <button class="status-btn review-btn" onclick="toggleReviewStatus(currentProject, currentQuestion)">
+                        あとで見直す
+                    </button>
+                    <button class="status-btn answered-btn" onclick="toggleAnsweredStatus(currentProject, currentQuestion)">
+                        回答済み
+                    </button>
+                </div>
+                <div class="buttons">
+                    <button onclick="moveToNextProject()">次のプロジェクト</button>
+                </div>
             </div>
         </div>
     </div>

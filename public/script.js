@@ -128,6 +128,7 @@ function moveToNextProject() {
         currentProject++;
         currentQuestion = 1;
         updateUIState();
+        initializeQuestionNav(); // 問題番号のタブを更新
         saveState();
     } else {
         // 最後のプロジェクトの場合はレビューページへ
