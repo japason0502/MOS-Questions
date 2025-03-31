@@ -219,24 +219,37 @@ function initializeQuestionNav() {
     if (!questionNav) return;
 
     questionNav.innerHTML = ''; // 既存のボタンをクリア
-    
-    // 現在のプロジェクトの問題数を取得
-    const questionCount = getQuestionsPerProject(currentProject);
-    
-    // 問題数分のボタンを生成
-    for (let i = 1; i <= questionCount; i++) {
+
+    // 現在のプロジェクトの問題を取得
+    const appData = questionData[selectedApp];
+    if (!appData) return;
+
+    const projectKey = `project${currentProject}`;
+    const projectQuestions = appData[projectKey];
+    if (!projectQuestions) return;
+
+    // 各問題のボタンを生成
+    projectQuestions.forEach(question => {
         const button = document.createElement('button');
         button.className = 'question-btn';
-        button.textContent = i;
-        button.addEventListener('click', () => {
-            currentQuestion = i;
+        button.textContent = question.questionId;
+        
+        // 問題の状態に応じてクラスを追加
+        const isCompleted = localStorage.getItem(`completed_p${currentProject}_q${question.questionId}`) === 'true';
+        const needsReview = localStorage.getItem(`review_p${currentProject}_q${question.questionId}`) === 'true';
+        
+        if (isCompleted) button.classList.add('completed');
+        if (needsReview) button.classList.add('needs-review');
+        if (question.questionId === currentQuestion) button.classList.add('active');
+        
+        button.onclick = () => {
+            currentQuestion = question.questionId;
             updateUIState();
             saveState();
-        });
+        };
+        
         questionNav.appendChild(button);
-    }
-    
-    updateQuestionButtons();
+    });
 }
 
 function initializeReviewPage() {
@@ -390,4 +403,10 @@ function finishExam() {
             `;
         }
     }
+}
+
+// 利用可能なプロジェクト数を取得する関数
+function getAvailableProjects() {
+    const appData = questionData[selectedApp] || {};
+    return Object.keys(appData).filter(key => key.startsWith('project')).length;
 } 
