@@ -95,16 +95,72 @@ function deleteQuestion(questionId) {
 }
 
 function exportToCSV() {
-    const csv = questionData.map(q => 
-        `${q.appId},${q.examId},${q.projectId},${q.questionId},"${q.questionText}"`
-    ).join('\n');
+    const questionData = loadQuestionData();
+    let csv = 'appId,projectId,questionId,videoUrl,videoUrlNoCm\n';
+
+    // 各アプリケーションのデータを処理
+    Object.entries(questionData).forEach(([appId, appData]) => {
+        // 各プロジェクトのデータを処理
+        Object.entries(appData).forEach(([key, value]) => {
+            if (key.startsWith('project') && Array.isArray(value)) {
+                value.forEach(question => {
+                    if (question.videoUrl || question.videoUrlNoCm) {
+                        csv += `${appId},${key.replace('project', '')},${question.questionId},"${question.videoUrl || ''}","${question.videoUrlNoCm || ''}"\n`;
+                    }
+                });
+            }
+        });
+    });
+
     // CSVファイルとしてダウンロード
+    const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+    const link = document.createElement('a');
+    link.href = URL.createObjectURL(blob);
+    link.download = 'video_urls.csv';
+    link.click();
 }
 
 function handleCSVImport(event) {
     const file = event.target.files[0];
     const reader = new FileReader();
-    // CSVファイルを読み込んでデータを更新
+
+    reader.onload = function(e) {
+        const text = e.target.result;
+        const rows = text.split('\n').map(row => row.split(',').map(cell => cell.trim().replace(/^"|"$/g, '')));
+        
+        // ヘッダー行をスキップ
+        const headers = rows[0];
+        const data = rows.slice(1);
+
+        // データを更新
+        const questionData = loadQuestionData();
+        
+        data.forEach(row => {
+            if (row.length >= 5) { // 最低限必要な列数があることを確認
+                const appId = parseInt(row[0]);
+                const projectId = parseInt(row[1]);
+                const questionId = parseInt(row[2]);
+                const videoUrl = row[3];
+                const videoUrlNoCm = row[4];
+
+                if (questionData[appId] && questionData[appId][`project${projectId}`]) {
+                    const questions = questionData[appId][`project${projectId}`];
+                    const question = questions.find(q => q.questionId === questionId);
+                    
+                    if (question) {
+                        question.videoUrl = videoUrl;
+                        question.videoUrlNoCm = videoUrlNoCm;
+                    }
+                }
+            }
+        });
+
+        // 更新したデータを保存
+        saveQuestionData(questionData);
+        alert('CSVデータのインポートが完了しました。');
+    };
+
+    reader.readAsText(file);
 }
 
 function saveToLocalStorage() {
