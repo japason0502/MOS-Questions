@@ -10,7 +10,7 @@ let timeLeft;
 let timerInterval;
 
 // パスワード認証のための変数
-let isProject6Unlocked = false;
+let isProject6Unlocked = localStorage.getItem('isProject6Unlocked') === 'true';
 const PROJECT6_PASSWORD = "japapa";
 
 // ページ読み込み時の処理
