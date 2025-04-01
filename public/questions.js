@@ -154,7 +154,7 @@ const initialQuestionData = {
             {
                 questionId: 27,
                 questionText: "C2セルをコピーし､D2セルに値だけを貼り付けます｡",
-                videoUrl: "https://www.youtube.com/watch?v=elpcAtkj_SI"
+                videoUrl: "https://www.youtube.com/watch?v=elpcAtkj_SI&t=1s"
             },
             {
                 questionId: 28,
@@ -267,52 +267,52 @@ const initialQuestionData = {
             {
                 questionId: 49,
                 questionText: "A1:E5の表をテーブルに変更してください｡先頭行はタイトルとして使用します｡",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=1s"
+                videoUrl: "https://www.youtube.com/watch?v=8gPwycoRg6c&t=1s"
             },
             {
                 questionId: 50,
                 questionText: "A1:E5のテーブルにスタイル｢ゴールド,テーブルスタイル(中間5)｣を適用します｡",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=32s"
+                videoUrl: "https://www.youtube.com/watch?v=8gPwycoRg6c&t=35s"
             },
             {
                 questionId: 51,
                 questionText: "献立表のテーブルを解除します｡",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=53s"
+                videoUrl: "https://www.youtube.com/watch?v=8gPwycoRg6c&t=58s"
             },
             {
                 questionId: 52,
                 questionText: "A1:E5のテーブルに列｢天気｣を､距離(m)の左に追加します｡テーブル以外には影響がないようにします｡",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=94s"
+                videoUrl: "https://www.youtube.com/watch?v=8gPwycoRg6c&t=89s"
             },
             {
                 questionId: 53,
                 questionText: "生徒リストのテーブルに｢生徒リスト｣と名前をつけてください",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=120s"
+                videoUrl: "https://www.youtube.com/watch?v=8gPwycoRg6c&t=126s"
             },
             {
                 questionId: 54,
                 questionText: "A1:E5のテーブルの縞模様を解除し､最後の列を強調してください｡",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=140s"
+                videoUrl: "https://www.youtube.com/watch?v=8gPwycoRg6c&t=151s"
             },
             {
                 questionId: 55,
                 questionText: "A1:E5のテーブルに集計行を表示してください｡距離(m)と時間(分)に合計､疲労度に平均を表示します｡感想は非表示にします｡",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=173s"
+                videoUrl: "https://www.youtube.com/watch?v=8gPwycoRg6c&t=177s"
             },
             {
                 questionId: 56,
                 questionText: "生徒リストのテーブルから､名前が｢タ｣で始まるレコードだけを表示してください｡",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=223s"
+                videoUrl: "https://www.youtube.com/watch?v=8gPwycoRg6c&t=229s"
             },
             {
                 questionId: 57,
                 questionText: "A1:E5のテーブルを､2月1日の日にちのレコードだけ表示してください｡データを削除してはいけません｡",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=257s"
+                videoUrl: "https://www.youtube.com/watch?v=8gPwycoRg6c&t=303s"
             },
             {
                 questionId: 58,
                 questionText: "A1:E5のテーブルを､時間(分)の多い順に並び替えてください｡時間が同じ場合､疲労度の低い順にします｡",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=304s"
+                videoUrl: "https://www.youtube.com/watch?v=8gPwycoRg6c&t=330s"
             }
         ],
         // 4章-数式･関数
@@ -320,112 +320,112 @@ const initialQuestionData = {
             {
                 questionId: 59,
                 questionText: "合計金額の列に､数量と単価を掛けた金額を求める数式を入力します｡",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=340s"
+                videoUrl: "https://www.youtube.com/watch?v=CvBQ_-emnkc&t=1s"
             },
             {
                 questionId: 60,
                 questionText: "値引きの列に､値引き金額を求める数式を入力してください｡値引き金額は､合計金額にセルB1の値引き率を掛けて計算します｡",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=358s"
+                videoUrl: "https://www.youtube.com/watch?v=CvBQ_-emnkc&t=131s"
             },
             {
                 questionId: 61,
                 questionText: "お会計の列に､合計金額から値引きを引いた金額を求める数式を入力します｡",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=382s"
+                videoUrl: "https://www.youtube.com/watch?v=CvBQ_-emnkc&t=287s"
             },
             {
                 questionId: 62,
                 questionText: "関数を使って､C8に得点の最高点を表示してください｡",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=398s"
+                videoUrl: "https://www.youtube.com/watch?v=CvBQ_-emnkc&t=389s"
             },
             {
                 questionId: 63,
                 questionText: "関数を使って､B8に時間の最高記録を表示してください｡最高記録はもっとも速いタイムを求めます｡",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=442s"
+                videoUrl: "https://www.youtube.com/watch?v=CvBQ_-emnkc&t=453s"
             },
             {
                 questionId: 64,
                 questionText: "関数を使って､B9セルに時間の平均を表示してください｡",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=467s"
+                videoUrl: "https://www.youtube.com/watch?v=CvBQ_-emnkc&t=493s"
             },
             {
                 questionId: 65,
                 questionText: "関数を使って､B11に初参加者数を表示してください｡初参加に数値が入力されているセルを数えます｡",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=498s"
+                videoUrl: "https://www.youtube.com/watch?v=CvBQ_-emnkc&t=595s"
             },
             {
                 questionId: 66,
                 questionText: "関数を使って､B12に途中棄権数を表示してください｡時間が空白のセルの数を求めます｡",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=615s"
+                videoUrl: "https://www.youtube.com/watch?v=CvBQ_-emnkc&t=633s"
             },
             {
                 questionId: 67,
                 questionText: "関数を使って､B13に参加数を表示してください｡名前のセルを数えます｡",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=696s"
+                videoUrl: "https://www.youtube.com/watch?v=CvBQ_-emnkc&t=708s"
             },
             {
                 questionId: 68,
                 questionText: "関数を使って､備考の列に､初参加が｢1｣の場合には｢初心者｣と表示し､そうでない場合は｢経験者｣と表示してください｡",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=788s"
+                videoUrl: "https://www.youtube.com/watch?v=CvBQ_-emnkc&t=799s"
             },
             {
                 questionId: 69,
                 questionText: "関数を使って､評価の列に､得点が50点未満の人には｢失格｣と表示し､そうでなければ何も表示しないようにしてください｡",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=848s"
+                videoUrl: "https://www.youtube.com/watch?v=CvBQ_-emnkc&t=925s"
             },
             {
                 questionId: 70,
                 questionText: "関数を使って､表を得点の多い順に並べ替えたものを､H2を基点に表示してください｡",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=944s"
+                videoUrl: "https://www.youtube.com/watch?v=CvBQ_-emnkc&t=1098s"
             },
             {
                 questionId: 71,
                 questionText: "関数を使って､表｢練習会参加記録｣の｢名前｣列から重複をなくして一意にしたデータを､D31セルを基点に表示してください",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=1020s"
+                videoUrl: "https://www.youtube.com/watch?v=CvBQ_-emnkc&t=1239s"
             },
             {
                 questionId: 72,
                 questionText: "関数を使って､名前の先頭1文字を､イニシャルの列に表示してください｡",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=1080s"
+                videoUrl: "https://www.youtube.com/watch?v=CvBQ_-emnkc&t=1337s"
             },
             {
                 questionId: 73,
                 questionText: "関数を使って､｢前回参加月｣の列に､｢前回参加年月日｣の列の5文字目から2文字を表示してください｡",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=1140s"
+                videoUrl: "https://www.youtube.com/watch?v=CvBQ_-emnkc&t=1482s"
             },
             {
                 questionId: 74,
                 questionText: "関数を使って､｢大文字｣の列に､B列の名前を大文字に変換して表示してください｡",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=1200s"
+                videoUrl: "https://www.youtube.com/watch?v=CvBQ_-emnkc&t=1536s"
             },
             {
                 questionId: 75,
                 questionText: "関数を使って､｢文字数｣の列に､名前の文字数を表示してください｡",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=1260s"
+                videoUrl: "https://www.youtube.com/watch?v=CvBQ_-emnkc&t=1569s"
             },
             {
                 questionId: 76,
                 questionText: "関数を使って､｢ゼッケン印字｣の列に､№と名前の列を結合して表示してください｡№と名前は｢-｣でつなぎます｡",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=1320s"
+                videoUrl: "https://www.youtube.com/watch?v=CvBQ_-emnkc&t=1605s"
             },
             {
                 questionId: 77,
                 questionText: "関数を使って､セルB22に､1から5の範囲内でランダムな値を表示してください｡",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=1380s"
+                videoUrl: "https://www.youtube.com/watch?v=CvBQ_-emnkc&t=1742s"
             },
             {
                 questionId: 78,
                 questionText: "関数を使って､セルA25を基点とする3行2列に､4から始まり､6ずつ増加する数値データを表示してください｡",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=1440s"
+                videoUrl: "https://www.youtube.com/watch?v=CvBQ_-emnkc&t=1802s"
             },
             {
                 questionId: 79,
                 questionText: "関数を使って､表｢ランイベント参加日と参加者｣の｢名前｣列から重複をなくして一意にしたデータを､B16セルを基点に表示してください｡数式では､定義された名前を使用します｡",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=1500s"
+                videoUrl: "https://www.youtube.com/watch?v=CvBQ_-emnkc&t=1907s"
             },
             {
                 questionId: 80,
                 questionText: "当シートの数式を表示してください｡",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=1560s"
+                videoUrl: "https://www.youtube.com/watch?v=CvBQ_-emnkc&t=2002s"
             }
         ],
         // 5章-グラフ
@@ -433,57 +433,57 @@ const initialQuestionData = {
             {
                 questionId: 81,
                 questionText: "日別売上の表を使って､集合縦棒グラフを作成してください｡",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=1620s"
+                videoUrl: "https://www.youtube.com/watch?v=zy8U2Y2bOqk&t=1s"
             },
             {
                 questionId: 82,
                 questionText: "テスト結果の表を使って､名前ごとの合計を表す集合横棒グラフを作成します｡作成したグラフはセル範囲【H7:M13】に配置します｡",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=1680s"
+                videoUrl: "https://www.youtube.com/watch?v=zy8U2Y2bOqk&t=89s"
             },
             {
                 questionId: 83,
                 questionText: "折れ線グラフをグラフシートに移動します｡グラフシート名は｢売上推移分析グラフ｣とします｡",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=1740s"
+                videoUrl: "https://www.youtube.com/watch?v=zy8U2Y2bOqk&t=244s"
             },
             {
                 questionId: 84,
                 questionText: "集合縦棒グラフに､物理のデータ系列を追加します｡",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=1800s"
+                videoUrl: "https://www.youtube.com/watch?v=zy8U2Y2bOqk&t=339s"
             },
             {
                 questionId: 85,
                 questionText: "集合縦棒グラフの横軸と凡例を入れ替えて､横軸に科目､凡例に名前を表示します｡",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=1860s"
+                videoUrl: "https://www.youtube.com/watch?v=zy8U2Y2bOqk&t=375s"
             },
             {
                 questionId: 86,
                 questionText: "集合縦棒グラフの､第1横軸（値軸）にラベル「科目」を表示してください。",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=1920s"
+                videoUrl: "https://www.youtube.com/watch?v=zy8U2Y2bOqk&t=418s"
             },
             {
                 questionId: 87,
                 questionText: "円グラフに吹き出しのデータラベルを設定してください｡データラベルには分類名だけを表示します｡",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=1980s"
+                videoUrl: "https://www.youtube.com/watch?v=zy8U2Y2bOqk&t=478s"
             },
             {
                 questionId: 88,
                 questionText: "円グラフのグラフタイトルを｢日ごとの売上額の割合｣に変更します｡",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=2040s"
+                videoUrl: "https://www.youtube.com/watch?v=zy8U2Y2bOqk&t=549s"
             },
             {
                 questionId: 89,
                 questionText: "円グラフに｢レイアウト1｣を適用します｡",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=2100s"
+                videoUrl: "https://www.youtube.com/watch?v=zy8U2Y2bOqk&t=588s"
             },
             {
                 questionId: 90,
                 questionText: "集合縦棒グラフにスタイル｢スタイル6｣､色｢モノクロ パレット1｣を適用してください｡",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=2160s"
+                videoUrl: "https://www.youtube.com/watch?v=zy8U2Y2bOqk&t=649s"
             },
             {
                 questionId: 91,
                 questionText: "集合縦棒グラフに代替テキスト｢生徒別得点グラフ｣を設定してください｡",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=2220s"
+                videoUrl: "https://www.youtube.com/watch?v=zy8U2Y2bOqk&t=707s"
             }
         ],
         // 応用問題
@@ -491,92 +491,92 @@ const initialQuestionData = {
             {
                 questionId: 92,
                 questionText: "タブ区切りのテキストファイル「1-X(演習用)MOS365試験範囲」を、セル｢E1｣を基点とする位置に、インポートします。先頭行をテーブルの見出しとして使用します。",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=2280s"
+                videoUrl: "https://www.youtube.com/watch?v=yRXS_EvCBrg&t=5241s"
             },
             {
                 questionId: 93,
                 questionText: "C4にハイパーリンクを挿入してください。リンク先は「https://pub.jmam.co.jp/book/b646577.html」とします。ハイパーリンクをポイントすると「本の紹介ページへ」と表示されるようにします。",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=2340s"
+                videoUrl: "https://www.youtube.com/watch?v=yRXS_EvCBrg&t=5307s"
             },
             {
                 questionId: 94,
                 questionText: "クイックアクセスツールバーに、コマンド「自動保存のオン/オフ切り替え」を登録してください。作業中のブックだけに適用します。",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=2400s"
+                videoUrl: "https://www.youtube.com/watch?v=yRXS_EvCBrg&t=5350s"
             },
             {
                 questionId: 95,
                 questionText: "｢1章応用｣の名前でPDFファイルとしてデスクトップに保存してください｡保存後､PDFファイルは開かないようにします｡",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=2460s"
+                videoUrl: "https://www.youtube.com/watch?v=yRXS_EvCBrg&t=5390s"
             },
             {
                 questionId: 96,
                 questionText: "ブックのプロパティのタグに｢MOS365Excel｣と｢応用｣を設定してください｡",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=2520s"
+                videoUrl: "https://www.youtube.com/watch?v=yRXS_EvCBrg&t=5416s"
             },
             {
                 questionId: 97,
                 questionText: "6行目以降が2ページ目に印刷されるよう､改ページを挿入してください｡",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=2580s"
+                videoUrl: "https://www.youtube.com/watch?v=yRXS_EvCBrg&t=5478s"
             },
             {
                 questionId: 98,
                 questionText: "2行目が繰り返し印刷されるよう設定してください｡",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=2640s"
+                videoUrl: "https://www.youtube.com/watch?v=yRXS_EvCBrg&t=5513s"
             },
             {
                 questionId: 99,
                 questionText: "A6からA20まで､1,2,3,…と連番になるように入力してください｡書式は変更しません｡",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=2700s"
+                videoUrl: "https://www.youtube.com/watch?v=yRXS_EvCBrg&t=5552s"
             },
             {
                 questionId: 100,
                 questionText: "セルA1に入力されている文字列をセル範囲A1:D1の中央に配置してください。セルは結合されないようにします。",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=2760s"
+                videoUrl: "https://www.youtube.com/watch?v=yRXS_EvCBrg&t=5582s"
             },
             {
                 questionId: 101,
                 questionText: "A8:F11の表の1月から4月の数値について､50以上のセルのフォントを太字にしてください｡",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=2820s"
+                videoUrl: "https://www.youtube.com/watch?v=yRXS_EvCBrg&t=5617s"
             },
             {
                 questionId: 102,
                 questionText: "推移の列のスパークラインについて､最小を0に､最大を｢すべてのスパークラインで同じ値｣に設定します｡",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=2880s"
+                videoUrl: "https://www.youtube.com/watch?v=yRXS_EvCBrg&t=5666s"
             },
             {
                 questionId: 103,
                 questionText: "表A14:E17の5月から9月の数値に､赤､白､青のカラースケールを設定してください｡最小値を｢最小値｣､中間値を百分位｢40｣､最大値を百分位｢60｣に設定します｡",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=2940s"
+                videoUrl: "https://www.youtube.com/watch?v=yRXS_EvCBrg&t=5708s"
             },
             {
                 questionId: 104,
                 questionText: "5月の列に4つの評価のアイコンを表示してください｡",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=3000s"
+                videoUrl: "https://www.youtube.com/watch?v=yRXS_EvCBrg&t=5774s"
             },
             {
                 questionId: 105,
                 questionText: "テーブルをシングル→ダブルの順にしてください｡",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=3060s"
+                videoUrl: "https://www.youtube.com/watch?v=yRXS_EvCBrg&t=5799s"
             },
             {
                 questionId: 106,
                 questionText: "テーブルから､｢葛飾区｣または｢足立区｣を含むデータだけを表示します｡",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=3120s"
+                videoUrl: "https://www.youtube.com/watch?v=yRXS_EvCBrg&t=5815s"
             },
             {
                 questionId: 107,
                 questionText: "表｢種目･月別の練習量(km)｣から､集合縦棒グラフを作成してください｡凡例に月が表示されるようにします｡",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=3180s"
+                videoUrl: "https://www.youtube.com/watch?v=yRXS_EvCBrg&t=5869s"
             },
             {
                 questionId: 108,
                 questionText: "表｢トライアスロンの各種目の距離｣から､各種目の割合を示す3-D円グラフを作成します｡",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=3240s"
+                videoUrl: "https://www.youtube.com/watch?v=yRXS_EvCBrg&t=5905s"
             },
             {
                 questionId: 109,
                 questionText: "集合横棒グラフに軸ラベル｢距離｣を追加し､横軸の右下に配置します｡",
-                videoUrl: "https://www.youtube.com/watch?v=Hs_Hn6S_pOE&t=3300s"
+                videoUrl: "https://www.youtube.com/watch?v=yRXS_EvCBrg&t=5953s"
             }
         ]
     },
