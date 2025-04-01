@@ -11,7 +11,7 @@ let timerInterval;
 
 // パスワード認証のための変数
 let isProject6Unlocked = false;
-const PROJECT6_PASSWORD = "mos365";
+const PROJECT6_PASSWORD = "japapa";
 
 // ページ読み込み時の処理
 document.addEventListener('DOMContentLoaded', () => {
@@ -590,6 +590,11 @@ function openVideoExplanationNoCm() {
 
 // パスワード認証を行う関数
 function authenticateProject6() {
+    // すでに認証済みの場合はスキップ
+    if (isProject6Unlocked) {
+        return true;
+    }
+
     const password = prompt("応用問題を表示するにはパスワードを入力してください：");
     if (password === null) {
         // キャンセルボタンが押された場合
@@ -598,12 +603,15 @@ function authenticateProject6() {
         return false;
     } else if (password === PROJECT6_PASSWORD) {
         isProject6Unlocked = true;
+        // 認証状態を保存
+        localStorage.setItem('isProject6Unlocked', 'true');
         updateUIState();
         return true;
     } else {
         alert("パスワードが正しくありません。");
         currentProject = 5;
         updateUIState();
+        currentQuestion = getFirstQuestionId(currentProject);
         return false;
     }
 } 
