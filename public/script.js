@@ -92,7 +92,10 @@ function restoreState() {
 function updateQuestionStatus() {
     const needsReview = localStorage.getItem(`review_p${currentProject}_q${currentQuestion}`) === 'true';
     const isCompleted = localStorage.getItem(`completed_p${currentProject}_q${currentQuestion}`) === 'true';
-    
+    const videoLink = document.getElementById('videoLink');
+
+
+
     const statusHtml = `
         <div class="question-status">
             <button class="status-btn review-btn ${needsReview ? 'active' : ''}" 
@@ -109,6 +112,9 @@ function updateQuestionStatus() {
             <button class="status-btn video-btn-nocm" onclick="openVideoExplanationNoCm()">
                 解説動画へ(CMなし)
             </button>
+            <a href="https://mos.japason.co.jp/mosson-excel/" target="_blank" style="color: #666; text-decoration: none; font-size: 0.9em; opacity: 0.8;">
+                ▶｢CMなしで解説を見たい｣｢応用問題を解きたい｣ならクリック
+            </a>
         </div>
     `;
     
