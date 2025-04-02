@@ -715,165 +715,243 @@ const initialQuestionData = {
         project1: [
             {
                 questionId: 1,
-                questionText: "スライドのサイズを幅[30cm]､高さ[20cm]に変更してください｡コンテンツのサイズはスライドに収まるように調整します｡"
+                questionText: "スライドのサイズを幅[30cm]､高さ[20cm]に変更してください｡コンテンツのサイズはスライドに収まるように調整します｡",
+                videoUrl: "https://www.youtube.com/watch?v=aQdrf6ZtM28&t=1s",
+                videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60296442"
             },
             {
                 questionId: 2,
-                questionText: "スライドをグレースケールで表示してください｡次に､スライド4の画像を[明るいグレースケール]に変更します｡作業後は表示をカラーに戻します｡"
+                questionText: "スライドをグレースケールで表示してください｡次に､スライド4の画像を[明るいグレースケール]に変更します｡作業後は表示をカラーに戻します｡",
+                videoUrl: "https://www.youtube.com/watch?v=aQdrf6ZtM28&t=83s",
+                videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60296441"
             },
             {
                 questionId: 3,
-                questionText: "スライド一覧に切り替えて､セクション[学習環境の整備]の3枚のスライドが､[学習環境の整備][充実した学習環境を整える][学習スペースの整備]の順になるように移動します｡設定後､表示を標準に戻します｡"
+                questionText: "スライド一覧に切り替えて､セクション[学習環境の整備]の3枚のスライドが､[学習環境の整備][充実した学習環境を整える][学習スペースの整備]の順になるように移動します｡設定後､表示を標準に戻します｡",
+                videoUrl: "https://www.youtube.com/watch?v=aQdrf6ZtM28&t=129s",
+                videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60296440"
             },
             {
                 questionId: 4,
-                questionText: "セクション[プレゼンテーションの概要]のスライドだけが印刷されるように設定してください｡"
+                questionText: "セクション[プレゼンテーションの概要]のスライドだけが印刷されるように設定してください｡",
+                videoUrl: "https://www.youtube.com/watch?v=aQdrf6ZtM28&t=321s",
+                videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60296449"
             },
             {
                 questionId: 5,
-                questionText: "１ページに3スライドを表示した配付資料が､10部印刷されるように設定してください｡1ページ目を10部印刷したあと､2ページ目が印刷されるようにします"
+                questionText: "１ページに3スライドを表示した配付資料が､10部印刷されるように設定してください｡1ページ目を10部印刷したあと､2ページ目が印刷されるようにします",
+                videoUrl: "https://www.youtube.com/watch?v=aQdrf6ZtM28&t=381s",
+                videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60296446"
             },
             {
                 questionId: 6,
-                questionText: "スライド1枚目2枚目を､グレースケールで印刷されるように設定します｡"
+                questionText: "スライド1枚目2枚目を､グレースケールで印刷されるように設定します｡",
+                videoUrl: "https://www.youtube.com/watch?v=aQdrf6ZtM28&t=499s",
+                videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60296451"
             },
             {
                 questionId: 7,
-                questionText: "ノートとして3部印刷されるように設定してください｡印刷の向きは縦方向にします｡"
+                questionText: "ノートとして3部印刷されるように設定してください｡印刷の向きは縦方向にします｡",
+                videoUrl: "https://www.youtube.com/watch?v=aQdrf6ZtM28&t=614s",
+                videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60296444"
             },
             {
                 questionId: 8,
-                questionText: "すべてのスライドを配布資料として印刷してください。1ページに9スライドずつ、縦方向に並ぶように設定します｡"
+                questionText: "すべてのスライドを配布資料として印刷してください。1ページに9スライドずつ、縦方向に並ぶように設定します｡",
+                videoUrl: "https://www.youtube.com/watch?v=aQdrf6ZtM28&t=652s",
+                videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60296447"
             },
             {
                 questionId: 9,
-                questionText: "[時短版]という名前の目的別スライドショーを作成してください｡スライド6,9,12を選択します｡"
+                questionText: "[時短版]という名前の目的別スライドショーを作成してください｡スライド6,9,12を選択します｡",
+                videoUrl: "https://www.youtube.com/watch?v=aQdrf6ZtM28&t=696s",
+                videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60296450"
             },
             {
                 questionId: 10,
-                questionText: "スライドショーの種類を[発表者として使用する]に設定し､レーザーポインターの色が青になるよう設定にします。"
+                questionText: "スライドショーの種類を[発表者として使用する]に設定し､レーザーポインターの色が青になるよう設定にします。",
+                videoUrl: "https://www.youtube.com/watch?v=aQdrf6ZtM28&t=834s",
+                videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60296443"
             },
             {
                 questionId: 11,
-                questionText: "スライドショーのリハーサルを行い、タイミングを記録します。"
+                questionText: "スライドショーのリハーサルを行い、タイミングを記録します。",
+                videoUrl: "https://www.youtube.com/watch?v=aQdrf6ZtM28&t=925s",
+                videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60296448"
             },
             {
                 questionId: 12,
-                questionText: "スライドマスターに､背景のスタイル3を適用します｡"
+                questionText: "スライドマスターに､背景のスタイル3を適用します｡",
+                videoUrl: "https://www.youtube.com/watch?v=aQdrf6ZtM28&t=999s",
+                videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60296445"
             },
             {
                 questionId: 13,
-                questionText: "スライドマスターのタイトルのフォントを[メイリオ]､フォントの色を[濃い青緑 アクセント1]に変更してください｡"
+                questionText: "スライドマスターのタイトルのフォントを[メイリオ]､フォントの色を[濃い青緑 アクセント1]に変更してください｡",
+                videoUrl: "https://www.youtube.com/watch?v=aQdrf6ZtM28&t=1078s",
+                videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60472399"
             },
             {
                 questionId: 14,
-                questionText: "スライドマスターの日付を削除してください｡"
+                questionText: "スライドマスターの日付を削除してください｡",
+                videoUrl: "https://www.youtube.com/watch?v=aQdrf6ZtM28&t=1132s",
+                videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60472390"
             },
             {
                 questionId: 15,
-                questionText: "スライドマスターで[白紙]レイアウトを複製し、[補足]という名前のレイアウトを作成して中央に表のプレースホルダを配置します｡プレースホルダーのサイズや位置は問いません｡"
+                questionText: "スライドマスターで[白紙]レイアウトを複製し、[補足]という名前のレイアウトを作成して中央に表のプレースホルダを配置します｡プレースホルダーのサイズや位置は問いません｡",
+                videoUrl: "https://www.youtube.com/watch?v=aQdrf6ZtM28&t=1530s",
+                videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60472387"
             },
             {
                 questionId: 16,
-                questionText: "スライドマスターの[タイトルとコンテンツ]レイアウトについて､背景の色を[薄い灰色､テキスト2](あるいは､[薄い灰色､背景2])に変更"
+                questionText: "スライドマスターの[タイトルとコンテンツ]レイアウトについて､背景の色を[薄い灰色､テキスト2](あるいは､[薄い灰色､背景2])に変更",
+                videoUrl: "https://www.youtube.com/watch?v=aQdrf6ZtM28&t=1649s",
+                videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60472394"
             },
             {
                 questionId: 17,
-                questionText: "配布資料マスターの日付を非表示にし、左のフッターに[講師用]と入力します。"
+                questionText: "配布資料マスターの日付を非表示にし、左のフッターに[講師用]と入力します。",
+                videoUrl: "https://www.youtube.com/watch?v=aQdrf6ZtM28&t=1736s",
+                videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60472386"
             },
             {
                 questionId: 18,
-                questionText: "プレゼンテーションを常に読み取り専用で開くように設定してください｡"
+                questionText: "プレゼンテーションを常に読み取り専用で開くように設定してください｡",
+                videoUrl: "https://www.youtube.com/watch?v=aQdrf6ZtM28&t=1815s",
+                videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60472389"
             },
             {
                 questionId: 19,
-                questionText: "パスワード[japa]を設定してプレゼンテーションを保護してください。"
+                questionText: "スライドマスターのタイトルスライドのレイアウトに､背景のスタイル4を適用します｡",
+                videoUrl: "https://www.youtube.com/watch?v=aQdrf6ZtM28&t=1916s",
+                videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60472393"
             },
             {
                 questionId: 20,
-                questionText: "プレゼンテーションに挿入されているビデオを､標準(480p)に圧縮してください｡"
+                questionText: "スライドマスターのタイトルスライドのレイアウトに､背景のスタイル4を適用します｡",
+                videoUrl: "https://www.youtube.com/watch?v=aQdrf6ZtM28&t=2043s",
+                videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60472391"
             },
             {
                 questionId: 21,
-                questionText: "ファイルにフォントを埋め込む設定にします。使用されている文字だけを埋め込みます｡"
+                questionText: "ファイルにフォントを埋め込む設定にします。使用されている文字だけを埋め込みます｡",
+                videoUrl: "https://www.youtube.com/watch?v=aQdrf6ZtM28&t=2116s",
+                videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60472398"
             }
         ],
         // 2章-スライドの管理
         project2: [
             {
                 questionId: 22,
-                questionText: "スライドの最後に[タイトルのみ]のスライドを追加します｡"
+                questionText: "スライドの最後に[タイトルのみ]のスライドを追加します｡",
+                videoUrl: "https://www.youtube.com/watch?v=jqUT66jMVFs&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=3&t=29s",
+                videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60642980"
             },
             {
                 questionId: 23,
-                questionText: "スライド｢結論｣を複製してください｡複製したスライドは｢結論｣スライドの下に配置し､スライドのタイトルは[プレゼント]に変更します｡"
+                questionText: "スライド｢結論｣を複製してください｡複製したスライドは｢結論｣スライドの下に配置し､スライドのタイトルは[プレゼント]に変更します｡",
+                videoUrl: "https://www.youtube.com/watch?v=jqUT66jMVFs&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=3&t=382s",
+                videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60642971"
             },
             {
                 questionId: 24,
-                questionText: "スライド[マラソンの歴史]の前に､サマリーズームのスライドを挿入してください｡スライド3,6,9へのリンクを作成します｡"
+                questionText: "スライド[マラソンの歴史]の前に､サマリーズームのスライドを挿入してください｡スライド3,6,9へのリンクを作成します｡",
+                videoUrl: "https://www.youtube.com/watch?v=jqUT66jMVFs&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=3&t=461s",
+                videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60642972"
             },
             {
                 questionId: 25,
-                questionText: "スライド[栄養と休息]の後ろに[2章-追加用]のプレゼンテーション[プロテインパウダー][サプリメントの効果とリスク]のスライドを挿入してください｡スライドは元の書式を使用せずに順番通りに挿入します｡"
+                questionText: "スライド[栄養と休息]の後ろに[2章-追加用]のプレゼンテーション[プロテインパウダー][サプリメントの効果とリスク]のスライドを挿入してください｡スライドは元の書式を使用せずに順番通りに挿入します｡",
+                videoUrl: "https://www.youtube.com/watch?v=jqUT66jMVFs&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=3&t=718s",
+                videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60642970"
             },
             {
                 questionId: 26,
-                questionText: "スライド[ニューヨークシティマラソン]の後ろに､文書[2章-追加用アウトライン]のアウトラインを使用して､スライドを挿入してください"
+                questionText: "スライド[ニューヨークシティマラソン]の後ろに､文書[2章-追加用アウトライン]のアウトラインを使用して､スライドを挿入してください",
+                videoUrl: "https://www.youtube.com/watch?v=jqUT66jMVFs&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=3&t=914s",
+                videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60642976"
             },
             {
                 questionId: 27,
-                questionText: "スライド[古代から現代へ]と[マラソンの重要性]を非表示にします｡"
+                questionText: "スライド[古代から現代へ]と[マラソンの重要性]を非表示にします｡",
+                videoUrl: "https://www.youtube.com/watch?v=jqUT66jMVFs&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=3&t=1002s",
+                videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60642981"
             },
             {
                 questionId: 28,
-                questionText: "スライド2の背景に､テクスチャ[新聞紙]を設定します｡"
+                questionText: "スライド2の背景に､テクスチャ[新聞紙]を設定します｡",
+                videoUrl: "https://www.youtube.com/watch?v=jqUT66jMVFs&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=3&t=1075s",
+                videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60642977"
             },
             {
                 questionId: 29,
-                questionText: "スライド2にフッター[概要]を表示してください｡"
+                questionText: "スライド2にフッター[概要]を表示してください｡",
+                videoUrl: "https://www.youtube.com/watch?v=jqUT66jMVFs&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=3&t=1141s",
+                videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60642975"
             },
             {
                 questionId: 30,
-                questionText: "スライド[ボストンマラソン]とスライド[ニューヨークシティマラソン]を入れ替えてください｡"
+                questionText: "スライド[ボストンマラソン]とスライド[ニューヨークシティマラソン]を入れ替えてください｡",
+                videoUrl: "https://www.youtube.com/watch?v=jqUT66jMVFs&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=3&t=1255s",
+                videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60642974"
             },
             {
                 questionId: 31,
-                questionText: "セクション[トレーニングと準備]を1つ上のセクションに移動してください｡"
+                questionText: "セクション[トレーニングと準備]を1つ上のセクションに移動してください｡",
+                videoUrl: "https://www.youtube.com/watch?v=jqUT66jMVFs&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=3&t=1335s",
+                videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60642978"
             },
             {
                 questionId: 32,
-                questionText: "スライド[プロテインパウダー]の前に､セクション[プロテイン]を追加してください｡"
+                questionText: "スライド[プロテインパウダー]の前に､セクション[プロテイン]を追加してください｡",
+                videoUrl: "https://www.youtube.com/watch?v=jqUT66jMVFs&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=3&t=1380s",
+                videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60642979"
             },
             {
                 questionId: 33,
-                questionText: "セクション[規定のセクション]のセクション名を[はじめに]に変更してください｡"
+                questionText: "セクション[規定のセクション]のセクション名を[はじめに]に変更してください｡",
+                videoUrl: "https://www.youtube.com/watch?v=jqUT66jMVFs&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=3&t=1418s",
+                videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60642973"
             }
         ],
         // 3章-テキスト、図形、画像の挿入と書式設定
         project3: [
             {
                 questionId: 34,
-                questionText: "[目次]のスライドに､セクションズームを挿入し､セクション[散歩の利点]と[散歩のテクニック]にリンクを作成してください｡サムネイルは各テキストの下に配置します｡"
+                questionText: "[目次]のスライドに､セクションズームを挿入し､セクション[散歩の利点]と[散歩のテクニック]にリンクを作成してください｡サムネイルは各テキストの下に配置します｡",
+                videoUrl: "https://www.youtube.com/watch?v=AkCr-s-n2xE&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=4",
+                videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60642992"
             },
             {
                 questionId: 35,
-                questionText: "スライド[目次]にあるテキストボックス[散歩のテクニック]の下に､[蛍光ペン:黄､6mm]で線を描画してください"
+                questionText: "スライド[目次]にあるテキストボックス[散歩のテクニック]の下に､[蛍光ペン:黄､6mm]で線を描画してください",
+                videoUrl: "https://www.youtube.com/watch?v=AkCr-s-n2xE&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=4&t=96s",
+                videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60642988"
             },
             {
                 questionId: 36,
-                questionText: "スライド3の紫色の四角形の図形を､最背面に移動してください｡"
+                questionText: "スライド3の紫色の四角形の図形を､最背面に移動してください｡",
+                videoUrl: "https://www.youtube.com/watch?v=AkCr-s-n2xE&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=4&t=157s",
+                videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60642993"
             },
             {
                 questionId: 37,
-                questionText: "スライド4の3つのハートマークの図形について､右端をすべて揃え､上下に整列させてください｡"
+                questionText: "スライド4の3つのハートマークの図形について､右端をすべて揃え､上下に整列させてください｡",
+                videoUrl: "https://www.youtube.com/watch?v=AkCr-s-n2xE&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=4&t=306s",
+                videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60642989"
             },
             {
                 questionId: 38,
-                questionText: "スライド4の3つのハートマークの図形をグループ化します｡"
+                questionText: "スライド4の3つのハートマークの図形をグループ化します｡",
+                videoUrl: "https://www.youtube.com/watch?v=AkCr-s-n2xE&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=4&t=543s",
+                videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60642991"
             },
             {
                 questionId: 39,
-                questionText: "スライドにガイドを表示し､垂直方向のガイドを中心から左に[5.20]､移動します｡"
+                questionText: "スライドにガイドを表示し､垂直方向のガイドを中心から左に[5.20]､移動します｡",
+                videoUrl: "https://www.youtube.com/watch?v=AkCr-s-n2xE&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=4&t=754s",
+                videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60642987"
             }
         ],
         // 4章-表、グラフ、SmartArt、3Dモデル、メディアの挿入
