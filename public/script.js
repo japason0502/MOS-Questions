@@ -119,7 +119,7 @@ function updateQuestionStatus() {
             <button class="status-btn video-btn-nocm" onclick="openVideoExplanationNoCm()">
                 解説動画へ(CMなし)
             </button>
-            <a href="https://mos.japason.co.jp/mosson-excel/" target="_blank" style="color: #666; text-decoration: none; font-size: 0.9em; opacity: 0.8;">
+            <a href="https://mos.japason.co.jp/mosthon-1/" target="_blank" style="color: #666; text-decoration: none; font-size: 0.9em; opacity: 0.8;">
                 ▶｢CMなしで解説を見たい｣｢応用問題を解きたい｣ならクリック
             </a>
         </div>
