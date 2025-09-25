@@ -687,17 +687,365 @@ const initialQuestionData = {
     // Word
     2: {
         projectNames: {
-            project1: "1章-文書の作成",
-            project2: "2章-文書の編集"
+          project1: "1章-文書の管理",
+          project2: "2章-文字、段落、セクションの挿入と書式設定",
+          project3: "3章-表やリストの管理",
+          project4: "4章-参考資料の作成と管理",
+          project5: "5章-グラフィック要素の挿入と書式設定",
+          project6: "6章-文書の共同作業の管理",
+          project7: "応用問題"
         },
-        project1: [
-            {questionId: 1, questionText: "文書のタイトルを「報告書」に設定してください。"},
-            {questionId: 2, questionText: "見出しスタイルを適用してください。"},
-            {questionId: 3, questionText: "ページ番号を追加してください。"}
-        ],
-        project2: [
-            {questionId: 1, questionText: "テスト"}
-        ]
+      
+      
+        // Word 1章
+project1: [
+    {
+      questionId: 1,
+      questionText: "文書内の｢ハイキング｣を検索し､太字を設定してください｡",
+      videoUrl: "https://www.youtube.com/watch?v=cr--hIcsszw&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=2&t=1s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306642"
+    },
+    {
+      questionId: 2,
+      questionText: "文書内の｢任意｣を検索して､検索した文字列を含む段落に下線を設定してください｡",
+      videoUrl: "https://www.youtube.com/watch?v=cr--hIcsszw&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=2&t=250s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306650"
+    },
+    {
+      questionId: 3,
+      questionText: "ブックマーク｢持ち物リスト｣にジャンプし、その語句を｢黄色｣の蛍光ペンで強調してください｡",
+      videoUrl: "https://www.youtube.com/watch?v=cr--hIcsszw&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=2&t=303s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306675"
+    },
+    {
+      questionId: 4,
+      questionText: "見出し｢安全管理と緊急時対応｣の行全体に､ブックマーク｢安全と緊急｣を挿入してください｡",
+      videoUrl: "https://www.youtube.com/watch?v=cr--hIcsszw&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=2&t=335s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306657"
+    },
+    {
+      questionId: 5,
+      questionText: "文字列｢集合時間｣に見出し｢スケジュール概要:｣へのハイパーリンクを設定してください｡",
+      videoUrl: "https://www.youtube.com/watch?v=cr--hIcsszw&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=2&t=377s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306672"
+    },
+    {
+      questionId: 6,
+      questionText: "ジャンプを使ってブックマーク｢強調すべき注意点｣に移動し､移動先にスタイル｢強調斜体2｣を設定してください｡",
+      videoUrl: "https://www.youtube.com/watch?v=cr--hIcsszw&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=2&t=427s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306653"
+    },
+    {
+      questionId: 7,
+      questionText: "3つ目の見出しに移動し､先頭に文字列｢★｣を追加してください｡",
+      videoUrl: "https://www.youtube.com/watch?v=cr--hIcsszw&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=2&t=457s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306641"
+    },
+    {
+      questionId: 8,
+      questionText: "文字列｢*補足｣を含む行を隠し文字に設定してください｡",
+      videoUrl: "https://www.youtube.com/watch?v=cr--hIcsszw&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=2&t=481s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306659"
+    },
+    {
+      questionId: 9,
+      questionText: "編集記号を表示し､｢(昨年...｣から始まる隠し文字を解除してください｡",
+      videoUrl: "https://www.youtube.com/watch?v=cr--hIcsszw&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=2&t=567s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306649"
+    },
+    {
+      questionId: 10,
+      questionText: "文章の余白を｢狭い｣に設定してください｡(Excel)",
+      videoUrl: "https://www.youtube.com/watch?v=cr--hIcsszw&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=2&t=625s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306660"
+    },
+    {
+      questionId: 11,
+      questionText: "文章の上下の余白を｢10mm｣に設定してください｡(Excel)",
+      videoUrl: "https://www.youtube.com/watch?v=cr--hIcsszw&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=2&t=653s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306673"
+    },
+    {
+      questionId: 12,
+      questionText: "用紙サイズを｢A3｣に設定してください｡(Excel)",
+      videoUrl: "https://www.youtube.com/watch?v=cr--hIcsszw&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=2&t=688s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306654"
+    },
+    {
+      questionId: 13,
+      questionText: "文書にスタイルセット｢ミニマリスト｣を設定してください｡",
+      videoUrl: "https://www.youtube.com/watch?v=cr--hIcsszw&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=2&t=697s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306655"
+    },
+    {
+      questionId: 14,
+      questionText: "ページの下部にページ番号｢チルダ｣を挿入してください｡",
+      videoUrl: "https://www.youtube.com/watch?v=cr--hIcsszw&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=2&t=771s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306658"
+    },
+    {
+      questionId: 15,
+      questionText: "ヘッダーに｢(遠足詳細)｣を挿入してください｡ヘッダーは右寄せします｡",
+      videoUrl: "https://www.youtube.com/watch?v=cr--hIcsszw&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=2&t=794s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306662"
+    },
+    {
+      questionId: 16,
+      questionText: "先頭ページにはヘッダーが挿入されないよう､別指定にしてください｡",
+      videoUrl: "https://www.youtube.com/watch?v=cr--hIcsszw&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=2&t=837s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306676"
+    },
+    {
+      questionId: 17,
+      questionText: "文書に「白、背景１、黒+基本色50%」「0.5pt」「囲む」のページ罫線を設定してください。",
+      videoUrl: "https://www.youtube.com/watch?v=cr--hIcsszw&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=2&t=874s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306644"
+    },
+    {
+      questionId: 18,
+      questionText: "ページの色を｢青､アクセント1､白 + 基本色80%｣に設定してください｡",
+      videoUrl: "https://www.youtube.com/watch?v=cr--hIcsszw&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=2&t=942s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306677"
+    },
+    {
+      questionId: 19,
+      questionText: "文書全体に透かし｢下書き1｣を挿入してください｡",
+      videoUrl: "https://www.youtube.com/watch?v=cr--hIcsszw&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=2&t=963s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306648"
+    },
+    {
+      questionId: 20,
+      questionText: "文書に｢1章｣と名前を付けてデスクトップにPDF形式で保存してください｡保存後、自動的にファイルを開かない設定にします。",
+      videoUrl: "https://www.youtube.com/watch?v=cr--hIcsszw&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=2&t=999s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306663"
+    },
+    {
+      questionId: 21,
+      questionText: "タイトルに｢3年遠足企画書｣を設定してください｡",
+      videoUrl: "https://www.youtube.com/watch?v=cr--hIcsszw&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=2&t=1060s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306647"
+    },
+    {
+      questionId: 22,
+      questionText: "プロパティのキーワードに｢年間行事｣を設定してください｡",
+      videoUrl: "https://www.youtube.com/watch?v=cr--hIcsszw&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=2&t=1084s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306656"
+    },
+    {
+      questionId: 23,
+      questionText: "ドキュメント検査を行い､隠し文字を削除してください｡その他の項目は削除しないこと。",
+      videoUrl: "https://www.youtube.com/watch?v=cr--hIcsszw&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=2&t=1165s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306661"
+    },
+    {
+      questionId: 24,
+      questionText: "アクセシビリティチェックを行い、代替テキストのエラーを修正してください｡おすすめのアクションの上側の項目を選択し、図表の代替テキストは「ピクニックの写真」とします。",
+      videoUrl: "https://www.youtube.com/watch?v=cr--hIcsszw&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=2&t=1202s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306651"
+    },
+    {
+      questionId: 25,
+      questionText: "互換モードを解除してください｡メッセージが表示された場合はOKをクリックします｡",
+      videoUrl: "https://www.youtube.com/watch?v=cr--hIcsszw&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=2&t=1315s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306665"
+    }
+  ],
+  
+// Word 2章
+project2: [
+    {
+      questionId: 26,
+      questionText: "見出し｢可燃ゴミの収集日｣内の｢朝7時｣の後ろに､時計の記号を挿入してください｡フォント｢Segoe UI Symbol｣の文字コード｢1F556｣(Clock Face Seven Oclock)を指定します｡",
+      videoUrl: "https://www.youtube.com/watch?v=w_BUdTm-6Hc&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=3&t=1s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306706"
+    },
+    {
+      questionId: 27,
+      questionText: "文書内の文字列｢割れた食器｣の後ろに､4分の1スペースを挿入してください｡",
+      videoUrl: "https://www.youtube.com/watch?v=w_BUdTm-6Hc&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=3&t=75s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306716"
+    },
+    {
+      questionId: 28,
+      questionText: "文書内の文字列「致します」をすべて「いたします」に置換してください｡",
+      videoUrl: "https://www.youtube.com/watch?v=w_BUdTm-6Hc&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=3&t=103s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306714"
+    },
+    {
+      questionId: 29,
+      questionText: "文書内の半角スペースをすべて削除してください｡",
+      videoUrl: "https://www.youtube.com/watch?v=w_BUdTm-6Hc&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=3&t=131s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306702"
+    },
+    {
+      questionId: 30,
+      questionText: "見出し「ゴミの分類」の上の段落に文字の効果「塗りつぶし:黒、文字色１;影」を設定してください。",
+      videoUrl: "https://www.youtube.com/watch?v=w_BUdTm-6Hc&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=3&t=162s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306719"
+    },
+    {
+      questionId: 31,
+      questionText: "タイトル｢ゴミ捨てのルールについて｣の文字の輪郭を｢濃い青｣にし､影の効果｢オフセット:右上｣を設定してください｡",
+      videoUrl: "https://www.youtube.com/watch?v=w_BUdTm-6Hc&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=3&t=201s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306720"
+    },
+    {
+      questionId: 32,
+      questionText: "「本書は」から始まる段落の行間を固定値｢18pt｣に設定してください｡",
+      videoUrl: "https://www.youtube.com/watch?v=w_BUdTm-6Hc&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=3&t=263s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306707"
+    },
+    {
+      questionId: 33,
+      questionText: "見出し｢注意事項｣の下3段落の行間を｢1.8行｣に設定してください｡",
+      videoUrl: "https://www.youtube.com/watch?v=w_BUdTm-6Hc&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=3&t=296s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306703"
+    },
+    {
+      questionId: 34,
+      questionText: "見出し｢資源ゴミの収集日｣の下にある2つの段落の｢段落後の間隔｣を｢1行｣に設定してください｡",
+      videoUrl: "https://www.youtube.com/watch?v=w_BUdTm-6Hc&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=3&t=332s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306711"
+    },
+    {
+      questionId: 35,
+      questionText: "｢資源ゴミ｣の見出しの下にある3つの段落の左インデントを解除してください｡",
+      videoUrl: "https://www.youtube.com/watch?v=w_BUdTm-6Hc&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=3&t=359s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306704"
+    },
+    {
+      questionId: 36,
+      questionText: "「本書は」から「ご協力をお願いいたします｡｣までの段落の字下げインデントを｢1字｣に設定してください｡",
+      videoUrl: "https://www.youtube.com/watch?v=w_BUdTm-6Hc&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=3&t=385s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306708"
+    },
+    {
+      questionId: 37,
+      questionText: "見出し「可燃ゴミ」の書式を、見出し「不燃ゴミ」と「資源ゴミ」にコピーしてください。",
+      videoUrl: "https://www.youtube.com/watch?v=w_BUdTm-6Hc&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=3&t=421s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306718"
+    },
+    {
+      questionId: 38,
+      questionText: "注意事項の見出し内の｢ゴミ出しの時間｣から始まる段落に､スタイル｢強調斜体2｣を設定してください｡",
+      videoUrl: "https://www.youtube.com/watch?v=w_BUdTm-6Hc&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=3&t=461s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306717"
+    },
+    {
+      questionId: 39,
+      questionText: "文書内の文字列｢汚れたもの｣の書式をクリアしてください｡",
+      videoUrl: "https://www.youtube.com/watch?v=w_BUdTm-6Hc&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=3&t=492s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306710"
+    },
+    {
+      questionId: 40,
+      questionText: "見出し｢ゴミの分類｣の先頭に改ページを挿入してください｡",
+      videoUrl: "https://www.youtube.com/watch?v=w_BUdTm-6Hc&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=3&t=514s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306705"
+    },
+    {
+      questionId: 41,
+      questionText: "見出し｢可燃ゴミ｣から｢資源ゴミ｣の｢…ペットボトル｣までの段落を､境界線のある2段組に設定してください｡",
+      videoUrl: "https://www.youtube.com/watch?v=w_BUdTm-6Hc&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=3&t=538s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306721"
+    },
+    {
+      questionId: 42,
+      questionText: "見出し「招集日と方法」が3ページ目の先頭に表示されるようにセクション区切りを挿入してください。",
+      videoUrl: "https://www.youtube.com/watch?v=w_BUdTm-6Hc&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=3&t=636s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306709"
+    },
+    {
+      questionId: 43,
+      questionText: "３ページ目の印刷の向きを横に変更してください。",
+      videoUrl: "https://www.youtube.com/watch?v=w_BUdTm-6Hc&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=3&t=679s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306713"
+    }
+  ],
+  // Word 3章（Q44〜63）
+project3: [
+    { questionId: 44, questionText: "見出し｢トレーニングスケジュール｣の下5つの段落を文字列の幅に合わせて表にしてください｡(その他は規定の設定のままとします)", videoUrl: "https://www.youtube.com/watch?v=26fX62oDKAc&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=4&t=1s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306770" },
+    { questionId: 45, questionText: "見出し｢マラソン後のリカバリープラン内の表を､文字列に変換してください｡文字列はコンマで区切ります｡", videoUrl: "https://www.youtube.com/watch?v=26fX62oDKAc&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=4&t=53s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306774" },
+    { questionId: 46, questionText: "文書の最後に5行3列の行を作成し､1行目に左から｢日程｣｢大会名｣｢距離｣と入力してください｡", videoUrl: "https://www.youtube.com/watch?v=26fX62oDKAc&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=4&t=124s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306756" },
+    { questionId: 47, questionText: "見出し｢マラソン前日の準備｣の下にある表を､重要度の高い順に並び替えてください｡", videoUrl: "https://www.youtube.com/watch?v=26fX62oDKAc&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=4&t=204s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306769" },
+    { questionId: 48, questionText: "見出し｢練習の記録｣の下の表のセルの余白を上下｢0.6mm｣､間隔を｢0.2mm｣に設定してください｡", videoUrl: "https://www.youtube.com/watch?v=26fX62oDKAc&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=4&t=241s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306753" },
+    { questionId: 49, questionText: "見出し｢週別トレーニング進捗チェックリスト｣の下にある表の､タイトル行を除くセルの上下の余白を「0.5ｍｍ」に設定してください。", videoUrl: "https://www.youtube.com/watch?v=26fX62oDKAc&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=4&t=280s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306771" },
+    { questionId: 50, questionText: "見出し｢参加予定の大会と同伴者｣内の表の｢埼玉マラソン｣とその下のセルを結合してください｡", videoUrl: "https://www.youtube.com/watch?v=26fX62oDKAc&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=4&t=337s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306761" },
+    { questionId: 51, questionText: "見出し｢参加予定の大会と同伴者｣内の表の｢沖縄マラソン｣のセルを2行に分割し､下側のセルに｢横浜マラソン｣と入力してください｡", videoUrl: "https://www.youtube.com/watch?v=26fX62oDKAc&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=4&t=366s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306750" },
+    { questionId: 52, questionText: "見出し｢栄養摂取ログ｣内の表の1列目の列幅を「25ｍｍ」2列目の列幅を｢60%｣に設定してください。", videoUrl: "https://www.youtube.com/watch?v=26fX62oDKAc&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=4&t=411s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306775" },
+    { questionId: 53, questionText: "見出し｢レース戦略プラン｣内にある表の全体の行の高さを「10ｍｍ」に設定してください。", videoUrl: "https://www.youtube.com/watch?v=26fX62oDKAc&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=4&t=459s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306764" },
+    { questionId: 54, questionText: "見出し｢マラソン前日の準備｣内の表の行の高さを揃えてください｡", videoUrl: "https://www.youtube.com/watch?v=26fX62oDKAc&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=4&t=500s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306772" },
+    { questionId: 55, questionText: "見出し｢レース戦略プラン｣の見出し内の表について､(ハーフマラソンの場合)以降の3行を別の表に分割してください｡", videoUrl: "https://www.youtube.com/watch?v=26fX62oDKAc&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=4&t=524s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306757" },
+    { questionId: 56, questionText: "見出し｢参加予定の大会と同伴者｣内の表のタイトル行が次のページにも表示されるように設定してください。", videoUrl: "https://www.youtube.com/watch?v=26fX62oDKAc&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=4&t=608s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306752" },
+    { questionId: 57, questionText: "見出し｢自然科学｣の下の｢地域の…｣｢水質…｣｢家庭で…｣｢天体…｣の段落に｢ア｣｢イ｣｢ウ｣の段落番号を設定してください｡", videoUrl: "https://www.youtube.com/watch?v=26fX62oDKAc&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=4&t=676s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306776" },
+    { questionId: 58, questionText: "見出し｢報告書の構成｣の下の5つの段落に箇条書きを設定してください｡行頭文字は､フォント｢Segoe UI Symbol｣の文字コード｢2705｣(White Heavy Check Mark)にします｡", videoUrl: "https://www.youtube.com/watch?v=26fX62oDKAc&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=4&t=712s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306758" },
+    { questionId: 59, questionText: "見出し｢報告書の作成ヒント｣の下の3つの段落について､箇条書きの行頭文字を｢◆｣に変更してください｡", videoUrl: "https://www.youtube.com/watch?v=26fX62oDKAc&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=4&t=773s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306755" },
+    { questionId: 60, questionText: "見出し｢データ収集と方法｣内の｢データ収集方法｣から｢…結論の導き方｣までの段落について､｢その1｣｢その2｣｢その3｣の段落番号を新しく定義し､設定してください｡数字は半角にします｡", videoUrl: "https://www.youtube.com/watch?v=26fX62oDKAc&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=4&t=804s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306763" },
+    { questionId: 61, questionText: "｢興味のある分野を…｣から｢…テーマを決定｣までの段落のリストのレベルを｢レベル2｣に変更してください｡", videoUrl: "https://www.youtube.com/watch?v=26fX62oDKAc&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=4&t=873s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306766" },
+    { questionId: 62, questionText: "見出し｢技術･工作｣の下4つの段落について､開始番号を｢ア｣から順になるように振り直してください｡", videoUrl: "https://www.youtube.com/watch?v=26fX62oDKAc&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=4&t=906s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306765" },
+    { questionId: 63, questionText: "見出し｢プレゼンテーションの準備｣の下の箇条書きが｢4｣から始まるように変更してください｡", videoUrl: "https://www.youtube.com/watch?v=26fX62oDKAc&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=4&t=951s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306768" }
+  ],
+  // Word 5章（Q71〜93）
+project5: [
+    { questionId: 71, questionText: "見出し｢給食の目的｣の下の空の段落に､画像｢ご飯.jpg｣を挿入し､幅を｢100mm｣に設定してください｡", videoUrl: "https://www.youtube.com/watch?v=kzL8hB1zYLw&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=6&t=1s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306812" },
+    { questionId: 72, questionText: "見出し｢はじめに｣の下にある図形スマイルの右側に､図形｢ハート｣を挿入してください｡", videoUrl: "https://www.youtube.com/watch?v=kzL8hB1zYLw&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=6&t=42s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306813" },
+    { questionId: 73, questionText: "見出し｢季節に合わせたメニュー｣の前の段落に､SmartArtグラフィック｢円形循環｣を挿入してください｡テキストウィンドウの上から｢春｣｢夏｣｢秋｣と入力し､続けて｢冬｣を追加してください｡", videoUrl: "https://www.youtube.com/watch?v=kzL8hB1zYLw&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=6&t=100s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306817" },
+    { questionId: 74, questionText: "文字列｢地域の食材に対する理解と関心を深めます｣と見出し｢保護者の皆様へ｣の間に､横書きテキストボックスを挿入し､文字列｢庭で育てた野菜も使用します!｣を入力してください｡", videoUrl: "https://www.youtube.com/watch?v=kzL8hB1zYLw&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=6&t=153s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306796" },
+    { questionId: 75, questionText: "タイトル｢学校給食のご案内｣の下の写真にアート効果｢ペイント:ブラシ｣を適用してください｡", videoUrl: "https://www.youtube.com/watch?v=kzL8hB1zYLw&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=6&t=194s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306798" },
+    { questionId: 76, questionText: "見出し｢給食メニューの特長｣内の写真に効果｢光彩:5pt;灰色､アクセントカラー3｣を適用してください｡", videoUrl: "https://www.youtube.com/watch?v=kzL8hB1zYLw&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=6&t=233s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306814" },
+    { questionId: 77, questionText: "見出し｢栄養バランスの考慮｣内の写真にスタイル｢楕円､ぼかし｣を適用してください｡", videoUrl: "https://www.youtube.com/watch?v=kzL8hB1zYLw&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=6&t=270s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306808" },
+    { questionId: 78, questionText: "見出し｢はじめに｣の下のスマイルの図形に､スタイル｢パステル-ゴールド､アクセント4｣を適用してください｡", videoUrl: "https://www.youtube.com/watch?v=kzL8hB1zYLw&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=6&t=293s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306801" },
+    { questionId: 79, questionText: "見出し｢保護者の皆様へ｣の下の写真の明るさを｢+20%｣コントラストを｢+20%｣に設定してください｡", videoUrl: "https://www.youtube.com/watch?v=kzL8hB1zYLw&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=6&t=327s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306809" },
+    { questionId: 80, questionText: "見出し｢特別な給食イベント｣内の画像の背景を削除します｡", videoUrl: "https://www.youtube.com/watch?v=kzL8hB1zYLw&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=6&t=363s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306816" },
+    { questionId: 81, questionText: "見出し｢季節に合わせたメニュー｣の右にある太陽の図形の枠線の色を｢黄｣､太さを｢3pt｣に設定してください｡", videoUrl: "https://www.youtube.com/watch?v=kzL8hB1zYLw&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=6&t=384s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306794" },
+    { questionId: 82, questionText: "見出し「保護者の皆様へ」内のSmartArtグラフィックにスタイル｢光沢｣を適用してください｡", videoUrl: "https://www.youtube.com/watch?v=kzL8hB1zYLw&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=6&t=413s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306797" },
+    { questionId: 83, questionText: "見出し「保護者の皆様へ」内のSmartArtグラフィックの色を｢カラフル-アクセント5から6｣に変更してください｡", videoUrl: "https://www.youtube.com/watch?v=kzL8hB1zYLw&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=6&t=438s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306810" },
+    { questionId: 84, questionText: "見出し「保護者の皆様へ」内のSmartArtグラフィックに図形の効果「面取り」の「丸」を設定してください。（SmartArtグラフィック全体を選択します。）", videoUrl: "https://www.youtube.com/watch?v=kzL8hB1zYLw&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=6&t=469s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306804" },
+    { questionId: 85, questionText: "見出し｢まとめ｣内にある3Dモデルのビューを｢下｣に変更してください｡", videoUrl: "https://www.youtube.com/watch?v=kzL8hB1zYLw&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=6&t=583s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306793" },
+    { questionId: 86, questionText: "見出し｢展示会概要｣内のテキストボックスの最後に文字列｢100円お得!｣を追加してください｡", videoUrl: "https://www.youtube.com/watch?v=kzL8hB1zYLw&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=6&t=605s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306795" },
+    { questionId: 87, questionText: "見出し｢宇宙飛行士の体験｣内の吹き出しの図形に､文字列｢VRゴーグルの販売もあります｣を追加してください｡", videoUrl: "https://www.youtube.com/watch?v=kzL8hB1zYLw&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=6&t=621s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306807" },
+    { questionId: 88, questionText: "見出し｢展示会概要｣の下のSmartArtグラフィックの図形が､左から｢会場に行く｣｢入場券購入｣｢展示会へ!｣となるように､順序を入れ替えてください｡", videoUrl: "https://www.youtube.com/watch?v=kzL8hB1zYLw&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=6&t=639s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306806" },
+    { questionId: 89, questionText: "見出し｢ご来場の皆様へ｣の上にあるSmartArtの左右を入れ替えてください｡", videoUrl: "https://www.youtube.com/watch?v=kzL8hB1zYLw&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=6&t=688s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306811" },
+    { questionId: 90, questionText: "文書内のハートの図形を､段を基準にして中央揃え､余白を基準にして下方向の距離｢150mm｣に配置してください｡", videoUrl: "https://www.youtube.com/watch?v=kzL8hB1zYLw&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=6&t=712s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306818" },
+    { questionId: 91, questionText: "文章の先頭の｢月｣の図形の位置を｢右上に配置し､四角の枠に沿って文字列を折り返す｣に設定してください｡", videoUrl: "https://www.youtube.com/watch?v=kzL8hB1zYLw&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=6&t=748s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306803" },
+    { questionId: 92, questionText: "見出し｢ご来場の皆様へ｣内の写真について､文字列の折り返しを四角形に設定してください｡", videoUrl: "https://www.youtube.com/watch?v=kzL8hB1zYLw&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=6&t=793s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306819" },
+    { questionId: 93, questionText: "見出し｢展示会概要｣の下のSmartArtに､代替テキスト｢入場までの流れ1.会場に行く2.入場券購入3.展示会へ｣を設定してください｡", videoUrl: "https://www.youtube.com/watch?v=kzL8hB1zYLw&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=6&t=814s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306802" }
+  ],
+  // Word 6章（Q94〜103）
+project6: [
+    { questionId: 94,  questionText: "見出し｢目標｣にコメントを挿入してください｡コメントには｢具体的な数値目標が欲しいです｣と記述します｡", videoUrl: "https://www.youtube.com/watch?v=Kbk7iiB3SvY&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=7&t=1s",   videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306841" },
+    { questionId: 95,  questionText: "見出し｢1.概要｣のコメントに｢承知しました｡｣と返信してください｡", videoUrl: "https://www.youtube.com/watch?v=Kbk7iiB3SvY&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=7&t=25s",  videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306842" },
+    { questionId: 96,  questionText: "見出し｢3.提案サービス｣に挿入されているコメントを解決してください｡", videoUrl: "https://www.youtube.com/watch?v=Kbk7iiB3SvY&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=7&t=44s",  videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306838" },
+    { questionId: 97,  questionText: "文字列｢365日｣のコメントを削除してください｡", videoUrl: "https://www.youtube.com/watch?v=Kbk7iiB3SvY&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=7&t=58s",  videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306847" },
+    { questionId: 98,  questionText: "見出し｢6.結論｣内の｢サービス提案｣を｢プロジェクト｣に修正してください｡変更内容は記録します｡ただし､記録は終了して終わること｡", videoUrl: "https://www.youtube.com/watch?v=Kbk7iiB3SvY&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=7&t=78s",  videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306836" },
+    { questionId: 99,  questionText: "削除された箇所が二重取り消し線で表示されるよう変更履歴を設定し､｢AIによる問い合わせ対応、｣を削除してください｡変更した内容は記録します｡その後､変更履歴の記録を終了してください｡", videoUrl: "https://www.youtube.com/watch?v=Kbk7iiB3SvY&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=7&t=162s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306839" },
+    { questionId: 100, questionText: "変更内容の表示を｢すべての変更履歴/コメント｣にしてください｡次に､書式設定の変更履歴だけを表示し､表示したすべての変更を拒否してください｡", videoUrl: "https://www.youtube.com/watch?v=Kbk7iiB3SvY&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=7&t=228s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306843" },
+    { questionId: 101, questionText: "文章中の1つ目の変更履歴を承諾し､2つ目の変更履歴を元に戻してください｡", videoUrl: "https://www.youtube.com/watch?v=Kbk7iiB3SvY&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=7&t=274s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306846" },
+    { questionId: 102, questionText: "変更履歴をすべて承諾してください｡", videoUrl: "https://www.youtube.com/watch?v=Kbk7iiB3SvY&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=7&t=375s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306845" },
+    { questionId: 103, questionText: "変更履歴の記録をロックしてください｡パスワードは｢123｣に設定します｡", videoUrl: "https://www.youtube.com/watch?v=Kbk7iiB3SvY&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=7&t=397s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306840" }
+  ],
+  // Word 応用（Q104〜119）
+project7: [
+    { questionId: 104, questionText: "文字列｢まずは計画が重要です｣のハイパーリンクを削除してください｡", videoUrl: "https://www.youtube.com/watch?v=UX_xmLngqg0&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=8&t=1s",  videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306864" },
+    { questionId: 105, questionText: "フッダーを削除してください｡", videoUrl: "https://www.youtube.com/watch?v=UX_xmLngqg0&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=8&t=21s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306851" },
+    { questionId: 106, questionText: "透かしを削除してください｡", videoUrl: "https://www.youtube.com/watch?v=UX_xmLngqg0&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=8&t=34s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306863" },
+    { questionId: 107, questionText: "｢色彩豊かな花々...｣から始まる段落の段落前の間隔を削除してください｡", videoUrl: "https://www.youtube.com/watch?v=UX_xmLngqg0&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=8&t=44s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306852" },
+    { questionId: 108, questionText: "文書に｢ファセット(偶数ページ)｣のヘッダーを挿入してください｡", videoUrl: "https://www.youtube.com/watch?v=UX_xmLngqg0&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=8&t=77s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306861" },
+    { questionId: 109, questionText: "｢開催概要｣の見出しの下にある空の段落に4行3列の表を追加してください｡1列目に上から｢回｣｢日時｣｢場所｣｢参加費｣と入力します｡", videoUrl: "https://www.youtube.com/watch?v=UX_xmLngqg0&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=8&t=115s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306853" },
+    { questionId: 110, questionText: "文書内のSmartArtグラフィック内にある｢宇宙｣の図形のスタイルを｢パステル-青､アクセント1｣に変更してください｡", videoUrl: "https://www.youtube.com/watch?v=UX_xmLngqg0&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=8&t=163s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306862" },
+    { questionId: 111, questionText: "｢注意事項｣の見出し内の太陽の図形について､文字列の折り返しを四角形にし､右下に配置してください｡", videoUrl: "https://www.youtube.com/watch?v=UX_xmLngqg0&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=8&t=200s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306855" },
+    { questionId: 112, questionText: "挿入された箇所がピンクの色のみで表示されるように変更履歴を設定し、｢開催概要｣の見出しの後ろに「(日程追加の予定あり)」を挿入してください。変更した内容は記録し､変更後に記録は終了してください｡", videoUrl: "https://www.youtube.com/watch?v=UX_xmLngqg0&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=8&t=225s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306865" },
+    { questionId: 113, questionText: "文書の上下の余白を｢30mm｣に､行数を｢40｣に設定してください｡", videoUrl: "https://www.youtube.com/watch?v=UX_xmLngqg0&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=8&t=301s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306860" },
+    { questionId: 114, questionText: "見出し「持ち物リスト」から見出し「観測会の流れ」の「閉会の挨拶」までの段落を境界線のある2段組みに設定してください｡段の間隔は「2字」に設定してください｡", videoUrl: "https://www.youtube.com/watch?v=UX_xmLngqg0&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=8&t=395s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306859" },
+    { questionId: 115, questionText: "文書に「応用」という透かし文字を挿入してください。色を「赤」にします。", videoUrl: "https://www.youtube.com/watch?v=UX_xmLngqg0&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=8&t=451s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306854" },
+    { questionId: 116, questionText: "見出し｢お問い合わせ｣内にあるSmartArtグラフィックの､｢地球｣の図形について､レベルを1つ下げてください｡", videoUrl: "https://www.youtube.com/watch?v=UX_xmLngqg0&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=8&t=493s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306856" },
+    { questionId: 117, questionText: "ファイルを｢機密文書｣という名前でデスクトップに保存してください｡保存の際に､読み取りパスワード｢123｣を設定してください｡", videoUrl: "https://www.youtube.com/watch?v=UX_xmLngqg0&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=8&t=521s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306857" },
+    { questionId: 118, questionText: "文書内の月の図形を､代替テキストの読み上げ対象外にしてください｡", videoUrl: "https://www.youtube.com/watch?v=UX_xmLngqg0&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=8&t=544s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306858" },
+    { questionId: 119, questionText: "文書内にある太字が設定されている文字列のフォントの色を｢赤｣にすべて置換してください｡", videoUrl: "https://www.youtube.com/watch?v=UX_xmLngqg0&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=8&t=606s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306850" }
+  ],
+  
+
+        
     },
     // PowerPoint
     3: {
@@ -955,253 +1303,376 @@ const initialQuestionData = {
             }
         ],
         // 4章-表、グラフ、SmartArt、3Dモデル、メディアの挿入
+        // 4章-グラフ・メディアの挿入と設定
         project4: [
-            {
-                questionId: 40,
-                questionText: "スライド[アンケート結果]のコンテンツのプレースホルダーに､表のデータをもとに[集合縦棒]グラフを挿入し､グラフタイトルと凡例を非表示にしてください｡グラフのデータは､表のデータを利用しても､直接セルに入力してもかまいません｡"
-            },
-            {
-                questionId: 41,
-                questionText: "スライド2のSmartArtグラフィックを､箇条書きに変換してください｡"
-            },
-            {
-                questionId: 42,
-                questionText: "スライド4の個条書きをSmartArtグラフィック[横方向個条書きリスト]に変換してください｡"
-            },
-            {
-                questionId: 43,
-                questionText: "タイトルスライドに､オーディオ[決定ボタンを押す1.mp3]を挿入してください｡自動で再生されるようにします｡"
-            },
-            {
-                questionId: 44,
-                questionText: "スライド9のオーディオのフェードインを[05:00]に設定します｡スライド切り替え後も再生するようにしてください｡"
-            },
-            {
-                questionId: 45,
-                questionText: "スライド[競争と市場の変化]のビデオを5秒で開始し、10秒で終了するようにトリミングしてください｡停止するまで繰り返すようにします｡"
-            }
-        ],
-        // 5章-画面切り替えやアニメーションの適用
-        project5: [
-            {
-                questionId: 46,
-                questionText: "スライド1に､画面切り替え[フェード]を設定してください"
-            },
-            {
-                questionId: 47,
-                questionText: "スライド1の画面切り替えの効果のオプションを[黒いスクリーンから]に変更してください｡"
-            },
-            {
-                questionId: 48,
-                questionText: "すべてのスライドの画面切り替えの継続時間を､1秒に設定します｡"
-            },
-            {
-                questionId: 49,
-                questionText: "スライド2と4のスライドの画面切り替えが5秒後に自動的に切り替わるようにします｡"
-            },
-            {
-                questionId: 50,
-                questionText: "スライド2の画像に､強調のアニメーション[パルス]を設定してください"
-            },
-            {
-                questionId: 51,
-                questionText: "スライド3の3Dモデルに､下に回転する[スイング]のアニメーションを設定します｡"
-            },
-            {
-                questionId: 52,
-                questionText: "スライド[ジャンルと人気]のグラフに、[フェード]のアニメーションを設定します。アニメーションは系列別に再生されるようにしてください。"
-            },
-            {
-                questionId: 53,
-                questionText: "スライド[社会への影響]の矢印のアイコンに[ターン]のアニメーションを設定し、タイミングを[直前の動作と同時]にしてください。"
-            },
-            {
-                questionId: 54,
-                questionText: "スライドの[アニメと文化の交流]の画像に､アニメーションの軌跡[アーチ]を設定してください｡"
-            },
-            {
-                questionId: 55,
-                questionText: "スライド[社会への影響]に設定されているアニメーションが､上の図から表示されるように変更します｡"
-            }
-        ],
-        // 6章-Wordで学習済みの内容
-        project6: [
-            {
-                questionId: 56,
-                questionText: "スライド[1]のタイトルに､太字､文字の影､フォントの色[青-アクセント1､黒+基本色25%]を設定します｡"
-            },
-            {
-                questionId: 57,
-                questionText: "スライド2の箇条書きを2段組に設定します｡段の幅は[1cm]にしてください｡"
-            },
-            {
-                questionId: 58,
-                questionText: "スライド6のテキストボックスに箇条書きを設定してください。行頭文字は[塗りつぶし四角の行頭文字]にしてください。"
-            },
-            {
-                questionId: 59,
-                questionText: "スライド24に､画像[japason.png]を挿入し､タイトルの下に配置してください｡"
-            },
-            {
-                questionId: 60,
-                questionText: "スライド24の画像の高さを10cmに設定してください｡"
-            },
-            {
-                questionId: 61,
-                questionText: "スライド21の下の画像を､上の画像に合わせて右側をトリミングしてください｡"
-            },
-            {
-                questionId: 62,
-                questionText: "スライド2の画像に､アート効果[ペイント:描線]､ぼかし[2.5ポイント]を適用してください｡"
-            },
-            {
-                questionId: 63,
-                questionText: "スライド5の画像に､図のスタイル[シンプルな枠､黒]を適用します｡"
-            },
-            {
-                questionId: 64,
-                questionText: "スライド12の雲の図形を､太陽の図形に変更してください｡"
-            },
-            {
-                questionId: 65,
-                questionText: "スライド8のタイトル下に横書きテキストボックスを挿入し､[たくさんのスタイルがあります]と入力してください｡"
-            },
-            {
-                questionId: 66,
-                questionText: "スライド8のテキストボックスの幅を､10cmに変更します｡"
-            },
-            {
-                questionId: 67,
-                questionText: "スライド8のテキストボックスのフォントサイズを[20]､フォントの色を[赤､アクセント4]に変更してください｡"
-            },
-            {
-                questionId: 68,
-                questionText: "スライド11のベルのアイコンに､スタイル[塗りつぶし-アクセント4､枠線なし]を適用してください｡"
-            },
-            {
-                questionId: 69,
-                questionText: "スライド11のベルのアイコンについて､枠線の太さを3ptに変更します｡"
-            },
-            {
-                questionId: 70,
-                questionText: "スライド18のプレースホルダーに2列3行の表を挿入し､1行目の1列目に[花火]､1行目の2列目に[屋台]と入力します｡"
-            },
-            {
-                questionId: 71,
-                questionText: "スライド17にある表の[その他]の行を削除してください"
-            },
-            {
-                questionId: 72,
-                questionText: "スライド17の表に[スタイル(中間)2]の表のスタイルを適用します｡続いて､1行おきに色が変わるオプションを有効にしてください。"
-            },
-            {
-                questionId: 73,
-                questionText: "スライド[盆踊りの歴史と起源]にSmartArtグラフィック[カード型リスト]を挿入し､テキストウィンドウの上から[歴史][起源]と入力してください｡不要な図形は削除します｡"
-            },
-            {
-                questionId: 74,
-                questionText: "スライド7のSmartArtグラフィックの[スタイル]と[衣装]のあいだに 図形を追加し､[音楽]と入力してください｡"
-            },
-            {
-                questionId: 75,
-                questionText: "スライド7のSmartArtグラフィックの[音楽]の図形を､スタイルよりも前に移動してください｡"
-            },
-            {
-                questionId: 76,
-                questionText: "スライド24に､3Dモデル[turtle.obj]を挿入し､幅を3cmに設定してください｡3Dモデルはタイトルの右側に配置します｡"
-            },
-            {
-                questionId: 77,
-                questionText: "スライド[結論]の3Dモデルのビューを[右上全面]に変更してください｡"
-            }
-        ],
-        // 7章-Excelで学習済みの内容
-        project7: [
-            {
-                questionId: 78,
-                questionText: "プレゼンテーションのプロパティの会社に[株式会社じゃぱそん]を設定してください｡"
-            },
-            {
-                questionId: 79,
-                questionText: "ドキュメント検査を実行し､プレゼンテーションノートだけを削除してください｡"
-            },
-            {
-                questionId: 80,
-                questionText: "アクセシビリティチェックを実行し､エラーを修正します｡代替テキストなしの1つめに､[歴史と起源]を設定します｡"
-            },
-            {
-                questionId: 81,
-                questionText: "スライド22にコメント[ファクトチェックお願いします]を挿入してください｡"
-            },
-            {
-                questionId: 82,
-                questionText: "スライド1のコメントを削除してください｡"
-            },
-            {
-                questionId: 83,
-                questionText: "プレゼンテーションをPDFとして[PDF版]の名前でデスクトップに保存します｡発行後にファイルは開かないようにしてください｡"
-            },
-            {
-                questionId: 84,
-                questionText: "スライド1の文字列[日本の伝統文化について詳しく見る]に､Webページ[https://mos.japason.co.jp/]を表示するハイパーリンクを挿入してください｡"
-            },
-            {
-                questionId: 85,
-                questionText: "スライド[14]の画像に､代替テキスト[踊っている女性の影]を設定"
-            },
-            {
-                questionId: 86,
-                questionText: "スライド5のグラフにグラフスタイル[スタイル2]を適用してください｡"
-            },
-            {
-                questionId: 87,
-                questionText: "スライド19のグラフを[集合縦棒]に変更してください｡その他の項目は変更しません｡"
-            }
-        ],
-        // 応用問題
-        project8: [
-            {
-                questionId: 88,
-                questionText: "スライド[プレゼンテーションの概要]と[結論]を除いた[サマライズ版]という目的別スライドショーを作成してください。"
-            },
-            {
-                questionId: 89,
-                questionText: "タイトルスライド以外のすべてのスライドに､スライド番号を挿入してください｡"
-            },
-            {
-                questionId: 90,
-                questionText: "スライドマスターに[タイトルのみ-日付強調]という名前のレイアウトを作成｡[タイトルのみ]と同じレイアウトにし､フッターの日付のプレースホルダーを太字に変更します｡"
-            },
-            {
-                questionId: 91,
-                questionText: "スライド[教育とキャリアの関係]のテキストボックスの2段組を解除してください｡"
-            },
-            {
-                questionId: 92,
-                questionText: "アクセシビリティチェックを実行し､代替テキストが設定されていない1枚目のスライドの画像を装飾用に設定してください｡"
-            },
-            {
-                questionId: 93,
-                questionText: "ドキュメント検査を実行し､スライド外のコンテンツだけを削除してください｡"
-            },
-            {
-                questionId: 94,
-                questionText: "[タイトルとコンテンツ]レイアウトの背景のグラフィックを非表示にしてください｡"
-            },
-            {
-                questionId: 95,
-                questionText: "グリッドを表示します。グリッドの間隔は[2cm]に設定してください。"
-            },
-            {
-                questionId: 96,
-                questionText: "スライド[社会的信頼の構築]の個条書きのテキストボックスに下線の色[青､アクセント4]の[一重線]を設定し､文字の間隔を広げて､幅[1.2pt]に設定してください｡"
-            },
-            {
-                questionId: 97,
-                questionText: "スライド[資格がキャリアに与える影響]内の画像の高さ･幅を､18%に変更してください｡"
-            }
-        ]
+    {
+      questionId: 40,
+      questionText: "スライド[アンケート結果]のコンテンツのプレースホルダーに､表のデータをもとに[集合縦棒]グラフを挿入し､グラフタイトルと凡例を非表示にしてください｡グラフのデータは､表のデータを利用しても､直接セルに入力してもかまいません｡",
+      videoUrl: "https://www.youtube.com/watch?v=yHsomxOLHRs&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=5",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60643002"
     },
+    {
+      questionId: 41,
+      questionText: "スライド2のSmartArtグラフィックを､箇条書きに変換してください｡",
+      videoUrl: "https://www.youtube.com/watch?v=yHsomxOLHRs&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=5&t=197s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60643003"
+    },
+    {
+      questionId: 42,
+      questionText: "スライド4の個条書きをSmartArtグラフィック[縦方向個条書きリスト]に変換してください｡",
+      videoUrl: "https://www.youtube.com/watch?v=yHsomxOLHRs&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=5&t=284s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60643006"
+    },
+    {
+      questionId: 43,
+      questionText: "タイトルスライドに､オーディオ[決定ボタンを押す1.mp3]を挿入してください｡自動で再生されるようにします｡",
+      videoUrl: "https://www.youtube.com/watch?v=yHsomxOLHRs&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=5&t=416s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60643005"
+    },
+    {
+      questionId: 44,
+      questionText: "スライド9のオーディオのフェードインを[05:00]に設定します｡スライド切り替え後も再生するようにしてください｡",
+      videoUrl: "https://www.youtube.com/watch?v=yHsomxOLHRs&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=5&t=477s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60643007"
+    },
+    {
+      questionId: 45,
+      questionText: "スライド[競争と市場の変化]のビデオを5秒で開始し、10秒で終了するようにトリミングしてください｡停止するまで繰り返すようにします｡",
+      videoUrl: "https://www.youtube.com/watch?v=yHsomxOLHRs&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=5&t=578s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60643004"
+    }
+  ],
+  
+        // 5章-画面切り替えやアニメーションの適用
+        // 5章-画面切り替え・アニメーション
+project5: [
+    {
+      questionId: 46,
+      questionText: "スライド1に､画面切り替え[フェード]を設定してください",
+      videoUrl: "https://www.youtube.com/watch?v=YY2aAKEwcM4&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=6",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/61118688"
+    },
+    {
+      questionId: 47,
+      questionText: "スライド1の画面切り替えの効果のオプションを[黒いスクリーンから]に変更してください｡",
+      videoUrl: "https://www.youtube.com/watch?v=YY2aAKEwcM4&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=6&t=14s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60643025"
+    },
+    {
+      questionId: 48,
+      questionText: "すべてのスライドの画面切り替えの継続時間を､1秒に設定します｡",
+      videoUrl: "https://www.youtube.com/watch?v=YY2aAKEwcM4&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=6&t=31s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60643018"
+    },
+    {
+      questionId: 49,
+      questionText: "スライド2と4のスライドの画面切り替えが5秒後に自動的に切り替わるようにします｡",
+      videoUrl: "https://www.youtube.com/watch?v=YY2aAKEwcM4&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=6&t=144s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60643022"
+    },
+    {
+      questionId: 50,
+      questionText: "スライド2の画像に､強調のアニメーション[パルス]を設定してください",
+      videoUrl: "https://www.youtube.com/watch?v=YY2aAKEwcM4&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=6&t=286s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60643021"
+    },
+    {
+      questionId: 51,
+      questionText: "スライド3の3Dモデルに､下に回転する[スイング]のアニメーションを設定します｡",
+      videoUrl: "https://www.youtube.com/watch?v=YY2aAKEwcM4&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=6&t=316s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60643020"
+    },
+    {
+      questionId: 52,
+      questionText: "スライド[ジャンルと人気]のグラフに、[フェード]のアニメーションを設定します。アニメーションは系列別に再生されるようにしてください。",
+      videoUrl: "https://www.youtube.com/watch?v=YY2aAKEwcM4&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=6&t=350s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60643023"
+    },
+    {
+      questionId: 53,
+      questionText: "スライド[社会への影響]の矢印のアイコンに[ターン]のアニメーションを設定し、タイミングを[直前の動作と同時]にしてください。",
+      videoUrl: "https://www.youtube.com/watch?v=YY2aAKEwcM4&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=6&t=401s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60643017"
+    },
+    {
+      questionId: 54,
+      questionText: "スライドの[アニメと文化の交流]の画像に､アニメーションの軌跡[アーチ]を設定してください｡",
+      videoUrl: "https://www.youtube.com/watch?v=YY2aAKEwcM4&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=6&t=451s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60643019"
+    },
+    {
+      questionId: 55,
+      questionText: "スライド[社会への影響]に設定されているアニメーションが､上の図から表示されるように変更します｡",
+      videoUrl: "https://www.youtube.com/watch?v=YY2aAKEwcM4&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=6&t=547s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60643024"
+    }
+  ],
+  
+// 6章-文字・図形・表などの書式設定
+project6: [
+    {
+      questionId: 56,
+      questionText: "スライド[1]のタイトルに､太字､文字の影､フォントの色[青-アクセント1､黒+基本色25%]を設定します｡",
+      videoUrl: "https://www.youtube.com/watch?v=xsbQhiOdh7g&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=7&t=21s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60660474"
+    },
+    {
+      questionId: 57,
+      questionText: "スライド2の箇条書きを2段組に設定します｡段の幅は[1cm]にしてください｡",
+      videoUrl: "https://www.youtube.com/watch?v=xsbQhiOdh7g&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=7&t=76s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60643042"
+    },
+    {
+      questionId: 58,
+      questionText: "スライド6のテキストボックスに箇条書きを設定してください。行頭文字は[塗りつぶし四角の行頭文字]にしてください。",
+      videoUrl: "https://www.youtube.com/watch?v=xsbQhiOdh7g&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=7&t=146s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60643049"
+    },
+    {
+      questionId: 59,
+      questionText: "スライド24に､画像[japason.png]を挿入し､タイトルの下に配置してください｡",
+      videoUrl: "https://www.youtube.com/watch?v=xsbQhiOdh7g&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=7&t=253s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60643038"
+    },
+    {
+      questionId: 60,
+      questionText: "スライド24の画像の高さを10cmに設定してください｡",
+      videoUrl: "https://www.youtube.com/watch?v=xsbQhiOdh7g&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=7&t=316s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60643035"
+    },
+    {
+      questionId: 61,
+      questionText: "スライド21の下の画像を､上の画像に合わせて右側をトリミングしてください｡",
+      videoUrl: "https://www.youtube.com/watch?v=xsbQhiOdh7g&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=7&t=343s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60643033"
+    },
+    {
+      questionId: 62,
+      questionText: "スライド2の画像に､アート効果[ペイント:描線]､ぼかし[2.5ポイント]を適用してください｡",
+      videoUrl: "https://www.youtube.com/watch?v=xsbQhiOdh7g&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=7&t=448s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60643036"
+    },
+    {
+      questionId: 63,
+      questionText: "スライド5の画像に､図のスタイル[シンプルな枠､黒]を適用します｡",
+      videoUrl: "https://www.youtube.com/watch?v=xsbQhiOdh7g&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=7&t=577s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60643037"
+    },
+    {
+      questionId: 64,
+      questionText: "スライド12の雲の図形を､太陽の図形に変更してください｡",
+      videoUrl: "https://www.youtube.com/watch?v=xsbQhiOdh7g&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=7&t=688s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60660693"
+    },
+    {
+      questionId: 65,
+      questionText: "スライド8のタイトル下に横書きテキストボックスを挿入し､[たくさんのスタイルがあります]と入力してください｡",
+      videoUrl: "https://www.youtube.com/watch?v=xsbQhiOdh7g&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=7&t=714s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60643051"
+    },
+    {
+      questionId: 66,
+      questionText: "スライド8のテキストボックスの幅を､10cmに変更します｡",
+      videoUrl: "https://www.youtube.com/watch?v=xsbQhiOdh7g&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=7&t=757s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60643043"
+    },
+    {
+      questionId: 67,
+      questionText: "スライド8のテキストボックスのフォントサイズを[20]､フォントの色を[赤､アクセント4]に変更してください｡",
+      videoUrl: "https://www.youtube.com/watch?v=xsbQhiOdh7g&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=7&t=774s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60643039"
+    },
+    {
+      questionId: 68,
+      questionText: "スライド11のベルのアイコンに､スタイル[塗りつぶし-アクセント4､枠線なし]を適用してください｡",
+      videoUrl: "https://www.youtube.com/watch?v=xsbQhiOdh7g&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=7&t=810s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60643032"
+    },
+    {
+      questionId: 69,
+      questionText: "スライド11のベルのアイコンについて､枠線の太さを3ptに変更します｡",
+      videoUrl: "https://www.youtube.com/watch?v=xsbQhiOdh7g&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=7&t=848s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60643040"
+    },
+    {
+      questionId: 70,
+      questionText: "スライド18のプレースホルダーに2列3行の表を挿入し､1行目の1列目に[花火]､1行目の2列目に[屋台]と入力します｡",
+      videoUrl: "https://www.youtube.com/watch?v=xsbQhiOdh7g&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=7&t=869s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60643048"
+    },
+    {
+      questionId: 71,
+      questionText: "スライド17にある表の[その他]の行を削除してください",
+      videoUrl: "https://www.youtube.com/watch?v=xsbQhiOdh7g&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=7&t=976s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60643034"
+    },
+    {
+      questionId: 72,
+      questionText: "スライド17の表に[スタイル(中間)2]の表のスタイルを適用します｡続いて､1行おきに色が変わるオプションを有効にしてください。",
+      videoUrl: "https://www.youtube.com/watch?v=xsbQhiOdh7g&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=7&t=999s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60643047"
+    },
+    {
+      questionId: 73,
+      questionText: "スライド[盆踊りの歴史と起源]にSmartArtグラフィック[カード型リスト]を挿入し､テキストウィンドウの上から[歴史][起源]と入力してください｡不要な図形は削除します｡",
+      videoUrl: "https://www.youtube.com/watch?v=xsbQhiOdh7g&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=7&t=1084s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60643050"
+    },
+    {
+      questionId: 74,
+      questionText: "スライド7のSmartArtグラフィックの[スタイル]と[衣装]のあいだに 図形を追加し､[音楽]と入力してください｡",
+      videoUrl: "https://www.youtube.com/watch?v=xsbQhiOdh7g&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=7&t=1181s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60643031"
+    },
+    {
+      questionId: 75,
+      questionText: "スライド7のSmartArtグラフィックの[音楽]の図形を､スタイルよりも前に移動してください｡",
+      videoUrl: "https://www.youtube.com/watch?v=xsbQhiOdh7g&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=7&t=1288s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60643046"
+    },
+    {
+      questionId: 76,
+      questionText: "スライド24に､3Dモデル[turtle.obj]を挿入し､幅を3cmに設定してくだい｡3Dモデルはタイトルの右側に配置します｡",
+      videoUrl: "https://www.youtube.com/watch?v=xsbQhiOdh7g&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=7&t=1323s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60643045"
+    },
+    {
+      questionId: 77,
+      questionText: "スライド[結論]の3Dモデルのビューを[右上全面]に変更してください",
+      videoUrl: "https://www.youtube.com/watch?v=xsbQhiOdh7g&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=7&t=1379s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60643044"
+    }
+  ],
+  
+        // 7章-プロパティ・コメント・PDFなど
+project7: [
+    {
+      questionId: 78,
+      questionText: "プレゼンテーションのプロパティの会社に[株式会社じゃぱそん]を設定してください｡",
+      videoUrl: "https://www.youtube.com/watch?v=ig3-IIrGjKQ&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=8&t=1s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60643068"
+    },
+    {
+      questionId: 79,
+      questionText: "ドキュメント検査を実行し､プレゼンテーションノートだけを削除してください｡",
+      videoUrl: "https://www.youtube.com/watch?v=ig3-IIrGjKQ&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=8&t=44s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60643071"
+    },
+    {
+      questionId: 80,
+      questionText: "アクセシビリティチェックを実行し､エラーを修正します｡代替テキストなしの1つめに､[歴史と起源]を設定します｡",
+      videoUrl: "https://www.youtube.com/watch?v=ig3-IIrGjKQ&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=8&t=76s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60643073"
+    },
+    {
+      questionId: 81,
+      questionText: "スライド22にコメント[ファクトチェックお願いします]を挿入してください｡",
+      videoUrl: "https://www.youtube.com/watch?v=ig3-IIrGjKQ&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=8&t=115s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60643074"
+    },
+    {
+      questionId: 82,
+      questionText: "スライド1のコメントを削除してください｡",
+      videoUrl: "https://www.youtube.com/watch?v=ig3-IIrGjKQ&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=8&t=150s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60643067"
+    },
+    {
+      questionId: 83,
+      questionText: "プレゼンテーションをPDFとして[PDF版]の名前でデスクトップに保存します｡発行後にファイルは開かないようにしてください｡",
+      videoUrl: "https://www.youtube.com/watch?v=ig3-IIrGjKQ&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=8&t=244s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60643072"
+    },
+    {
+      questionId: 84,
+      questionText: "スライド1の文字列[日本の伝統文化について詳しく見る]に､Webページ[https://mos.japason.co.jp/]を表示するハイパーリンクを挿入してください｡",
+      videoUrl: "https://www.youtube.com/watch?v=ig3-IIrGjKQ&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=8&t=297s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60643075"
+    },
+    {
+      questionId: 85,
+      questionText: "スライド[14]の画像に､代替テキスト[踊っている女性の影]を設定",
+      videoUrl: "https://www.youtube.com/watch?v=ig3-IIrGjKQ&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=8&t=364s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60643069"
+    },
+    {
+      questionId: 86,
+      questionText: "スライド5のグラフにグラフスタイル[スタイル2]を適用してください｡",
+      videoUrl: "https://www.youtube.com/watch?v=ig3-IIrGjKQ&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=8&t=411s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60643070"
+    },
+    {
+      questionId: 87,
+      questionText: "スライド19のグラフを[集合縦棒]に変更してください｡その他の項目は変更しません｡",
+      videoUrl: "https://www.youtube.com/watch?v=ig3-IIrGjKQ&list=PLOrJMC_Nq6xoh5IcRPIJsZQn7xHFO_yq0&index=8&t=468s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60643066"
+    }
+  ],
+  
+        // 8章-応用・スライドショー・設定
+project8: [
+    {
+      questionId: 88,
+      questionText: "スライド[プレゼンテーションの概要]と[結論]を除いた[サマライズ版]という目的別スライドショーを作成してください。",
+      videoUrl: "https://www.youtube.com/watch?v=FtHfHb_IsN8&t=14s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60660686"
+    },
+    {
+      questionId: 89,
+      questionText: "タイトルスライド以外のすべてのスライドに､スライド番号を挿入してください｡",
+      videoUrl: "https://www.youtube.com/watch?v=FtHfHb_IsN8&t=61s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60660690"
+    },
+    {
+      questionId: 90,
+      questionText: "スライドマスターに[タイトルのみ-日付強調]という名前のレイアウトを作成｡[タイトルのみ]と同じレイアウトにし､フッターの日付のプレースホルダーを太字に変更します｡",
+      videoUrl: "https://www.youtube.com/watch?v=FtHfHb_IsN8&t=109s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60660682"
+    },
+    {
+      questionId: 91,
+      questionText: "スライド[教育とキャリアの関係]のテキストボックスの2段組を解除してください｡",
+      videoUrl: "https://www.youtube.com/watch?v=FtHfHb_IsN8&t=184s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60660684"
+    },
+    {
+      questionId: 92,
+      questionText: "アクセシビリティチェックを実行し､代替テキストが設定されていない1枚目のスライドの画像を装飾用に設定してください｡",
+      videoUrl: "https://www.youtube.com/watch?v=FtHfHb_IsN8&t=216s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60660691"
+    },
+    {
+      questionId: 93,
+      questionText: "ドキュメント検査を実行し､スライド外のコンテンツだけを削除してください｡",
+      videoUrl: "https://www.youtube.com/watch?v=FtHfHb_IsN8&t=255s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60660685"
+    },
+    {
+      questionId: 94,
+      questionText: "[タイトルとコンテンツ]レイアウトの背景のグラフィックを非表示にしてください｡",
+      videoUrl: "https://www.youtube.com/watch?v=FtHfHb_IsN8&t=298s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60660688"
+    },
+    {
+      questionId: 95,
+      questionText: "グリッドを表示します。グリッドの間隔は[2cm]に設定してください。",
+      videoUrl: "https://www.youtube.com/watch?v=FtHfHb_IsN8&t=327s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60660687"
+    },
+    {
+      questionId: 96,
+      questionText: "スライド[社会的信頼の構築]の個条書きのテキストボックスに下線の色[青､アクセント4]の[一重線]を設定し､文字の間隔を広げて､幅[1.2pt]に設定してください｡",
+      videoUrl: "https://www.youtube.com/watch?v=FtHfHb_IsN8&t=368s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60660683"
+    },
+    {
+      questionId: 97,
+      questionText: "スライド[資格がキャリアに与える影響]内の画像の高さ･幅を､18%に変更してください｡",
+      videoUrl: "https://www.youtube.com/watch?v=FtHfHb_IsN8&t=474s",
+      videoUrlNoCm: "https://school.japason.co.jp/courses/mospowerpoint/lectures/60660689"
+    }
+  ],
+},
+  
     // Excel Expert
     4: {
         project1: [
@@ -1212,17 +1683,106 @@ const initialQuestionData = {
     },
     // Word Expert
     5: {
+        projectNames: {
+            project1: "1章-文書のオプションと設定の管理",
+            project2: "2章-高度な編集機能や書式設定機能の利用",
+            project3: "3章-ユーザー設定のドキュメント要素の作成",
+            project4: "4章-高度なWord機能の利用",
+            project5: "応用"
+          },
+          
+      
         project1: [
-            {questionId: 1, questionText: "目次を作成してください。"},
-            {questionId: 2, questionText: "変更履歴を有効にしてください。"},
-            {questionId: 3, questionText: "マクロを記録してください。"}
+          { questionId: 1, questionText: "文書の最後に、文書「おまけ:通勤ランニングにオススメのリュック」の内容を挿入してください。文書「おまけ:通勤ランニングにオススメのリュック」を修正すると、修正内容がこの文書にも反映されるようにします。", videoUrl: "https://www.youtube.com/watch?v=WsgEDexmd6w&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=1&t=1s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039259" },
+          { questionId: 2, questionText: "文書の既定のフォントをこの文書だけ変更してください。日本語用のフォントを「Meiryo UI」に設定します。", videoUrl: "https://www.youtube.com/watch?v=WsgEDexmd6w&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=1&t=228s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039272" },
+          { questionId: 3, questionText: "現在開いている文書に、文書「1章-組み込み用資料」を組み込んでください。元の文書に現在開いている文書、変更された文書に｢1章-組み込み用資料」を指定し、変更内容は現在の文書に表示します。", videoUrl: "https://www.youtube.com/watch?v=WsgEDexmd6w&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=1&t=315s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039274" },
+          { questionId: 4, questionText: "現在の文書を規定の場所にテンプレートとして保存してください｡名前は｢MOS原本｣とします｡", videoUrl: "https://www.youtube.com/watch?v=WsgEDexmd6w&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=1&t=465s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039256" },
+          { questionId: 5, questionText: "書式の制限を設定して、利用できるスタイルを「見出し2」と「見出し3」だけにしてください。許可されていない書式やスタイルをクリアするかどうかのメッセージが表示された場合は「いいえ」をクリックし、文書は保護しないでください。", videoUrl: "https://www.youtube.com/watch?v=WsgEDexmd6w&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=1&t=609s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039264" },
+          { questionId: 6, questionText: "編集の制限を設定して、コメントだけを許可してください。文書は保護しないでください｡", videoUrl: "https://www.youtube.com/watch?v=WsgEDexmd6w&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=1&t=705s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039265" },
+          { questionId: 7, questionText: "見出し「通勤ランニングを始めるための準備とTips」内の「Tips」の校正言語を「英語(米国)」に設定してください。メッセージバーが表示された場合は、表示されたままにします。", videoUrl: "https://www.youtube.com/watch?v=WsgEDexmd6w&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=1&t=807s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039261" },
+          { questionId: 8, questionText: "見出し｢まとめ｣内の「田中慎也」に、ルビ「たなかしんや」を表示してください。", videoUrl: "https://www.youtube.com/watch?v=WsgEDexmd6w&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=1&t=884s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039269" }
+        ],
+      
+        project2: [
+          { questionId: 9, questionText: "文書内のすべてのタブ文字を、1/4スペースに置換してください。", videoUrl: "https://www.youtube.com/watch?v=GbeGbwUVCl4&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=2&t=1s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039303" },
+          { questionId: 10, questionText: "置換を使って、【】で囲まれた文字列に太字、フォントサイズ「14」を設定してください。【】も含めて置換します。", videoUrl: "https://www.youtube.com/watch?v=GbeGbwUVCl4&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=2&t=59s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039288" },
+          { questionId: 11, questionText: "文書内にあるフォントサイズ「28」のすべての文字列を、フォントサイズ「32」、フォントの色は標準の色の「青」に変更してください。", videoUrl: "https://www.youtube.com/watch?v=GbeGbwUVCl4&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=2&t=223s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039291" },
+          { questionId: 12, questionText: "スタイル「斜体」が適用されている箇所に、スタイル「強調斜体」が適用されるように変更してください。", videoUrl: "https://www.youtube.com/watch?v=GbeGbwUVCl4&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=2&t=351s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039302" },
+          { questionId: 13, questionText: "文書の最後にあるテキストボックスの「メールアドレス:xxx@japason.co.jp」という文字列をコピーして、「※お問い合わせはこちらへ→」の後ろに、貼り付け先の書式に合わせて貼り付けてください。", videoUrl: "https://www.youtube.com/watch?v=GbeGbwUVCl4&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=2&t=436s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039317" },
+          { questionId: 14, questionText: "ハイフンが自動で挿入されるように、ハイフネーションを設定してください。", videoUrl: "https://www.youtube.com/watch?v=GbeGbwUVCl4&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=2&t=515s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039292" },
+          { questionId: 15, questionText: "ページごとに行番号が表示されるように変更してください。", videoUrl: "https://www.youtube.com/watch?v=GbeGbwUVCl4&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=2&t=525s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039305" },
+          { questionId: 16, questionText: "見出し「心の安らぎ」の段落の前で自動的に改ページされるように設定してください。", videoUrl: "https://www.youtube.com/watch?v=GbeGbwUVCl4&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=2&t=619s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039296" },
+          { questionId: 17, questionText: "見出し「音楽やポッドキャスト」の下にある｢お気に入りの音楽やポッドキャストを聴きながら…｣で始まる段落に､改ページ位置の自動修正を設定して､段落内のすべての行が同じページに表示されるようにしてください｡見出しも同じページに表示します｡", videoUrl: "https://www.youtube.com/watch?v=GbeGbwUVCl4&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=2&t=670s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039289" },
+          { questionId: 18, questionText: "文字スタイル「補足」を作成してください。フォントサイズ「8」を設定し、この文書のみに適用します。", videoUrl: "https://www.youtube.com/watch?v=GbeGbwUVCl4&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=2&t=763s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039297" },
+          { questionId: 19, questionText: "段落スタイル「英訳」を作成し､下線､斜体を設定してください｡基準にするスタイルと次の段落のスタイルは｢標準｣とし､スタイルはこの文書のみに適用します｡次に､作成したスタイルを｢A morning walk is…｣から始まる段落に適用してください｡", videoUrl: "https://www.youtube.com/watch?v=GbeGbwUVCl4&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=2&t=889s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039290" },
+          { questionId: 20, questionText: "スタイル｢標準の表 1｣を基準に､表のスタイル｢表強調｣を作成してください｡タイトル行のフォントの色を｢白､背景1｣塗りつぶしの色を標準の色の｢青｣とします｡スタイルはこの文書のみに適用します｡次に､作成したスタイルを見出し｢まとめ｣の下にある2つの表に適用してください｡", videoUrl: "https://www.youtube.com/watch?v=GbeGbwUVCl4&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=2&t=1052s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039315" },
+          { questionId: 21, questionText: "スタイル｢Memo｣の左インデントを1字､段落前の間隔を｢0.5行｣に変更し､この文章のみに適用してください｡", videoUrl: "https://www.youtube.com/watch?v=GbeGbwUVCl4&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=2&t=1241s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039300" },
+          { questionId: 22, questionText: "スタイル｢見出し2｣の文字の効果を変更してください｡文字の塗りつぶしの既定のグラデーションを「中問グラデーション一アクセント2」に変更し、この文書のみに適用します。", videoUrl: "https://www.youtube.com/watch?v=GbeGbwUVCl4&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=2&t=1288s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039314" },
+          { questionId: 23, questionText: "表のスタイル｢ユーザー設定の表スタイル1｣を変更し､最初の列に塗りつぶしの色｢水色､アクセント4｣を追加してください｡スタイルはこの文書のみに適用します｡", videoUrl: "https://www.youtube.com/watch?v=GbeGbwUVCl4&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=2&t=1357s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039311" },
+          { questionId: 24, questionText: "テンプレート「kindle原稿(WordExpert用).dotx」から、スタイル「【問題】」をコピーしてください。テンプレートは添付しないでください。", videoUrl: "https://www.youtube.com/watch?v=GbeGbwUVCl4&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=2&t=1453s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039307" },
+          { questionId: 25, questionText: "文書「マクロコピー用文書」から、マクロをコピーしてください。", videoUrl: "https://www.youtube.com/watch?v=GbeGbwUVCl4&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=2&t=1608s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039308" }
+        ],
+      
+        project3: [
+          { questionId: 26, questionText: "文末のテキストボックスをクイックパーツとして保存してください。名前「著者情報(会社)」、説明「会社名と問い合わせ先」、分類「著者情報」、保存先「Building Blocks」とします。分類は新しく作成してください。", videoUrl: "https://www.youtube.com/watch?v=3mWyrqicAUo&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=3&t=1s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039330" },
+          { questionId: 27, questionText: "クイックパーツ｢著者情報(会社)｣の名前を｢著者情報(株式会社じゃぱそん)｣に変更してください｡内容が段落のまま挿入されるようにします｡", videoUrl: "https://www.youtube.com/watch?v=3mWyrqicAUo&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=3&t=119s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039320" },
+          { questionId: 28, questionText: "クイックパーツ「著者情報(株式会社じゃぱそん)」を削除してください。", videoUrl: "https://www.youtube.com/watch?v=3mWyrqicAUo&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=3&t=211s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039336" },
+          { questionId: 29, questionText: "現在の配色を変更して、「Word用配色」という名前の配色バターンを作成してください。アクセント1を赤｢40｣緑｢100｣青｢200｣にします｡", videoUrl: "https://www.youtube.com/watch?v=3mWyrqicAUo&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=3&t=236s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039323" },
+          { questionId: 30, questionText: "現在のフォントセットを変更して､｢マニュアル用フォント｣という名前のフォントセットを作成してください。日本語用の見出しのフォントを「Meiryo UI」に設定します｡", videoUrl: "https://www.youtube.com/watch?v=3mWyrqicAUo&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=3&t=366s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039322" },
+          { questionId: 31, questionText: "現在の文書に適用されている書式を「Word関連資料テーマ」という名前で、既定の場所にテーマとして保存してください。", videoUrl: "https://www.youtube.com/watch?v=3mWyrqicAUo&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=3&t=410s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039338" },
+          { questionId: 32, questionText: "現在の文書に適用されている書式を、｢Office関連資料スタイルセット｣という名前で既定の場所にスタイルセットとして保存してください。", videoUrl: "https://www.youtube.com/watch?v=3mWyrqicAUo&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=3&t=457s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039334" },
+          { questionId: 33, questionText: "見出し｢ショートカットキーを覚える｣内の｢Ctrl+C｣を索引登録してください｡", videoUrl: "https://www.youtube.com/watch?v=3mWyrqicAUo&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=3&t=713s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039333" },
+          { questionId: 34, questionText: "見出し｢索引｣の下の段落に､索引を挿入してください。書式は「クラシック」とし、1段組みで表示します。", videoUrl: "https://www.youtube.com/watch?v=3mWyrqicAUo&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=3&t=785s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039332" },
+          { questionId: 35, questionText: "見出し「基本操作を習得する」の表の上に、図表番号「表1Wordの基本操作一覧」を挿入してください。図表番号は表の上に挿入します｡", videoUrl: "https://www.youtube.com/watch?v=3mWyrqicAUo&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=3&t=820s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039327" },
+          { questionId: 36, questionText: "文書内の表に設定されている図表番号「表1 ･･･」を、「表A ･･･」に変更してください。", videoUrl: "https://www.youtube.com/watch?v=3mWyrqicAUo&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=3&t=887s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039331" },
+          { questionId: 37, questionText: "見出し「表一覧」の次の行に、表の図表目次を挿入してください。書式は「エレガント」、タブリーダーは｢-------｣とします。", videoUrl: "https://www.youtube.com/watch?v=3mWyrqicAUo&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=3&t=932s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039340" },
+          { questionId: 38, questionText: "新しい資料文献として､文献の種類「書籍」、著者「じゃぱそん」、タイトル｢MOS Word 365厳選問題集｣、年「2024」、発行元「株式会社じゃぱそん」を追加してください｡", videoUrl: "https://www.youtube.com/watch?v=3mWyrqicAUo&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=3&t=965s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039321" },
+          { questionId: 39, questionText: "見出し｢学習する｣内の本文「じゃぱそんの本」の後ろに引用文献として｢MOS Word 365厳選問題集｣を挿入してください。", videoUrl: "https://www.youtube.com/watch?v=3mWyrqicAUo&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=3&t=1013s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039337" },
+          { questionId: 40, questionText: "見出し｢その他｣の次の段落に､組み込みの文献目録を挿入してください｡", videoUrl: "https://www.youtube.com/watch?v=3mWyrqicAUo&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=3&t=1042s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039329" }
+        ],
+      
+        project4: [
+          { questionId: 41, questionText: "フッターに文書のタイトルを表示する「Title」フィールドを挿入してください。", videoUrl: "https://www.youtube.com/watch?v=GtZQh2Q4gi4&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=4&t=1s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039363" },
+          { questionId: 42, questionText: "文書の最後にある「や消費の見直しといった･･･」の前に、ブックマーク「固定費」を参照する「Ref」フィールドを挿入してください。", videoUrl: "https://www.youtube.com/watch?v=GtZQh2Q4gi4&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=4&t=158s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039353" },
+          { questionId: 43, questionText: "先頭ページの文字列｢更新日:｣の後ろに､SaveDateフィールドを追加します｡書式は初期値から変更しません｡", videoUrl: "https://www.youtube.com/watch?v=GtZQh2Q4gi4&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=4&t=198s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039354" },
+          { questionId: 44, questionText: "先頭ページの文字列｢更新日:｣の後ろのSaveDateフィールドの書式を､｢yyyy/M/d｣に変更してください｡", videoUrl: "https://www.youtube.com/watch?v=GtZQh2Q4gi4&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=4&t=224s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039345" },
+          { questionId: 45, questionText: "ヘッダーのフィールド[FileName]について､ファイル名の前にパスを表示するよう変更してください｡", videoUrl: "https://www.youtube.com/watch?v=GtZQh2Q4gi4&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=4&t=257s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039350" },
+          { questionId: 46, questionText: "見出し｢出費改善の重要性を理解するためのチェックリスト｣内の｢Q:出費改善が収入増加よりも･･･｣の前に､チェックボックスコンテンツコントロールを挿入します｡", videoUrl: "https://www.youtube.com/watch?v=GtZQh2Q4gi4&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=4&t=285s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039359" },
+          { questionId: 47, questionText: "｢Q:あなたの今の課題は何ですか?｣の次の段落に､ドロップダウンリストコンテンツコントロールを挿入してください｡タイトルは｢課題｣とし､リストに｢現状の把握｣｢出費の削減｣｢計画｣の3つが表示されるように設定します｡", videoUrl: "https://www.youtube.com/watch?v=GtZQh2Q4gi4&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=4&t=366s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039346" },
+          { questionId: 48, questionText: "｢私は･･･を行います｡｣内のコンテンツコントロール内で､改行ができないように設定してください｡", videoUrl: "https://www.youtube.com/watch?v=GtZQh2Q4gi4&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=4&t=428s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039355" },
+          { questionId: 49, questionText: "現在の文書に差し込み印刷の設定を行ってください。リストはブック「会員名簿」を使用します。", videoUrl: "https://www.youtube.com/watch?v=GtZQh2Q4gi4&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=4&t=469s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039348" },
+          { questionId: 50, questionText: "現在の文書に設定されている差し込み印刷のリストを編集し、「田中美咲」を印刷対象から除外してください。", videoUrl: "https://www.youtube.com/watch?v=GtZQh2Q4gi4&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=4&t=504s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039352" },
+          { questionId: 51, questionText: "この文書に設定されている差し込み印刷のリストの会員番号「1001」の「佐藤 太朗」の氏名を「佐藤 二朗」に変更して、変更内容を保存してください。", videoUrl: "https://www.youtube.com/watch?v=GtZQh2Q4gi4&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=4&t=522s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039356" },
+          { questionId: 52, questionText: "文書の先頭「会員番号:」の後ろに差し込みフィールド｢会員番号｣を挿入してください。", videoUrl: "https://www.youtube.com/watch?v=GtZQh2Q4gi4&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=4&t=556s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039362" },
+          { questionId: 53, questionText: "差し込み印刷の結果として、最後のレコードをプレビューしてください。", videoUrl: "https://www.youtube.com/watch?v=GtZQh2Q4gi4&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=4&t=580s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039361" },
+          { questionId: 54, questionText: "現在の文書に差し込み印刷の設定を行ってください。リストはデスクトップに「会員名簿」という名前で新しく作成し、 1件目のデータとして姓「田中」、名「慎也」と入力します。その他のフィールドは削除したり変更したりしないようにします。", videoUrl: "https://www.youtube.com/watch?v=GtZQh2Q4gi4&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=4&t=597s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039357" }
+        ],
+      
+        project5: [
+          { questionId: 55, questionText: "クイックアクセスツールバーに､上書き保存を追加してください｡", videoUrl: "https://www.youtube.com/watch?v=-KbAf5WNtW4&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=5&t=1s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039367" },
+          { questionId: 56, questionText: "自動回復用データを保存する問隔を「3」分に設定してください。", videoUrl: "https://www.youtube.com/watch?v=-KbAf5WNtW4&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=5&t=16s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039366" },
+          { questionId: 57, questionText: "文字列｢能力の証明｣を元に､選択中の文字列に太字と下線を設定するマクロ｢太字と下線｣を､現在開いている文章に作成してください｡", videoUrl: "https://www.youtube.com/watch?v=-KbAf5WNtW4&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=5&t=34s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039370" },
+          { questionId: 58, questionText: "現在の文書にあるマクロ｢スタイル設定｣のマクロ名を｢見出し２を設定｣に変更してください｡", videoUrl: "https://www.youtube.com/watch?v=-KbAf5WNtW4&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=5&t=50s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039371" },
+          { questionId: 59, questionText: "マクロ｢フォントサイズ変更｣を編集し､フォントサイズ｢16｣を｢20｣に変更してください｡", videoUrl: "https://www.youtube.com/watch?v=-KbAf5WNtW4&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=5&t=96s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039369" },
+          { questionId: 60, questionText: "デジタル署名されたマクロだけが有効になるように設定してください。", videoUrl: "https://www.youtube.com/watch?v=-KbAf5WNtW4&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=5&t=131s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039368" },
+          { questionId: 61, questionText: "文書を最終版にしてください。", videoUrl: "https://www.youtube.com/watch?v=-KbAf5WNtW4&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=5&t=158s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039365" }
+        ],
+      
+        project6: [
+          { questionId: 62, questionText: "テキストボックス内の｢Japason.inc｣を､小型英大文字に設定してください｡", videoUrl: "https://www.youtube.com/watch?v=ViwJ5a_KeTE&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=6&t=1s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039375" },
+          { questionId: 63, questionText: "スタイル｢見出し1｣を変更してください｡太字と､色が｢黒､テキスト1｣で太さが｢3pt｣の下罫線を設定します｡", videoUrl: "https://www.youtube.com/watch?v=ViwJ5a_KeTE&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=6&t=38s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039377" },
+          { questionId: 64, questionText: "見出し｢はじめに｣内の個条書き「紙媒体の魅力」と「読書文化の未来」を、｢1.読書の変化｣から始まる番号付きリストの最後に移動してください｡書式は移動先に合わせ、行頭文字が残った場合は削除します。", videoUrl: "https://www.youtube.com/watch?v=ViwJ5a_KeTE&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=6&t=156s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039376" },
+          { questionId: 65, questionText: "見出し｢はじめに｣内に設定された「タブレット」の索引項目を削除してください。次に、編集記号を非表示にした状態で、文書の最終ページにある索引を更新してください。", videoUrl: "https://www.youtube.com/watch?v=ViwJ5a_KeTE&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=6&t=246s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039379" },
+          { questionId: 66, questionText: "見出し｢読書の変化｣内にある｢電子書籍｣｢オーディオブック｣の2つを､｢読書の変化｣のサブ項目として索引に登録してください｡複数ある場合は､先頭の1件だけを登録します｡", videoUrl: "https://www.youtube.com/watch?v=ViwJ5a_KeTE&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=6&t=427s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039372" },
+          { questionId: 67, questionText: "編集の制限を設定して、文書の変更ができないようにしてください。ただし、見出し「はじめに」内の4つの段落番号はすべてのユーザーが変更できるようにします。編集の制限を解除するためのバスワードは「japa」とします。", videoUrl: "https://www.youtube.com/watch?v=ViwJ5a_KeTE&list=PLOrJMC_Nq6xredH8tO37p_1nOcW-pOfF_&index=6&t=559s", videoUrlNoCm: "https://school.japason.co.jp/courses/2808265/lectures/62039381" }
         ]
-    }
+      }
+      
 };
 
 // LocalStorageからデータを読み込む関数
 function loadQuestionData() {
-    const savedData = localStorage.getItem('questionData');
+    const savedData = sessionStorage.getItem('questionData');
     if (savedData) {
         try {
             return JSON.parse(savedData);
@@ -1237,7 +1797,9 @@ function loadQuestionData() {
 // データを保存する関数
 function saveQuestionData(data) {
     try {
-        localStorage.setItem('questionData', JSON.stringify(data));
+        //セッションへの保存に変更
+        //localStorage.setItem('questionData', JSON.stringify(data));
+        SessionStorage.setItem('questionData', JSON.stringify(data));
     } catch (e) {
         console.error('データの保存に失敗しました:', e);
     }

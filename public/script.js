@@ -84,7 +84,13 @@ function restoreState() {
             }
             
             currentProject = state.currentProject;
-            currentQuestion = state.currentQuestion;
+            // プロジェクトごとの最後に開いた問題を優先して復元
+            const savedPerProject = parseInt(localStorage.getItem(`lastQuestion_p${currentProject}`));
+            if (!Number.isNaN(savedPerProject) && savedPerProject > 0) {
+                currentQuestion = savedPerProject;
+            } else {
+                currentQuestion = state.currentQuestion || getFirstQuestionId(currentProject);
+            }
             
             // UI更新
             updateUIState();
@@ -138,7 +144,7 @@ function moveToPreviousProject() {
     } else {
         currentProject = maxProjects; // 最後のプロジェクトに戻る
     }
-    currentQuestion = getFirstQuestionId(currentProject);
+    currentQuestion = getSavedOrFirstQuestionId(currentProject);
     updateUIState();
     initializeQuestionNav(); // 問題番号のタブを更新
     saveState();
@@ -154,13 +160,21 @@ function getFirstQuestionId(projectNumber) {
     
     return projectData[0].questionId;
 }
+// プロジェクトごとに保存された最後の問題、なければ先頭の問題を返す
+function getSavedOrFirstQuestionId(projectNumber) {
+    const saved = parseInt(localStorage.getItem(`lastQuestion_p${projectNumber}`));
+    if (!Number.isNaN(saved) && saved > 0) {
+        return saved;
+    }
+    return getFirstQuestionId(projectNumber);
+}
 function moveToNextProject() {
     const maxProjects = getAvailableProjects();
     
     if (currentProject < maxProjects) {
         // 通常の次のプロジェクトへの移動
         currentProject++;
-        currentQuestion = getFirstQuestionId(currentProject);
+        currentQuestion = getSavedOrFirstQuestionId(currentProject);
         updateUIState();
         initializeQuestionNav(); // 問題番号のタブを更新
         saveState();
@@ -308,6 +322,8 @@ function initializeQuestionNav() {
         
         button.onclick = () => {
             currentQuestion = question.questionId;
+            // プロジェクトごとの最後に開いた問題を保存
+            localStorage.setItem(`lastQuestion_p${currentProject}`, String(currentQuestion));
             updateUIState();
             saveState();
         };
@@ -401,6 +417,8 @@ function initializeReviewPage() {
 function goToQuestion(project, question) {
     currentProject = project;
     currentQuestion = question;
+    // プロジェクトごとの最後に開いた問題を保存
+    localStorage.setItem(`lastQuestion_p${currentProject}`, String(currentQuestion));
     saveState();
     window.location.href = 'select.html';
 }
@@ -513,7 +531,7 @@ function updateProjectTabs() {
         tab.textContent = `${i}章-${projectName}`;
         tab.onclick = () => {
             currentProject = i;
-            currentQuestion = 1;
+            currentQuestion = getSavedOrFirstQuestionId(i);
             updateUIState();
             saveState();
         };
