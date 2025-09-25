@@ -198,8 +198,8 @@ function updateUIState() {
         updateProjectTabs();
     }
 
-    // 応用問題（project6）の場合、パスワード認証を確認
-    if (currentProject === 6 && !isProject6Unlocked) {
+    // 応用問題（project6）の場合、パスワード認証を確認（Excelの場合のみ）
+    if (currentProject === 6 && selectedApp === 1 && !isProject6Unlocked) {
         if (!authenticateProject6()) {
             // パスワード認証失敗時は前のプロジェクトに戻る
             localStorage.setItem('currentProject', '5');
