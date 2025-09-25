@@ -696,9 +696,8 @@ const initialQuestionData = {
           project7: "応用問題"
         },
       
-      
         // Word 1章
-project1: [
+        project1: [
     {
       questionId: 1,
       questionText: "文書内の｢ハイキング｣を検索し､太字を設定してください｡",
@@ -851,8 +850,8 @@ project1: [
     }
   ],
   
-// Word 2章
-project2: [
+        // Word 2章
+        project2: [
     {
       questionId: 26,
       questionText: "見出し｢可燃ゴミの収集日｣内の｢朝7時｣の後ろに､時計の記号を挿入してください｡フォント｢Segoe UI Symbol｣の文字コード｢1F556｣(Clock Face Seven Oclock)を指定します｡",
@@ -961,9 +960,9 @@ project2: [
       videoUrl: "https://www.youtube.com/watch?v=w_BUdTm-6Hc&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=3&t=679s",
       videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306713"
     }
-  ],
-  // Word 3章（Q44〜63）
-project3: [
+        ],
+        // Word 3章（Q44〜63）
+        project3: [
     { questionId: 44, questionText: "見出し｢トレーニングスケジュール｣の下5つの段落を文字列の幅に合わせて表にしてください｡(その他は規定の設定のままとします)", videoUrl: "https://www.youtube.com/watch?v=26fX62oDKAc&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=4&t=1s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306770" },
     { questionId: 45, questionText: "見出し｢マラソン後のリカバリープラン内の表を､文字列に変換してください｡文字列はコンマで区切ります｡", videoUrl: "https://www.youtube.com/watch?v=26fX62oDKAc&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=4&t=53s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306774" },
     { questionId: 46, questionText: "文書の最後に5行3列の行を作成し､1行目に左から｢日程｣｢大会名｣｢距離｣と入力してください｡", videoUrl: "https://www.youtube.com/watch?v=26fX62oDKAc&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=4&t=124s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306756" },
@@ -984,9 +983,19 @@ project3: [
     { questionId: 61, questionText: "｢興味のある分野を…｣から｢…テーマを決定｣までの段落のリストのレベルを｢レベル2｣に変更してください｡", videoUrl: "https://www.youtube.com/watch?v=26fX62oDKAc&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=4&t=873s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306766" },
     { questionId: 62, questionText: "見出し｢技術･工作｣の下4つの段落について､開始番号を｢ア｣から順になるように振り直してください｡", videoUrl: "https://www.youtube.com/watch?v=26fX62oDKAc&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=4&t=906s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306765" },
     { questionId: 63, questionText: "見出し｢プレゼンテーションの準備｣の下の箇条書きが｢4｣から始まるように変更してください｡", videoUrl: "https://www.youtube.com/watch?v=26fX62oDKAc&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=4&t=951s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306768" }
-  ],
-  // Word 5章（Q71〜93）
-project5: [
+        ],
+        // Word 4章（Q64〜70）
+        project4: [
+            { questionId: 64, questionText: "見出し「参考資料の作成と管理」の下に、目次を挿入してください。", videoUrl: "https://example.com/word/q64", videoUrlNoCm: "https://example.com/word/q64-nocm" },
+            { questionId: 65, questionText: "文書の最後に参考文献を挿入してください。", videoUrl: "https://example.com/word/q65", videoUrlNoCm: "https://example.com/word/q65-nocm" },
+            { questionId: 66, questionText: "脚注を挿入してください。", videoUrl: "https://example.com/word/q66", videoUrlNoCm: "https://example.com/word/q66-nocm" },
+            { questionId: 67, questionText: "索引を作成してください。", videoUrl: "https://example.com/word/q67", videoUrlNoCm: "https://example.com/word/q67-nocm" },
+            { questionId: 68, questionText: "図表番号を挿入してください。", videoUrl: "https://example.com/word/q68", videoUrlNoCm: "https://example.com/word/q68-nocm" },
+            { questionId: 69, questionText: "相互参照を挿入してください。", videoUrl: "https://example.com/word/q69", videoUrlNoCm: "https://example.com/word/q69-nocm" },
+            { questionId: 70, questionText: "文書の更新を確認してください。", videoUrl: "https://example.com/word/q70", videoUrlNoCm: "https://example.com/word/q70-nocm" }
+        ],
+        // Word 5章（Q71〜93）
+        project5: [
     { questionId: 71, questionText: "見出し｢給食の目的｣の下の空の段落に､画像｢ご飯.jpg｣を挿入し､幅を｢100mm｣に設定してください｡", videoUrl: "https://www.youtube.com/watch?v=kzL8hB1zYLw&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=6&t=1s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306812" },
     { questionId: 72, questionText: "見出し｢はじめに｣の下にある図形スマイルの右側に､図形｢ハート｣を挿入してください｡", videoUrl: "https://www.youtube.com/watch?v=kzL8hB1zYLw&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=6&t=42s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306813" },
     { questionId: 73, questionText: "見出し｢季節に合わせたメニュー｣の前の段落に､SmartArtグラフィック｢円形循環｣を挿入してください｡テキストウィンドウの上から｢春｣｢夏｣｢秋｣と入力し､続けて｢冬｣を追加してください｡", videoUrl: "https://www.youtube.com/watch?v=kzL8hB1zYLw&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=6&t=100s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306817" },
@@ -1010,9 +1019,9 @@ project5: [
     { questionId: 91, questionText: "文章の先頭の｢月｣の図形の位置を｢右上に配置し､四角の枠に沿って文字列を折り返す｣に設定してください｡", videoUrl: "https://www.youtube.com/watch?v=kzL8hB1zYLw&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=6&t=748s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306803" },
     { questionId: 92, questionText: "見出し｢ご来場の皆様へ｣内の写真について､文字列の折り返しを四角形に設定してください｡", videoUrl: "https://www.youtube.com/watch?v=kzL8hB1zYLw&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=6&t=793s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306819" },
     { questionId: 93, questionText: "見出し｢展示会概要｣の下のSmartArtに､代替テキスト｢入場までの流れ1.会場に行く2.入場券購入3.展示会へ｣を設定してください｡", videoUrl: "https://www.youtube.com/watch?v=kzL8hB1zYLw&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=6&t=814s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306802" }
-  ],
-  // Word 6章（Q94〜103）
-project6: [
+        ],
+        // Word 6章（Q94〜103）
+        project6: [
     { questionId: 94,  questionText: "見出し｢目標｣にコメントを挿入してください｡コメントには｢具体的な数値目標が欲しいです｣と記述します｡", videoUrl: "https://www.youtube.com/watch?v=Kbk7iiB3SvY&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=7&t=1s",   videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306841" },
     { questionId: 95,  questionText: "見出し｢1.概要｣のコメントに｢承知しました｡｣と返信してください｡", videoUrl: "https://www.youtube.com/watch?v=Kbk7iiB3SvY&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=7&t=25s",  videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306842" },
     { questionId: 96,  questionText: "見出し｢3.提案サービス｣に挿入されているコメントを解決してください｡", videoUrl: "https://www.youtube.com/watch?v=Kbk7iiB3SvY&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=7&t=44s",  videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306838" },
@@ -1023,9 +1032,9 @@ project6: [
     { questionId: 101, questionText: "文章中の1つ目の変更履歴を承諾し､2つ目の変更履歴を元に戻してください｡", videoUrl: "https://www.youtube.com/watch?v=Kbk7iiB3SvY&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=7&t=274s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306846" },
     { questionId: 102, questionText: "変更履歴をすべて承諾してください｡", videoUrl: "https://www.youtube.com/watch?v=Kbk7iiB3SvY&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=7&t=375s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306845" },
     { questionId: 103, questionText: "変更履歴の記録をロックしてください｡パスワードは｢123｣に設定します｡", videoUrl: "https://www.youtube.com/watch?v=Kbk7iiB3SvY&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=7&t=397s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306840" }
-  ],
-  // Word 応用（Q104〜119）
-project7: [
+        ],
+        // Word 応用（Q104〜119）
+        project7: [
     { questionId: 104, questionText: "文字列｢まずは計画が重要です｣のハイパーリンクを削除してください｡", videoUrl: "https://www.youtube.com/watch?v=UX_xmLngqg0&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=8&t=1s",  videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306864" },
     { questionId: 105, questionText: "フッダーを削除してください｡", videoUrl: "https://www.youtube.com/watch?v=UX_xmLngqg0&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=8&t=21s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306851" },
     { questionId: 106, questionText: "透かしを削除してください｡", videoUrl: "https://www.youtube.com/watch?v=UX_xmLngqg0&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=8&t=34s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306863" },
