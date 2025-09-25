@@ -1051,10 +1051,7 @@ const initialQuestionData = {
     { questionId: 117, questionText: "ファイルを｢機密文書｣という名前でデスクトップに保存してください｡保存の際に､読み取りパスワード｢123｣を設定してください｡", videoUrl: "https://www.youtube.com/watch?v=UX_xmLngqg0&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=8&t=521s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306857" },
     { questionId: 118, questionText: "文書内の月の図形を､代替テキストの読み上げ対象外にしてください｡", videoUrl: "https://www.youtube.com/watch?v=UX_xmLngqg0&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=8&t=544s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306858" },
     { questionId: 119, questionText: "文書内にある太字が設定されている文字列のフォントの色を｢赤｣にすべて置換してください｡", videoUrl: "https://www.youtube.com/watch?v=UX_xmLngqg0&list=PLOrJMC_Nq6xpv-GhkjJjCQzP87lZy4X8n&index=8&t=606s", videoUrlNoCm: "https://school.japason.co.jp/courses/mos365word/lectures/62306850" }
-  ],
-  
-
-        
+        ]
     },
     // PowerPoint
     3: {
