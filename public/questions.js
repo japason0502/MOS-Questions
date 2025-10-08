@@ -2833,10 +2833,845 @@ const initialQuestionData = {
 
   // Excel Expert
   4: {
+    projectNames: {
+      project1: "1章-ブックのオプションと設定の管理",
+      project2: "2章-データの管理と書式設定",
+      project3: "3章-高度な機能を利用した数式およびマクロの作成",
+      project4: "4章-高度な機能を利用したグラフやテーブルの管理",
+      project5: "応用",
+    },
+    // Excel Expert（Q1〜91）
+
     project1: [
-      { questionId: 1, questionText: "ピボットテーブルを作成してください。" },
-      { questionId: 2, questionText: "スライサーを追加してください。" },
-      { questionId: 3, questionText: "条件付き書式を設定してください。" },
+      {
+        questionId: 1,
+        questionText:
+          "10分ごとに自動回復用データを保存するようにブックを設定してください。",
+        videoUrl:
+          "https://www.youtube.com/watch?v=evyxmUUH8AU&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=2&t=367s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/admin-app/courses/2611855/curriculum/lessons/63278219",
+      },
+      {
+        questionId: 2,
+        questionText:
+          "シート「お菓子の評価」の｢評価」の列のデータをパスワードを知っているユーザーだけが編集できるように設定し､ワークシートを保護してください｡パスワードはどちらも「pass」とします。",
+        videoUrl:
+          "https://www.youtube.com/watch?v=evyxmUUH8AU&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=2&t=44s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278215",
+      },
+      {
+        questionId: 3,
+        questionText:
+          "「おかしへのコメント」シートで、コメント列のセル範囲のロックを解除して、それ以外のセルは編集できないようにシートを保護してください。",
+        videoUrl:
+          "https://www.youtube.com/watch?v=evyxmUUH8AU&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=2&t=81s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278214",
+      },
+      {
+        questionId: 4,
+        questionText:
+          "パスワード「japa」でシート「成績一覧」を保護してください。ワークシートを保護したあとも、ユーザーがすべてのセル範囲の選択とオートフィルターを使用できるようにします。",
+        videoUrl:
+          "https://www.youtube.com/watch?v=evyxmUUH8AU&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=2&t=152s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278220",
+      },
+      {
+        questionId: 5,
+        questionText: "シートの移動や削除ができないように設定してください。",
+        videoUrl:
+          "https://www.youtube.com/watch?v=evyxmUUH8AU&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=2&t=250s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278217",
+      },
+      {
+        questionId: 6,
+        questionText:
+          "計算方法を手動に設定してください。ブックの保存前に再計算が行われるようにします。",
+        videoUrl:
+          "https://www.youtube.com/watch?v=evyxmUUH8AU&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=2&t=303s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278216",
+      },
+      {
+        questionId: 7,
+        questionText:
+          "「文字列形式の数値、またはアポストロフィで始まる数値」が入力されていても、エラーチェックしないようにExcelの設定を変更してください。",
+        videoUrl:
+          "https://www.youtube.com/watch?v=evyxmUUH8AU&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=2&t=325s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278218",
+      },
+    ],
+
+    project2: [
+      {
+        questionId: 8,
+        questionText:
+          "シート｢フィル｣の「カテゴリ」の列に、「製品コード」の列の「-(ハイフン)」の前のデータを、フラッシュフィルを使って入力してください。製品コードが「A-123」の場合は、「A」と入力します。",
+        videoUrl:
+          "https://www.youtube.com/watch?v=_1uK3igdH4g&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=3&t=81s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278233",
+      },
+      {
+        questionId: 9,
+        questionText:
+          "シート｢フィル｣の｢販売予定日｣の列に､セルA3を開始日として､｢14｣ずつ増加する連続データを入力してください｡《連続データ》ダイアログボックスで作成します。",
+        videoUrl:
+          "https://www.youtube.com/watch?v=_1uK3igdH4g&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=3&t=125s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278223",
+      },
+      {
+        questionId: 10,
+        questionText:
+          "シート｢フィル｣のセルA8を起点に､「1001」から「1100」までの連続データを入力してください。《連続データ》ダイアログボックスで作成します。",
+        videoUrl:
+          "https://www.youtube.com/watch?v=_1uK3igdH4g&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=3&t=177s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278229",
+      },
+      {
+        questionId: 11,
+        questionText:
+          "シート｢表示形式･入力規則｣の販売開始日の列について､2024/1/1の場合は｢1-2024｣(月-西暦)と表示されるように表示形式を設定してください｡",
+        videoUrl:
+          "https://www.youtube.com/watch?v=_1uK3igdH4g&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=3&t=247s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278239",
+      },
+      {
+        questionId: 12,
+        questionText:
+          "シート｢表示形式･入力規則｣コメントの列について､｢濃厚な味わいで満足感があります。｣の場合は｢コメント:濃厚な味わいで満足感があります。｣と､文頭に｢コメント:｣が表示されるように表示形式を設定してください｡",
+        videoUrl:
+          "https://www.youtube.com/watch?v=_1uK3igdH4g&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=3&t=395s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278224",
+      },
+      {
+        questionId: 13,
+        questionText:
+          "シート｢表示形式･入力規則｣の｢番号｣の列の表示形式を変更し､｢001番｣｢002番｣･･･となるように設定してください｡",
+        videoUrl:
+          "https://www.youtube.com/watch?v=_1uK3igdH4g&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=3&t=583s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278230",
+      },
+      {
+        questionId: 14,
+        questionText:
+          "シート｢フィル｣の表の｢販売予定日｣列の表示形式を変更し、｢2024/7/1(月)｣となるように設定してください｡()は半角で入力します｡",
+        videoUrl:
+          "https://www.youtube.com/watch?v=_1uK3igdH4g&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=3&t=675s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278226",
+      },
+      {
+        questionId: 15,
+        questionText:
+          "シート｢表示形式･入力規則｣の｢評価｣の列に､1~10の整数のみを入力できるように設定してください｡無効な値が入力された場合は｢1~10の整数のみ入力できます｡｣の停止のエラーメッセージを表示します｡",
+        videoUrl:
+          "https://www.youtube.com/watch?v=_1uK3igdH4g&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=3&t=791s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278225",
+      },
+      {
+        questionId: 16,
+        questionText:
+          "シート「表示形式･入力規則」の表の「また食べたいか」の列について、ドロップダウンリストから選択して入力できるように設定してください。ドロップダウンリストの値には、同シート内の表｢選択肢｣の値を利用します｡",
+        videoUrl:
+          "https://www.youtube.com/watch?v=_1uK3igdH4g&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=3&t=949s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278237",
+      },
+      {
+        questionId: 17,
+        questionText:
+          "シート｢表示形式･入力規則｣の｢コメント｣の列を選択すると､日本語入力モードが自動的に｢オン｣になるように入力規則を設定してください｡",
+        videoUrl:
+          "https://www.youtube.com/watch?v=_1uK3igdH4g&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=3&t=1089s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278240",
+      },
+      {
+        questionId: 18,
+        questionText:
+          "シート「グループ化」の「受験場所」が「東京」と「神戸」のデータをそれぞれグループ化してください。",
+        videoUrl:
+          "https://www.youtube.com/watch?v=_1uK3igdH4g&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=3&t=1153s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278242",
+      },
+      {
+        questionId: 19,
+        questionText: "シート｢グループ化｣のグループ化を解除してください｡",
+        videoUrl:
+          "https://www.youtube.com/watch?v=_1uK3igdH4g&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=3&t=1255s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278235",
+      },
+      {
+        questionId: 20,
+        questionText:
+          "シート｢受験科目回別得点一覧｣について､アウトラインを自動作成してください｡",
+        videoUrl:
+          "https://www.youtube.com/watch?v=_1uK3igdH4g&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=3&t=1301s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278238",
+      },
+      {
+        questionId: 21,
+        questionText:
+          "シート｢小計｣の表に、受験場所ごとの得点の平均と全体の得点の平均を求める集計行をデータの下に挿入してください。並び替えが必要な場合は昇順で並び替えます｡",
+        videoUrl:
+          "https://www.youtube.com/watch?v=_1uK3igdH4g&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=3&t=1331s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278228",
+      },
+      {
+        questionId: 22,
+        questionText:
+          "｢重複削除｣シートの表から､学生IDが重複しているレコードを削除してください｡受験日が新しいデータを残します｡",
+        videoUrl:
+          "https://www.youtube.com/watch?v=_1uK3igdH4g&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=3&t=1456s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278231",
+      },
+      {
+        questionId: 23,
+        questionText:
+          "シート｢条件付き書式｣内の表の｢合計｣列について､値が6000より下のセルの文字が､テーマの色の｢青､アクセント1､黒+基本色25%｣で表示されるように設定してください｡数値が変更されたら､書式が自動で反映されるようにします｡",
+        videoUrl:
+          "https://www.youtube.com/watch?v=_1uK3igdH4g&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=3&t=1561s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278227",
+      },
+      {
+        questionId: 24,
+        questionText:
+          "シート｢条件付き書式｣の｢平均｣列に､アイコンセットを表示してください｡数値が｢600｣以上のセルに｢緑のチェックマーク｣､それ以外の｢400｣以上のセルには｢黄色のダッシュ記号｣､｢400｣未満のセルには｢赤の下向き三角形｣アイコンを表示します｡",
+        videoUrl:
+          "https://www.youtube.com/watch?v=_1uK3igdH4g&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=3&t=1723s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278244",
+      },
+      {
+        questionId: 25,
+        questionText:
+          "シート「数式を使った条件」の列「合計」が「6000」より大きい場合、「社員ID」と「社員名」の文字が太字、標準の色の「青」で表示されるように設定してください。数値が変更されたら、書式が自動的に更新されるようにします。",
+        videoUrl:
+          "https://www.youtube.com/watch?v=_1uK3igdH4g&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=3&t=1852s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278236",
+      },
+      {
+        questionId: 26,
+        questionText:
+          "シート「数式を使った条件」の列「平均」が「500」以下の場合、レコードが背景色の一覧の｢最終行の左から4番目の黄色」で塗りつぶされるように設定してください。。数値が変更されたら、書式が自動的に更新されるようにします。",
+        videoUrl:
+          "https://www.youtube.com/watch?v=_1uK3igdH4g&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=3&t=2104s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278241",
+      },
+      {
+        questionId: 27,
+        questionText:
+          "シート｢条件付き書式｣の1月から12月のデータに設定されている条件付き書式のうち､下位20%に適用されているルールについて､フォントを太字に､塗りつぶしの色を背景色の一覧の「最終行の右から3番目の青」に変更してください｡",
+        videoUrl:
+          "https://www.youtube.com/watch?v=_1uK3igdH4g&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=3&t=2396s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278234",
+      },
+    ],
+
+    project3: [
+      {
+        questionId: 28,
+        questionText:
+          "シート｢RAND｣の｢インセンティブ｣の列に､RANDARRAY関数を使って､｢1000｣｢2000｣｢3000｣のいずれかをランダムに表示してください｡RANDARRAY関数の他に､数式を追加してもかまいません｡",
+        videoUrl:
+          "https://www.youtube.com/watch?v=C-hv-8RwQks&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=4&t=130s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278246",
+      },
+      {
+        questionId: 29,
+        questionText:
+          "シート｢IF･IFS｣の｢得点ランク｣の列に､得点が「80」以上であれば「A」、「60」以上であれば「B」を表示し、該当しない場合は何も表示しないようにする数式を入力してください。関数は1種類のみ使用します｡",
+        videoUrl:
+          "https://www.youtube.com/watch?v=C-hv-8RwQks&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=4&t=550s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278247",
+      },
+      {
+        questionId: 30,
+        questionText:
+          "シート｢IF･IFS｣の列｢区分｣に､SWITCH関数を使用して､｢初心者/経験者｣の値が「経験者」の場合は「1」、初心者の場合は「0」、その他の場合は｢不明｣を表示します。関数は1種類のみ使用します｡",
+        videoUrl:
+          "https://www.youtube.com/watch?v=C-hv-8RwQks&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=4&t=633s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278256",
+      },
+      {
+        questionId: 31,
+        questionText:
+          "シート｢IF･IFS｣のセルB2に､テーブル「得点表」の結果が｢突破｣のセルの数を数える数式を入力してください｡",
+        videoUrl:
+          "https://www.youtube.com/watch?v=C-hv-8RwQks&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=4&t=736s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278264",
+      },
+      {
+        questionId: 32,
+        questionText:
+          "シート｢IF･IFS｣のセルB5に、テーブル「得点表」の「得点」の平均を表示する数式を入力してください。「結果」がセルB4の条件に一致する得点の平均を表示します。",
+        videoUrl:
+          "https://www.youtube.com/watch?v=C-hv-8RwQks&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=4&t=832s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278250",
+      },
+      {
+        questionId: 33,
+        questionText:
+          "シート｢IF･IFS｣のセルB8に、テーブル「結果一覧」の｢結果｣が再試験で､｢初心者/経験者｣が｢初心者｣の最高点を表示する数式を入力してください。",
+        videoUrl:
+          "https://www.youtube.com/watch?v=C-hv-8RwQks&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=4&t=955s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278249",
+      },
+      {
+        questionId: 34,
+        questionText:
+          "シート｢IF･IFS｣のセルB12に、結果が｢突破｣で､｢初心者/経験者｣が｢経験者｣の人数を表示する数式を入力してください。結果はB10､初心者/経験者はB11を参照します｡数式は、条件が変更された場合でも再計算されるようにします。",
+        videoUrl:
+          "https://www.youtube.com/watch?v=C-hv-8RwQks&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=4&t=1055s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278251",
+      },
+      {
+        questionId: 35,
+        questionText:
+          "シート｢IF･IFS｣のセルF8:F10の｢最低点｣の列に､結果が｢再試験｣の､｢初心者/経験者｣ごとの最低点を表示する数式を入力してください｡最低点は｢得点｣の列をもとにして､結果はセルF6を参照します｡表の書式は変更しないようにします｡",
+        videoUrl:
+          "https://www.youtube.com/watch?v=C-hv-8RwQks&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=4&t=1240s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278255",
+      },
+      {
+        questionId: 36,
+        questionText:
+          "VLOOKUP関数を使用して､シート｢Lookup｣の｢商品名｣の列に､「商品コード」と一致する「商品名」を表示してください。「商品名」はシート「商品マスタ」の表を参照します｡",
+        videoUrl:
+          "https://www.youtube.com/watch?v=lwSR7ftLNqM&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=5&t=1s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278248",
+      },
+      {
+        questionId: 37,
+        questionText:
+          "シート｢Lookup｣の｢転売の警戒｣の列に､｢転売の警戒表｣を検索して｢数量｣に対応する｢警戒レベル｣を表示する数式を入力してください｡",
+        videoUrl:
+          "https://www.youtube.com/watch?v=lwSR7ftLNqM&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=5&t=184s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278253",
+      },
+      {
+        questionId: 38,
+        questionText:
+          "シート｢Lookup｣の｢店舗名｣の列に､｢店舗ID｣と一致する｢店舗名｣を表示してください｡｢店舗マスタ｣の表を参照します｡",
+        videoUrl:
+          "https://www.youtube.com/watch?v=lwSR7ftLNqM&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=5&t=384s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278265",
+      },
+      {
+        questionId: 39,
+        questionText:
+          "シート｢Lookup｣の｢支払い方法｣の列に､｢支払区分｣と一致する｢支払い方法｣を表紙してください｡シート｢支払い方法｣の表を参照します｡",
+        videoUrl:
+          "https://www.youtube.com/watch?v=lwSR7ftLNqM&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=5&t=541s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278262",
+      },
+      {
+        questionId: 40,
+        questionText:
+          "MATCH関数とINDEX関数を使用して､シート｢INDEX･MATCH｣の｢商品名｣の列に､「商品コード」と一致する「商品名」を表示してください。「商品名」はシート「商品マスタ」の表を参照します｡",
+        videoUrl:
+          "https://www.youtube.com/watch?v=-qC13wmhHfI&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=6",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278258",
+      },
+      {
+        questionId: 41,
+        questionText:
+          "シート｢AND｣内のテーブルの｢誰向け｣の列に関数を1つ追加して､｢価格｣が｢30000｣円以下かつ､｢発売日｣が｢2024/6/1｣以降のレコードの場合｢初心者向け｣､それ以外の場合は｢玄人向け｣を表示するよう変更してください",
+        videoUrl:
+          "https://www.youtube.com/watch?v=-qC13wmhHfI&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=6&t=302s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278257",
+      },
+      {
+        questionId: 42,
+        questionText:
+          "シート「IF･IFS」の「全国平均との差」の列に入力されている数式を、「LET関数」を使って名前を割り当てた式に変更してください。「$I$10」に「全国平均」と名前を割り当てます。",
+        videoUrl:
+          "https://www.youtube.com/watch?v=-qC13wmhHfI&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=6&t=428s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278261",
+      },
+      {
+        questionId: 43,
+        questionText:
+          "シート｢日付･時刻｣のセルA1に現在の日時を表示する数式を入力してください｡",
+        videoUrl:
+          "https://www.youtube.com/watch?v=I3mngCVFij8&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=7",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278254",
+      },
+      {
+        questionId: 44,
+        questionText:
+          "｢1~7(月~)｣の列に､日付の曜日番号を表す数値を表示してください。月曜日を「1」とします｡",
+        videoUrl:
+          "https://www.youtube.com/watch?v=I3mngCVFij8&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=7&t=31s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278263",
+      },
+      {
+        questionId: 45,
+        questionText:
+          "列｢到着日｣に､WORKDAY関数を使って､注文日から配達までにかかる日数が経過した日付を表示する数式を入力してください｡注文日と配達までにかかる日数はセルを参照し､休日はテーブル｢休日一覧8月｣の｢日付｣列を参照します｡",
+        videoUrl:
+          "https://www.youtube.com/watch?v=I3mngCVFij8&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=7&t=77s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278259",
+      },
+      {
+        questionId: 46,
+        questionText:
+          "シート「7」「8」「9」の3つの表を統合し、シート「7-9」のセルA2を開始位置として、走行距離合計を求める表を作成してください。",
+        videoUrl:
+          "https://www.youtube.com/watch?v=ukAWYwe6Qxc&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=8",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278279",
+      },
+      {
+        questionId: 47,
+        questionText:
+          "シート「1回目」「2回目」の2つの表を統合し、シート「1回目と2回目の平均」のセルB2を開始位置として、得点の平均を求める表を作成してください。",
+        videoUrl:
+          "https://www.youtube.com/watch?v=ukAWYwe6Qxc&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=8&t=139s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278269",
+      },
+      {
+        questionId: 48,
+        questionText:
+          "シート「トライアスロン練習」のセルB2が120%と150%になるシナリオを登録し、シナリオ名をそれぞれ「120%」｢150%｣とします｡シナリオ名は半角で登録します｡登録後にシナリオの表示はしないでください。次に、シナリオの情報レポートを表示し、セルB5,C5,D5の結果を比較してください。",
+        videoUrl:
+          "https://www.youtube.com/watch?v=ukAWYwe6Qxc&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=8&t=322s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278272",
+      },
+      {
+        questionId: 49,
+        questionText:
+          "シート「カロリー計算」の計が「2100」となるように、セルB4に最適な数値を表示してください。",
+        videoUrl:
+          "https://www.youtube.com/watch?v=ukAWYwe6Qxc&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=8&t=479s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278278",
+      },
+      {
+        questionId: 50,
+        questionText:
+          "「財務」シートのセル D3に「金額」と「支払い額(月)」に対応する支払い回数を表示する数式を入力してください。利率は年5%とします｡",
+        videoUrl:
+          "https://www.youtube.com/watch?v=FHJYxAUqJ4A&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=9",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278268",
+      },
+      {
+        questionId: 51,
+        questionText:
+          "「財務」シートのセル C4に「金額」と「支払い回数」に対応する支払い額(月)を表示する数式を入力してください。利率と支払期日は､表の値を使用します｡",
+        videoUrl:
+          "https://www.youtube.com/watch?v=FHJYxAUqJ4A&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=9&t=166s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278270",
+      },
+      {
+        questionId: 52,
+        questionText:
+          "シート「ガジェット一覧」のセルA15に、テーブル「ガジェット一覧」から「カテゴリ」が「モバイルデバイス」のデータをすべて抽出する数式を入力してください。セルB13のカテゴリが変更されても、再計算されるようにします。",
+        videoUrl:
+          "https://www.youtube.com/watch?v=FHJYxAUqJ4A&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=9&t=329s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278280",
+      },
+      {
+        questionId: 53,
+        questionText:
+          "セルA19に「カテゴリ」が「コンピュータ」の｢ガジェット名｣をすべて抽出する数式を入力してください。",
+        videoUrl:
+          "https://www.youtube.com/watch?v=FHJYxAUqJ4A&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=9&t=804s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278273",
+      },
+      {
+        questionId: 54,
+        questionText:
+          "シート「ガジェット一覧」のセルA23に、テーブル「ガジェット一覧」のデータを並べ替えて表示する数式を入力してください。「価格(円)」の高い順に並べ替え、「価格(円)」が同じ場合は「販売日」が新しい順に並べ替えます。",
+        videoUrl:
+          "https://www.youtube.com/watch?v=FHJYxAUqJ4A&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=9&t=904s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278271",
+      },
+      {
+        questionId: 55,
+        questionText:
+          "シート｢カロリー計算｣のセルB7をウォッチウィンドウに追加してください｡",
+        videoUrl:
+          "https://www.youtube.com/watch?v=eA0MZFcc3lY&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=10",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278276",
+      },
+      {
+        questionId: 56,
+        questionText:
+          "シート｢数量✕単価｣のエラーが含まれるセルをチェックしてください。次に、数式を上のセルからコピーしてエラーを修正してください。",
+        videoUrl:
+          "https://www.youtube.com/watch?v=eA0MZFcc3lY&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=10&t=83s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278277",
+      },
+      {
+        questionId: 57,
+        questionText:
+          "シート｢マクロ関連｣のA2セルを選択した上で､マクロの記録を開始します｡\n登録する操作:選択中のセルに太字､下線を設定する\nマクロ名は｢太字と下線｣､マクロの保存先は｢作業中のブック｣とします｡マクロは実行しません｡",
+        videoUrl:
+          "https://www.youtube.com/watch?v=DPkNlcQ5PkE&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=11",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278283",
+      },
+      {
+        questionId: 58,
+        questionText:
+          "ブックに保存された｢Macro2｣の名前を｢セル範囲を選択｣に変更します｡マクロは実行しないでください｡",
+        videoUrl:
+          "https://www.youtube.com/watch?v=DPkNlcQ5PkE&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=11&t=335s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278285",
+      },
+      {
+        questionId: 59,
+        questionText:
+          "マクロ「copy」のコード「selectedCell.Offset(0,2).Value」\nを「selectedCell.Offset(2,0).Value」に変更して､選択中のセルの値を2つ下にコピーするように変更します｡マクロは実行しないでください｡",
+        videoUrl:
+          "https://www.youtube.com/watch?v=DPkNlcQ5PkE&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=11&t=473s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278284",
+      },
+      {
+        questionId: 60,
+        questionText:
+          "マクロの設定を｢警告をせずに､VBAマクロを無効にする｣に設定してください｡",
+        videoUrl:
+          "https://www.youtube.com/watch?v=DPkNlcQ5PkE&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=11&t=584s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278286",
+      },
+      {
+        questionId: 61,
+        questionText:
+          "マクロのファイル｢じゃぱマクロ｣を作業中のブックにインポートします。マクロは実行しないでください｡",
+        videoUrl:
+          "https://www.youtube.com/watch?v=DPkNlcQ5PkE&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=11&t=751s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278287",
+      },
+    ],
+
+    project4: [
+      {
+        questionId: 62,
+        questionText:
+          "シート「走行距離と時間」の走った距離を集合縦棒グラフ、時間を折れ線グラフで表した複合グラフを作成してください。時間を第2軸、各月を項目軸に表示します。",
+        videoUrl:
+          "https://www.youtube.com/watch?v=QDAXUCNhGow&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=12&t=57s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278300",
+      },
+      {
+        questionId: 63,
+        questionText:
+          "シート「走行距離と時間」の表の「時間」のデータをもとに、ばらつきを表すヒストグラムを作成してください。ビンの幅を「100」に設定し、「400」以下と「800」より上の値をそれぞれまとめて表示します。",
+        videoUrl:
+          "https://www.youtube.com/watch?v=QDAXUCNhGow&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=12&t=172s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278292",
+      },
+      {
+        questionId: 64,
+        questionText:
+          "シート｢走行距離と時間｣内の積み上げ縦棒グラフを､パレート図に変更してください｡",
+        videoUrl:
+          "https://www.youtube.com/watch?v=QDAXUCNhGow&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=12&t=308s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278289",
+      },
+      {
+        questionId: 65,
+        questionText:
+          "シート「YouTuber一覧」のテーブル「YouTuber一覧」をもとに、同じシートのセルA16を開始位置としてピボットテーブルを作成してください。「カテゴリ」ごとに「視聴者数(万人)」と「チャンネル登録者数(万人)」の平均を表示してください｡",
+        videoUrl:
+          "https://www.youtube.com/watch?v=QDAXUCNhGow&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=12&t=382s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278290",
+      },
+      {
+        questionId: 66,
+        questionText:
+          "シート｢YouTuber一覧pivo｣のピボットテーブルについて､初回投稿日ごとの空白行を削除してください｡",
+        videoUrl:
+          "https://www.youtube.com/watch?v=QDAXUCNhGow&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=12&t=499s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278293",
+      },
+      {
+        questionId: 67,
+        questionText:
+          "シート｢YouTuber一覧pivo｣のピボットテーブルからフィールド｢カテゴリ｣を削除してください｡",
+        videoUrl:
+          "https://www.youtube.com/watch?v=QDAXUCNhGow&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=12&t=547s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278295",
+      },
+      {
+        questionId: 68,
+        questionText:
+          "シート｢YouTuber一覧pivo｣のピボットテーブルについて､ファイルを開く時にピボットテーブルのデータが更新されるように設定してください｡",
+        videoUrl:
+          "https://www.youtube.com/watch?v=QDAXUCNhGow&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=12&t=571s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278299",
+      },
+      {
+        questionId: 69,
+        questionText:
+          "シート｢テスト成績一覧PIVO｣について､空白セルに｢未受験｣が表示されるようにしてください｡",
+        videoUrl:
+          "https://www.youtube.com/watch?v=QDAXUCNhGow&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=12&t=617s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278291",
+      },
+      {
+        questionId: 70,
+        questionText:
+          "シート｢テスト成績一覧PIVO｣のピボットテーブルにスライサーを追加して､｢テスト科目｣が｢Excel｣のデータだけを集計してください｡",
+        videoUrl:
+          "https://www.youtube.com/watch?v=QDAXUCNhGow&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=12&t=683s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278294",
+      },
+      {
+        questionId: 71,
+        questionText:
+          "シート｢科目と受験日｣のピボットテーブルに、タイムラインを使って､｢受験日｣が2024年8月から2024年10月のデータだけを集計してください｡",
+        videoUrl:
+          "https://www.youtube.com/watch?v=QDAXUCNhGow&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=12&t=728s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278304",
+      },
+      {
+        questionId: 72,
+        questionText:
+          "シート｢YouTuber一覧pivo｣のピボットテーブルの行ラベルエリアの日付を､｢年｣の単位だけでグループ化してください｡開始日と最終日は変更しません｡",
+        videoUrl:
+          "https://www.youtube.com/watch?v=QDAXUCNhGow&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=12&t=773s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278301",
+      },
+      {
+        questionId: 73,
+        questionText:
+          "シート｢YouTuber一覧pivo｣のピボットテーブルに､集計フィールド｢チャンネル登録率｣を追加してください｡｢チャンネル登録者数(万人)｣を｢視聴者数(万人)｣で除算して求めます｡次に､追加した集計フィールドの表示形式を｢パーセンテージ｣に変更してください｡その他の設定は既定のままとします。",
+        videoUrl:
+          "https://www.youtube.com/watch?v=QDAXUCNhGow&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=12&t=812s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278296",
+      },
+      {
+        questionId: 74,
+        questionText:
+          "シート「YouTuber一覧pivo」にあるピボットテーブルの値エリアの｢合計/視聴者数(万人)｣について､計算の種類を「列集計に対する比率」に変更してください。",
+        videoUrl:
+          "https://www.youtube.com/watch?v=QDAXUCNhGow&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=12&t=932s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278298",
+      },
+      {
+        questionId: 75,
+        questionText:
+          "シート｢YouTuber一覧pivo｣の｢合計 / チャンネル登録者数 (万人)｣の集計方法を､｢平均｣､フィールド名を「チャンネル登録者数の平均」に変更してください。",
+        videoUrl:
+          "https://www.youtube.com/watch?v=QDAXUCNhGow&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=12&t=967s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278306",
+      },
+      {
+        questionId: 76,
+        questionText:
+          "シート「売上明細」のピボットテーブルをもとに、3-D円グラフを作成してください。続いて､スタイルを｢スタイル3｣に変更します｡",
+        videoUrl:
+          "https://www.youtube.com/watch?v=QDAXUCNhGow&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=12&t=1040s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278302",
+      },
+      {
+        questionId: 77,
+        questionText:
+          "シート「売上明細」のグラフに、「衣料品」「家具」のデータだけを表示してください。(1つ前の問題で作成したグラフを使用します｡)",
+        videoUrl:
+          "https://www.youtube.com/watch?v=QDAXUCNhGow&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=12&t=1104s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278297",
+      },
+      {
+        questionId: 78,
+        questionText:
+          "シート「売上明細分析」のグラフに、フィールド全体の展開/折りたたみボタンだけを表示してください。",
+        videoUrl:
+          "https://www.youtube.com/watch?v=QDAXUCNhGow&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=12&t=1135s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278303",
+      },
+      {
+        questionId: 79,
+        questionText:
+          "シート｢売上明細分析｣のグラフのフィールドを展開して､項目軸に製品カテゴリ､月の詳細を表示してください｡",
+        videoUrl:
+          "https://www.youtube.com/watch?v=QDAXUCNhGow&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=12&t=1222s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278305",
+      },
+    ],
+
+    project5: [
+      {
+        questionId: 80,
+        questionText:
+          "シート｢受験データ｣の表から、学生IDが重複しているレコードを削除してください｡",
+        videoUrl:
+          "https://www.youtube.com/watch?v=EBna3LOzZ8s&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=13",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278310",
+      },
+      {
+        questionId: 81,
+        questionText:
+          "シート｢受験データ｣の列｢数学｣にアイコンセットを表示してください｡数値が90点以上のセルに｢金星｣のアイコン､60以上のセルに｢銀星｣のアイコンを表示します｡それ以外のセルには何も表示しません｡",
+        videoUrl:
+          "https://www.youtube.com/watch?v=EBna3LOzZ8s&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=13&t=28s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278308",
+      },
+      {
+        questionId: 82,
+        questionText:
+          "シート「受験者数」の「東京」と「大阪」の行に、B列を開始値として毎年｢1.1｣倍ずつ増加する連続データをそれぞれ入力してください。《連続データ》ダイアログボックスで作成します。",
+        videoUrl:
+          "https://www.youtube.com/watch?v=EBna3LOzZ8s&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=13&t=76s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278307",
+      },
+      {
+        questionId: 83,
+        questionText:
+          "シート｢1回目と2回目の平均｣の表を使って､生徒名ごとに､ExcelとPowerPointの合計点を表す積み上げ縦棒グラフを作成してください｡",
+        videoUrl:
+          "https://www.youtube.com/watch?v=EBna3LOzZ8s&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=13&t=109s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278309",
+      },
+      {
+        questionId: 84,
+        questionText:
+          "シート｢売上明細｣の｢金額｣が「#200,000」の形式で表示されるように書式を設定してください。【例】200000→#200,000、2000→#2,000",
+        videoUrl:
+          "https://www.youtube.com/watch?v=EBna3LOzZ8s&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=13&t=132s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278314",
+      },
+      {
+        questionId: 85,
+        questionText:
+          "シート｢売上明細｣のセルC14に､テーブル｢売上明細｣の｢数量｣が｢3｣以上のセルの個数を数える数式を入力してください｡",
+        videoUrl:
+          "https://www.youtube.com/watch?v=EBna3LOzZ8s&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=13&t=187s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278313",
+      },
+      {
+        questionId: 86,
+        questionText:
+          "(難)シート｢タスク一覧｣の表を元に､セルB13に納期が｢今日の日付以降｣の｢金額｣の合計を表示する数式を入力してください｡",
+        videoUrl:
+          "https://www.youtube.com/watch?v=EBna3LOzZ8s&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=13&t=232s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278315",
+      },
+      {
+        questionId: 87,
+        questionText:
+          "シート｢成績一覧｣の｢科目A｣~｢科目D｣の平均点が90点以上の場合､該当の｢学生名｣の文字の色が太字･テーマの色の「オレンジ､アクセント2」で表示されるように設定してください。",
+        videoUrl:
+          "https://www.youtube.com/watch?v=EBna3LOzZ8s&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=13&t=295s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278321",
+      },
+      {
+        questionId: 88,
+        questionText:
+          "シート｢売上明細｣の表に設定されている文字色が標準の｢赤｣･太字の条件付き書式のルールを変更してください。「数量」が「3」以上のレコードに書式が設定されるようにします。",
+        videoUrl:
+          "https://www.youtube.com/watch?v=EBna3LOzZ8s&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=13&t=374s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278318",
+      },
+      {
+        questionId: 89,
+        questionText:
+          "(難)シート「2回目」の各科目の得点が1回目よりも低い場合、セルが、背景色の一覧の「最終行の右から3番目の青」で塗りつぶされるように設定してください｡",
+        videoUrl:
+          "https://www.youtube.com/watch?v=EBna3LOzZ8s&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=13&t=444s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278317",
+      },
+      {
+        questionId: 90,
+        questionText:
+          "(難)シート「支払い額」の｢毎月の支払い額｣の表に、返済金額と支払い回数に対応する毎月の支払額を表示する数式を入力してください。数式は、年利、返済金額、支払回数、支払日の値が変更された場合でも、再計算されるようにします。",
+        videoUrl:
+          "https://www.youtube.com/watch?v=EBna3LOzZ8s&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=13&t=524s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278322",
+      },
+      {
+        questionId: 91,
+        questionText:
+          "シート「受験回数」の表に、シート「受験明細」の表をもとに科目ごとの各年度の受験者数を表示する数式を入力してください。受験者数は､条件に合致するセルの数を数えて求めます｡シート「受験回数」のセル範囲【B2:D3】に入力されている条件式を参照してください｡",
+        videoUrl:
+          "https://www.youtube.com/watch?v=EBna3LOzZ8s&list=PLOrJMC_Nq6xoF0Mc9YV8YwQGcae_bvBJO&index=13&t=630s",
+        videoUrlNoCm:
+          "https://school.japason.co.jp/courses/mosexcel365-expert/lectures/63278320",
+      },
     ],
   },
   // Word Expert
