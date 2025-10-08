@@ -146,7 +146,7 @@ function updateQuestionStatus() {
                 解説動画へ(CMなし)
             </button>
             <a href="https://mos.japason.co.jp/mosthon-1/" target="_blank" style="color: #666; text-decoration: none; font-size: 0.9em; opacity: 0.8;">
-                ▶｢CMなしで解説｣｢応用問題を解く｣には･･
+                ▶｢YouTubeのCMが邪魔･･｣｢短期集中で複数合格したい｣方はこちら(1980/月)
             </a>
             
         </div>
@@ -222,14 +222,14 @@ function updateUIState() {
   }
 
   // 応用問題（project6）の場合、パスワード認証を確認（Excelの場合のみ）
-  if (currentProject === 6 && selectedApp === 1 && !isProject6Unlocked) {
-    if (!authenticateProject6()) {
-      // パスワード認証失敗時は前のプロジェクトに戻る
-      localStorage.setItem("currentProject", "5");
-      updateUIState();
-      return;
-    }
-  }
+  // if (currentProject === 6 && selectedApp === 1 && !isProject6Unlocked) {
+  //   if (!authenticateProject6()) {
+  //     // パスワード認証失敗時は前のプロジェクトに戻る
+  //     localStorage.setItem("currentProject", "5");
+  //     updateUIState();
+  //     return;
+  //   }
+  // }
 
   // 動画ボタンのイベントを設定
   const videoButton = document.querySelector(".video-btn");
